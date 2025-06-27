@@ -135,7 +135,7 @@ This honest appetite statement helps auditors understand our decision-making and
 
 Our risk management framework is intentionally simple—complex frameworks require dedicated staff we don't have. We follow a straightforward cycle that integrates with our quarterly business planning:
 
-![Risk Management Flow](risk_mgmt_flow-transparent.png)
+![Risk Management Flow](risk_mgmt_flow.png)
 
 ### 3.2 Risk Categories
 
