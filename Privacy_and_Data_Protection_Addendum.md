@@ -28,7 +28,15 @@
 14. [Data Protection by Design and Default](#14-data-protection-by-design-and-default)
 15. [Privacy Governance](#15-privacy-governance)
 16. [Contact Information](#16-contact-information)
-17. [Appendices](#17-appendices)
+17. [Document Control](#17-document-control)
+18. [Appendices](#18-appendices)
+    - [Appendix A: NIST Control Mapping](#appendix-a-nist-control-mapping)
+    - [Appendix B: Data Inventory](#appendix-a-data-inventory)
+    - [Appendix C: Vendor Privacy Matrix](#appendix-b-vendor-privacy-matrix)
+    - [Appendix D: Privacy Incident Response Quick Reference(#appendix-d-privacy-incident-response-quick-reference)
+    - [Appendix E: Template Privacy Responses(#appendix-e-template-privacy-responses)
+    - [Appendix F: Annual Privacy Review Checklist(appendix-f-annual-privacy-review-checklist)
+
 
 ---
 
@@ -491,9 +499,35 @@ For regulatory authorities needing to contact us regarding privacy matters, we p
 
 ---
 
-## 17. Appendices
+## 17. Document Control
 
-### Appendix A: Privacy Control Mapping
+*NIST Controls: PM-4, SA-5*
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+
+**Review and Approval**
+
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
+
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
+
+**Next Review Date**: January 1, 2026
+
+**Distribution**:
+- All Employees: Via company policy portal
+- IT Team: Direct distribution for implementation
+- Executive Team
+- External Auditors (upon request)
+
+---
+
+## 18. Appendices
+
+### Appendix A: NIST Control Mapping
 
 | Control Domain | SOC 2 Criteria | Implementation |
 |----------------|----------------|----------------|
@@ -588,30 +622,4 @@ For regulatory authorities needing to contact us regarding privacy matters, we p
 - [ ] Update risk assessments
 - [ ] Refresh employee privacy training
 - [ ] Publish transparency report
-
----
-
-## Document Control
-
-*NIST Controls: PM-4, SA-5*
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
-
-**Review and Approval**
-
-- **Prepared By**: _________________ Date: _______
-  Chief Technology Officer
-
-- **Approved By**: _________________ Date: _______
-  Chief Executive Officer
-
-**Next Review Date**: January 1, 2026
-
-**Distribution**:
-- All Employees: Via company policy portal
-- IT Team: Direct distribution for implementation
-- Executive Team
-- External Auditors (upon request)
 
