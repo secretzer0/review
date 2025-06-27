@@ -100,10 +100,9 @@ Our infrastructure is hosted on Microsoft Azure, and we make use of the support 
 
 | Role | Primary | Backup | Contact |
 |------|---------|--------|---------|
-| Incident Commander | CTO Name | DevOps Lead | [Phone/Email] |
-| Technical Lead | Sr Dev Name | DevOps Eng | [Phone/Email] |
-| Communications | CEO Name | Success Lead | [Phone/Email] |
-| Legal Counsel | Firm Name | Attorney | [Phone/Email] |
+| Incident Commander | CTO | DevOps Lead | - |
+| Technical Lead | Sr Dev | DevOps Eng | - |
+| Communications | CEO | - | - |
 | Azure Support | - | - | [Support#] |
 
 Our escalation tree ensures rapid activation regardless of when incidents occur. The on-call engineer serves as the first point of contact during after-hours incidents, with authority to begin initial response and escalate as needed. They immediately contact the Technical Lead for any confirmed security incident, who assesses severity and activates the Incident Commander for Severity 1 or 2 incidents. The CEO receives direct escalation only for Severity 1 incidents that threaten business continuity or require executive decisions on public communications or significant resource allocation.
@@ -130,16 +129,23 @@ Severity 4 - Low incidents can be addressed the next business day and cover rout
 
 *NIST Controls: IR-4, IR-8*
 
-Understanding incident types helps us apply the right playbooks and ensure appropriate expertise gets involved quickly. We've categorized incidents based on their primary characteristics while recognizing that real incidents often involve multiple types.
+We maintain a proactive posture toward security, identifying and classifying potential incidents to ensure appropriate controls, rapid response, and continuous mitigation efforts. While incidents often span multiple categories, our approach is rooted in anticipating attack vectors and limiting impact through layered defenses and procedural readiness.
 
-Data incidents focus on information compromise and include unauthorized access to source code repositories, corporate data theft affecting employee or business information, intellectual property exfiltration through various channels, and accidental code exposure through misconfigured repositories or systems. While we don't handle customer data, these incidents can still trigger regulatory requirements for employee data and demand careful evidence preservation to understand scope. Our architecture eliminating customer data access removes an entire category of regulatory risk, allowing us to focus protection efforts on our actual assets.
+**Data Incidents**  
+These involve compromise or exposure of sensitive internal information, including source code, employee data, and intellectual property. Although our systems are architected to avoid handling customer data—eliminating a major regulatory risk—we remain vigilant in protecting internal assets through access control, configuration reviews, and routine audits.
 
-Access incidents center on authentication and authorization compromises, including unauthorized system access through compromised credentials or vulnerabilities, account compromises affecting user or service accounts, privilege escalation where attackers gain administrative access, and authentication bypasses that circumvent our security controls. These incidents often serve as precursors to data incidents and require rapid response to prevent escalation. Our heavy reliance on Azure AD makes these particularly concerning as a single compromised privileged account could affect our entire infrastructure.
+**Access Incidents**  
+These focus on unauthorized access, including credential theft, account compromise, privilege escalation, and authentication bypass. As access issues can serve as precursors to larger breaches, we enforce MFA, monitor access logs, and apply strict privilege separation. We are especially cautious with Azure AD privileged accounts due to their broad scope.
 
-Malware incidents involve malicious code in various forms including traditional virus and trojan infections that might spread through our systems, ransomware attacks that could encrypt critical development assets or repositories, spyware and keyloggers that could steal repository credentials or code, and most critically, attempts to inject malicious code into our software products. This last category represents our highest risk since compromised software could affect all our customers simultaneously. Our development environments present unique risks as malware could potentially backdoor our products, making development system security paramount.
-Availability incidents threaten service delivery and include denial of service attacks attempting to overwhelm our services, system crashes from stability issues or attacks, resource exhaustion from runaway processes or malicious consumption, and general service disruptions from various causes. These incidents directly impact our customers and require rapid response to maintain our reliability reputation. Our cloud architecture provides some inherent resilience but also means we depend on Azure's availability.
+**Malware Incidents**  
+Malicious software, including ransomware, spyware, and code injection, poses risks to both operations and product integrity. We prioritize protection of development systems to prevent tampering with our software supply chain, applying endpoint protection, secure build practices, and regular code integrity checks.
 
-Physical incidents bridge the gap between traditional IT security and physical security, covering device theft or loss that might expose data or access credentials, unauthorized facility access that could lead to system tampering, environmental threats to our small office infrastructure, and equipment tampering that might introduce hardware implants or vulnerabilities. While less common in our cloud-native environment, these incidents can have severe impact particularly if they affect developer workstations containing source code or administrative credentials.
+**Availability Incidents**  
+Disruptions such as denial-of-service attacks, crashes, or resource exhaustion directly affect service reliability. Our cloud-based architecture provides inherent scalability and fault tolerance, but we also implement alerting, monitoring, and response plans to maintain availability and mitigate impact quickly.
+
+**Physical Incidents**  
+Though rare in a cloud-native environment, physical threats—like device theft or workspace breaches—can still expose sensitive assets. We mitigate these risks with full-disk encryption, remote wipe, access controls, and preparedness for environmental and hardware failures affecting developer systems.
+
 
 ---
 
