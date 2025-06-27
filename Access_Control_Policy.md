@@ -477,7 +477,7 @@ Clear definitions ensure consistent understanding across our organization:
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
-| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
+| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix B |
 
 **Review and Approval**
 

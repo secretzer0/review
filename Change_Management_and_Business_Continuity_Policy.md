@@ -1,14 +1,12 @@
 # Change Management and Business Continuity Policy
 ## OversiteAI, LLC
 
-**Document Version**: 2.0  
-**Effective Date**: January 1, 2025  
-**Last Updated**: June 25, 2025  
-**Review Frequency**: Annual  
-**Next Review Date**: January 1, 2026  
-**Classification**: Internal  
-**Owner**: Chief Technology Officer  
-**Approved By**: Chief Executive Officer  
+**Document Version**: 2.0
+**Effective Date**: January 1, 2025
+**Last Updated**: June 27, 2025
+**Classification**: Restricted
+**Owner**: Chief Technology Officer
+**Approved By**: Chief Executive Officer
 
 ---
 
@@ -704,23 +702,27 @@ This Change Management and Business Continuity Policy operates within OversiteAI
 
 *NIST Controls: PM-4, SA-5*
 
-### Document Information
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix F |
 
-| Attribute | Details |
-|-----------|---------|
-| Document Title | Change Management and Business Continuity Policy |
-| Document Owner | Chief Technology Officer |
-| Initial Creation Date | January 1, 2025 |
-| Current Version | 2.0 |
-| Last Updated | June 25, 2025 |
-| Classification | Internal |
-| Review Frequency | Annual |
-| Next Review Date | January 1, 2026 |
+**Review and Approval**
 
-### Revision History4 hours | 2 - High | Azure DevOps, Container Registry |
-| Customer Support | 8 hours | 3 - Medium | Ticketing System, Email |
-| Documentation | 24 hours | 4 - Low | Wiki, SharePoint |
-| Development Environments | 24 hours | 4 - Low | Azure VMs, Dev Tools |
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
+
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
+
+**Next Review Date**: January 1, 2026
+
+**Distribution**:
+- All Employees: Via company policy portal
+- IT Team: Direct distribution for implementation
+- Executive Team
+- External Auditors (upon request)
+
 
 ### Appendix E: Recovery Time Objectives
 
