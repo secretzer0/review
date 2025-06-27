@@ -1,7 +1,7 @@
 # Information Security Policy
 ## OversiteAI, LLC
 
-**Document Version**: 1.0  
+**Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
 **Classification**: Internal  
 **Owner**: Chief Technology Officer  
@@ -862,7 +862,7 @@ Stakeholder feedback on policy interactions helps identify practical challenges 
 
 **Document Title**: Information Security Policy  
 **Document ID**: ISP-001  
-**Current Version**: 1.0  
+**Current Version**: 2.0  
 **Effective Date**: January 1, 2025  
 **Next Scheduled Review**: January 1, 2026  
 **Document Owner**: Chief Technology Officer (CTO)  
@@ -873,7 +873,7 @@ Stakeholder feedback on policy interactions helps identify practical challenges 
 
 | Version | Date | Author | Description of Changes | Reviewed By | Approved By |
 |---------|------|--------|------------------------|-------------|-------------|
-| 1.0 | January 1, 2025 | CTO | Initial version - Comprehensive narrative transformation from framework | Security Consultant | CEO |
+| 2.0 | June 25, 2025 | CTO | Initial version - Comprehensive narrative transformation from framework | Security Consultant | CEO |
 
 ### 20.2 Review Schedule and Triggers
 
