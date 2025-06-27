@@ -611,7 +611,7 @@ These documents work together to create comprehensive security coverage while av
 
 ## 16. Appendices
 
-### Appendix A: Code of Conduct Acknowledgment Form Code of Conduct Acknowledgment Form
+### Appendix A: Code of Conduct Acknowledgment Form
 
 I acknowledge that I have read and understood the OversiteAI Code of Conduct and Human Resources Security and Governance Policy. I agree to comply with all provisions contained herein and understand that violation may result in disciplinary action up to and including termination.
 
@@ -634,7 +634,7 @@ I acknowledge that I have read and understood the OversiteAI Code of Conduct and
 
 ---
 
-### Appendix B: Security Training Completion Record Security Training Completion Record
+### Appendix B: Security Training Completion Record
 
 **Employee Name**: _________________________________
 
@@ -663,7 +663,7 @@ I acknowledge that I have read and understood the OversiteAI Code of Conduct and
 
 ---
 
-### Appendix C: Termination Security Checklist Termination Security Checklist
+### Appendix C: Termination Security Checklist
 
 **Employee Information**
 - Name: _________________________________
@@ -707,13 +707,13 @@ I acknowledge that I have read and understood the OversiteAI Code of Conduct and
 
 ---
 
-### Appendix D: Security Incident Reporting Form Security Incident Reporting Form
+### Appendix D: Security Incident Reporting Form
 
 See Incident Response Plan for detailed incident reporting procedures and forms.
 
 ---
 
-### Appendix E: Policy Exception Request Form Policy Exception Request Form
+### Appendix E: Policy Exception Request Form
 
 **Exception Request Information**
 
@@ -753,7 +753,7 @@ See Incident Response Plan for detailed incident reporting procedures and forms.
 
 ---
 
-### Appendix F: Visitor Access Log Template Visitor Access Log Template
+### Appendix F: Visitor Access Log Template
 
 **Date**: _____________________________
 
@@ -777,7 +777,7 @@ See Incident Response Plan for detailed incident reporting procedures and forms.
 
 ---
 
-### Appendix G: NIST Control Mapping NIST Control Mapping
+### Appendix G: NIST Control Mapping
 
 This policy addresses the following NIST SP 800-53 controls:
 
