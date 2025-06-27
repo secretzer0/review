@@ -721,14 +721,6 @@ Mitigating factors receive appropriate consideration in our response. Self-repor
 
 Learning from violations improves our overall security posture. Post-violation reviews examine not just individual fault but systemic factors that enabled the violation. Did policies clearly communicate requirements? Were appropriate tools available? Were there conflicting priorities that made compliance difficult? These reviews often identify improvement opportunities for policies, training, or tools. By treating violations as learning opportunities for the organization, not just the individual, we strengthen our security program while maintaining morale.
 
-### 17.4 Positive Reinforcement and Recognition
-
-While enforcement addresses negative behaviors, positive reinforcement encourages the security-conscious behaviors we want to see. Our security recognition program celebrates employees who go above and beyond basic compliance to strengthen our security posture. This might include reporting suspicious emails, identifying vulnerabilities, suggesting security improvements, or helping colleagues understand security requirements. Public recognition shows that management values security contributions.
-
-Security champion programs formalize recognition for employees who consistently demonstrate security leadership. Champions receive additional training and serve as security resources for their teams. This peer support model scales security expertise beyond formal security roles while providing career development opportunities for security-interested employees. Champions often identify practical security improvements that formal security staff might miss, bridging the gap between policy and practice.
-
-Metrics and gamification can make security engaging rather than burdensome, though we're careful to avoid trivializing serious topics. Team competitions for phishing simulation results or security quiz scores create friendly rivalry that reinforces training. Leaderboards recognize top performers while maintaining anonymity for those needing improvement. These approaches must be carefully balanced to avoid creating perverse incentives or making security seem like a game, but when done well, they significantly improve engagement and outcomes.
-
 ---
 
 ## 18. Related Policies and Standards
