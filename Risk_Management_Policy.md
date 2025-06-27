@@ -30,7 +30,7 @@
 17. [Document Control](#17-document-control)
 18. [Definitions](#18-definitions)
 19. [Appendices](#19-appendices)
-    - [Appendix A: SOC2 Control Mapping](#appendix-a-soc2-control-mapping)
+    - [Appendix A: NIST Control Mapping](#appendix-b-nist-control-mapping)
     - [Appendix B: Quick Reference Templates](#appendix-b-quick-reference-templates)
     - [Appendix C: Emergency Contacts](#appendix-c-emergency-contacts)
 
@@ -1104,43 +1104,28 @@ These documents work together as our security framework:
 
 ## 17. Document Control
 
-### Version History
+*NIST Controls: PM-4, SA-5*
 
-| Version | Date | Author | Description | Approved By |
-|---------|------|--------|-------------|-------------|
-| 1.0 | Janurary 1, 2025 | CTO | Initial version for SOC2 compliance | CEO |
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix A |
 
-### Review Schedule
+**Review and Approval**
 
-- **Last Review**: January 1, 2025
-- **Next Scheduled Review**: January 2025
-- **Review Frequency**: Annually (minimum)
-- **Owner**: Chief Technology Officer
-- **Approval Authority**: Chief Executive Officer
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
 
-### Document Details
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
 
-- **Classification**: Internal - SOC2 Controlled Document
-- **Distribution**: All OversiteAI staff, authorized auditors
-- **Storage**: Git repository with access controls
-- **Retention**: Current version + 2 previous versions
+**Next Review Date**: January 1, 2026 
 
-### Approval
-
-**Prepared By**:  
-Name: _______________________  
-Title: Chief Technology Officer  
-Date: _______________________  
-
-**Reviewed By**:  
-Name: _______________________  
-Title: Senior Developer  
-Date: _______________________  
-
-**Approved By**:  
-Name: _______________________  
-Title: Chief Executive Officer  
-Date: _______________________  
+**Distribution**:
+- All Employees: Via company policy portal
+- IT Team: Direct distribution for implementation
+- Executive Team
+- External Auditors (upon request) 
 
 ---
 
@@ -1184,7 +1169,7 @@ Date: _______________________
 
 ## 19. Appendices
 
-### Appendix A: SOC2 Control Mapping
+### Appendix A: NIST Control Mapping
 
 This policy addresses the following SOC2 Trust Services Criteria:
 
