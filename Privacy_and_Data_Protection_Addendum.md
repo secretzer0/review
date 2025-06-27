@@ -3,7 +3,8 @@
 
 **Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
-**Last Updated**: June 27, 2025  
+**Last Updated**: June 25, 2025  
+**Last Reviewed**: June 27, 2025  
 **Classification**: Restricted  
 **Owner**: Chief Technology Officer  
 **Approved By**: Chief Executive Officer  
@@ -506,7 +507,7 @@ For regulatory authorities needing to contact us regarding privacy matters, we p
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
-| 2.0 | June 27, 2025 | CTO | Updated NIST control mappings throughout document |
+| 2.0 | Jun 25, 2025 | CTO | Updated NIST control mappings throughout document |
 
 **Review and Approval**
 

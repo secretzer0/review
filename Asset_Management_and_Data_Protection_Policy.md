@@ -3,7 +3,8 @@
 
 **Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
-**Last Updated**: June 27, 2025  
+**Last Updated**: June 25, 2025  
+**Last Reviewed**: June 27, 2025  
 **Classification**: Restricted  
 **Owner**: Chief Technology Officer  
 **Approved By**: Chief Executive Officer  
@@ -589,7 +590,7 @@ We also maintain relationships with security communities and vendor resources th
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
-| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
+| 2.0 | Jun 25, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
 
 **Review and Approval**
 
