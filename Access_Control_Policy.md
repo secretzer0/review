@@ -483,14 +483,14 @@ Clear definitions ensure consistent understanding across our organization:
 **Review History**:
 - Document Created: January 1, 2025
 - Effective Date: January 1, 2025
-- Last Review: January 1, 2025
+- Last Review: June 27, 2025
 - Next Review Due: January 1, 2026
 - Review Frequency: Annual
 
 **Document Approval**:
-- Prepared By: Chief Technology Officer - [Signature Line] Date: January 1, 2025
-- Reviewed By: Security Consultant - [Signature Line] Date: ___________
-- Approved By: Chief Executive Officer - [Signature Line] Date: ___________
+- Prepared By: Chief Technology Officer  ______________  Date: __________
+- Reviewed By: Security Consultant  ____________________ Date: ___________
+- Approved By: Chief Executive Officer  ________________ Date: ___________
 
 **Distribution**:
 - All Employees: Via company policy portal
@@ -630,7 +630,3 @@ This policy addresses the following NIST SP 800-53 controls:
 - Data Access: What types of data the role can view/modify
 - Administrative: Any administrative functions available
 - Privileged: Whether the role includes privileged access requiring enhanced controls
-
----
-
-*End of Access Control Policy*
