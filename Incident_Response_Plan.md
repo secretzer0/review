@@ -297,8 +297,6 @@ Sincerely,
 OversiteAI
 ```
 
-This template structure ensures we cover essential elements while maintaining appropriate tone and avoiding admissions of liability that could complicate legal proceedings. Regular review by legal counsel ensures our templates remain current with changing regulations and case law.
-
 ---
 
 ## 6. Specific Incident Playbooks
