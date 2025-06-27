@@ -1,14 +1,12 @@
 # Privacy and Data Protection Addendum
 ## OversiteAI, LLC
 
-**Document Version**: 2.0  
-**Effective Date**: January 1, 2025  
-**Last Review Date**: January 1, 2025  
-**Next Review Date**: January 1, 2026  
-**Classification**: Public  
-**Owner**: Chief Technology Officer  
-**Approved By**: Chief Executive Officer  
-**Domain**: oversiteai.io
+**Document Version**: 2.0
+**Effective Date**: January 1, 2025
+**Last Updated**: June 27, 2025
+**Classification**: Restricted
+**Owner**: Chief Technology Officer
+**Approved By**: Chief Executive Officer
 
 ---
 
@@ -595,26 +593,25 @@ For regulatory authorities needing to contact us regarding privacy matters, we p
 
 ## Document Control
 
+*NIST Controls: PM-4, SA-5*
+
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
 
-**Document Review and Approval**:
-- **Author**: Chief Technology Officer
-- **Reviewed By**: Leadership Team
-- **Approved By**: Chief Executive Officer
-- **Approval Date**: January 1, 2025
+**Review and Approval**
 
-**Review Schedule**:
-- **Last Review Date**: January 1, 2025
-- **Next Review Date**: January 1, 2026
-- **Review Frequency**: Annual
-- **Interim Reviews**: As required by significant changes
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
+
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
+
+**Next Review Date**: January 1, 2026
 
 **Distribution**:
-- All OversiteAI employees
-- Posted on company intranet
-- Available on public website
-- Included in SOC 2 audit package
+- All Employees: Via company policy portal
+- IT Team: Direct distribution for implementation
+- Executive Team
+- External Auditors (upon request)
 
-**This Privacy and Data Protection Addendum is maintained as part of OversiteAI's SOC 2 compliance program and demonstrates our commitment to privacy through architectural design.**

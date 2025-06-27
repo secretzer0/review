@@ -12,81 +12,23 @@
 ## Table of Contents
 
 1. [Purpose and Objectives](#1-purpose-and-objectives)
-   - 1.1 [Purpose](#11-purpose)
-   - 1.2 [Objectives](#12-objectives)
-   - 1.3 [Scope](#13-scope)
-
 2. [Risk Management Principles](#2-risk-management-principles)
-   - 2.1 [Core Principles](#21-core-principles)
-   - 2.2 [Risk Appetite Statement](#22-risk-appetite-statement)
-
 3. [Risk Management Framework](#3-risk-management-framework)
-   - 3.1 [Framework Components](#31-framework-components)
-   - 3.2 [Risk Categories](#32-risk-categories)
-   - 3.3 [Integration with Business Processes](#33-integration-with-business-processes)
-
 4. [Roles and Responsibilities](#4-roles-and-responsibilities)
-   - 4.1 [Simple Structure for a Small Team](#41-simple-structure-for-a-small-team)
-   - 4.2 [What We Don't Have (And Why That's Okay)](#42-what-we-dont-have-and-why-thats-okay)
-
 5. [Risk Assessment Process](#5-risk-assessment-process)
-   - 5.1 [How We Actually Identify Risks](#51-how-we-actually-identify-risks)
-   - 5.2 [Our Practical Risk Scoring](#52-our-practical-risk-scoring)
-   - 5.3 [Keeping It Real with Examples](#53-keeping-it-real-with-examples)
-
 6. [Risk Treatment That Actually Works](#6-risk-treatment-that-actually-works)
-   - 6.1 [Our Treatment Hierarchy](#61-our-treatment-hierarchy)
-   - 6.2 [Making Treatment Decisions](#62-making-treatment-decisions)
-   - 6.3 [Resource Reality Check](#63-resource-reality-check)
-
 7. [Our Risk Register (Keeping It Simple)](#7-our-risk-register-keeping-it-simple)
-   - 7.1 [What We Track and Why](#71-what-we-track-and-why)
-   - 7.2 [Our Actual Risk Register (Living Examples)](#72-our-actual-risk-register-living-examples)
-   - 7.3 [Maintaining Our Register Without Burning Out](#73-maintaining-our-register-without-burning-out)
-
 8. [Monitoring Without a Security Operations Center](#8-monitoring-without-a-security-operations-center)
-   - 8.1 [Our Pragmatic Monitoring Approach](#81-our-pragmatic-monitoring-approach)
-   - 8.2 [Reporting That People Actually Read](#82-reporting-that-people-actually-read)
-   - 8.3 [Making Alerts Actionable](#83-making-alerts-actionable)
-
 9. [Realistic Assessment Schedule](#9-realistic-assessment-schedule)
-   - 9.1 [What We Actually Do (And When)](#91-what-we-actually-do-and-when)
-   - 9.2 [Triggered Assessments (When Normal Schedule Isn't Enough)](#92-triggered-assessments-when-normal-schedule-isnt-enough)
-   - 9.3 [Keeping It Sustainable](#93-keeping-it-sustainable)
-
 10. [Integration with What We Already Do](#10-integration-with-what-we-already-do)
-    - 10.1 [No Separate Risk Universe](#101-no-separate-risk-universe)
-    - 10.2 [Making Risk Visible Without Extra Meetings](#102-making-risk-visible-without-extra-meetings)
-
 11. [Tools That Actually Help (Not Hinder)](#11-tools-that-actually-help-not-hinder)
-    - 11.1 [Our Minimalist Risk Toolkit](#111-our-minimalist-risk-toolkit)
-    - 11.2 [Information Sources (Free and Useful)](#112-information-sources-free-and-useful)
-    - 11.3 [Templates That Save Time](#113-templates-that-save-time)
-
 12. [Training That Sticks (Without Death by PowerPoint)](#12-training-that-sticks-without-death-by-powerpoint)
-    - 12.1 [Security Awareness for Everyone](#121-security-awareness-for-everyone)
-    - 12.2 [Role-Specific Skills](#122-role-specific-skills)
-    - 12.3 [Building Security Culture (Without Being the Security Police)](#123-building-security-culture-without-being-the-security-police)
-
 13. [Policy Exceptions (Because Reality Happens)](#13-policy-exceptions-because-reality-happens)
-    - 13.1 [When and How to Request an Exception](#131-when-and-how-to-request-an-exception)
-    - 13.2 [Tracking and Reviewing Exceptions](#132-tracking-and-reviewing-exceptions)
-    - 13.3 [Exception Accountability](#133-exception-accountability)
-
 14. [Keeping Ourselves Honest](#14-keeping-ourselves-honest)
-    - 14.1 [How We Check If This Is Actually Working](#141-how-we-check-if-this-is-actually-working)
-    - 14.2 [When Things Go Wrong](#142-when-things-go-wrong)
-
 15. [Keeping This Document Alive](#15-keeping-this-document-alive)
-    - 15.1 [Review Cycle (That Actually Happens)](#151-review-cycle-that-actually-happens)
-    - 15.2 [Change Process (Keep It Simple)](#152-change-process-keep-it-simple)
-
 16. [Related Documents](#16-related-documents)
-
 17. [Document Control](#17-document-control)
-
 18. [Definitions](#18-definitions)
-
 19. [Appendices](#19-appendices)
     - [Appendix A: SOC2 Control Mapping](#appendix-a-soc2-control-mapping)
     - [Appendix B: Quick Reference Templates](#appendix-b-quick-reference-templates)
