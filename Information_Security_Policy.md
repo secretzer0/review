@@ -399,7 +399,7 @@ Security is embedded throughout our application development lifecycle rather tha
 
 Secure coding standards provide consistent guidance to developers, covering common vulnerability patterns and language-specific security considerations. These standards are practical rather than academic, with real examples from our codebase showing both vulnerable and secure implementations. We maintain these standards in our development wiki, making them easily accessible and searchable. Regular secure coding training ensures developers understand not just what the standards require but why these practices matter for security.
 
-Security testing is integrated into our continuous integration pipeline, providing rapid feedback on potential vulnerabilities. Static analysis tools scan every code commit, flagging potential security issues before they can be merged. Dynamic analysis during integration testing exercises application security controls, verifying that authentication, authorization, and input validation work as designed. For major releases, we engage third-party penetration testers who bring fresh perspectives and specialized skills to challenge our assumptions and find issues our internal processes might miss.
+Security testing is integrated into our continuous integration pipeline, providing rapid feedback on potential vulnerabilities. Static analysis tools scan every code commit, flagging potential security issues before they can be merged. Dynamic analysis during integration testing exercises application security controls, verifying that authentication, authorization, and input validation work as designed. For major releases, we engage penetration testers who bring fresh perspectives and specialized skills to challenge our assumptions and find issues our internal processes might miss.
 
 ### 9.3 Secure Information Transfer
 
@@ -449,7 +449,7 @@ Release management procedures ensure consistent, repeatable deployments that mai
 
 ## 11. Supplier and Third-Party Security
 
-### 11.1 Vendor Risk Management
+### 11.1 Third-Party and Open Source Risk Management
 
 Every third-party relationship introduces potential security risks that must be understood and managed. Our vendor risk management program scales vendor scrutiny to the risk they present, avoiding wasteful deep-dives on low-risk vendors while ensuring appropriate diligence for critical suppliers. Initial vendor assessment considers factors including the type of data they might access, their role in our operations, and their security maturity.
 
