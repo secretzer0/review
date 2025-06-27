@@ -1,9 +1,9 @@
 # Human Resources Security and Governance Policy
 ## OversiteAI, LLC
 
-**Document Version**: 1.0  
+**Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
-**Last Review Date**: January 1, 2025  
+**Last Review Date**: June 27, 2025  
 **Next Review Date**: January 1, 2026  
 **Classification**: Internal  
 **Owner**: Chief Executive Officer  
@@ -591,17 +591,17 @@ These documents work together to create comprehensive security coverage while av
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | January 1, 2025 | CEO | Initial comprehensive policy |
+| 2.0 | June 25, 2025 | CTO | Initial comprehensive policy |
 
 **Review and Approval**:
 
-- **Document Owner**: Chief Executive Officer
+- **Document Owner**: Chief Technology Officer
 - **Technical Review**: Chief Technology Officer  
 - **Legal Review**: [External Legal Counsel]
 - **Board Approval**: [Board Chair]
 
 **Review Schedule**:
-- Last Review: January 1, 2025
+- Last Review: June 27, 2025
 - Next Review Due: January 1, 2026
 - Review Frequency: Annual
 
@@ -718,8 +718,8 @@ See Incident Response Plan for detailed incident reporting procedures and forms.
 
 **Exception Request Information**
 
-**Requestor**: _________________________________  
-**Date**: _____________________________  
+**Requestor**: _______________________________ 
+**Date**: ___________________________________ 
 **Department**: _____________________________
 
 **Policy Reference**
@@ -863,7 +863,3 @@ This policy addresses the following NIST SP 800-53 controls:
 - SI-5: Security Alerts, Advisories, and Directives - Section 4.2
 
 This comprehensive mapping demonstrates alignment with federal security standards while maintaining practical implementation appropriate for our small business context. Controls are implemented proportionally to our size and risk profile, leveraging automation and cloud-native features where possible.
-
----
-
-End of Human Resources Security and Governance Policy
