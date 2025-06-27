@@ -836,6 +836,3 @@ This policy addresses the following NIST SP 800-53 controls:
 **Privacy Controls Family (AR)**
 - AR-5: Privacy Impact Assessment - Section 2.3
 
----
-
-*End of Asset Management and Data Protection Policy*
