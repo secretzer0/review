@@ -481,7 +481,9 @@ We maintain accessible channels for privacy-related communications. Our primary 
 
 ### Escalation Path
 
-For urgent privacy matters or escalations, individuals can contact our CEO directly at ceo@oversiteai.io. This direct escalation path ensures critical privacy issues receive immediate executive attention. We don't hide behind layers of bureaucracy or make privacy rights difficult to exercise.
+For urgent privacy-related matters or escalations, individuals may contact our Data Protection Team at privacy@oversiteai.io. This channel ensures timely review and appropriate handling of sensitive data protection issues.
+
+OverSiteAI is committed to upholding transparency and supporting the responsible exercise of privacy rights without unnecessary delay or complexity.
 
 ### Regulatory Communications
 
