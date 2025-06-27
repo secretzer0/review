@@ -626,7 +626,7 @@ Our risk-based approval matrix ensures appropriate oversight while avoiding unne
 | Low | Department Manager + IT Manager | 6 months | Quarterly |
 | Medium | CTO | 6 months | Monthly |
 | High | CTO + CEO | 3 months | Monthly |
-| Critical | CEO + Board Risk Committee | 1 month | Weekly |
+| Critical | CEO | 1 month | Weekly |
 
 **Evaluation Timeline**:
 - Low/Medium Risk: Decision within 3 business days
