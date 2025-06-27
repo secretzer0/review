@@ -623,9 +623,9 @@ Our risk-based approval matrix ensures appropriate oversight while avoiding unne
 
 | Risk Level | Approval Required | Maximum Duration | Review Frequency |
 |------------|------------------|------------------|------------------|
-| Low | Department Manager + IT Manager | 6 months | Quarterly |
-| Medium | CTO | 6 months | Monthly |
-| High | CTO + CEO | 3 months | Monthly |
+| Low | Department Manager | 6 months | Quarterly |
+| Medium | IT Manager | 6 months | Monthly |
+| High | CTO | 3 months | Monthly |
 | Critical | CEO | 1 month | Weekly |
 
 **Evaluation Timeline**:
