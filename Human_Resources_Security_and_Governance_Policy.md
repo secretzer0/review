@@ -26,7 +26,7 @@
 14. [Definitions](#14-definitions)
 15. [Document Control](#15-document-control)
 16. [Appendices](#16-appendices)
-    - [Appendix A: Pre-Employment Checklist](#appendix-a-pre-employment-checklist)
+    - [Appendix A: Pre-Employment Checklist](#16-appendix-a-pre-employment-checklist)
     - [Appendix B: Onboarding Checklist](#appendix-b-onboarding-checklist)
     - [Appendix C: Termination Checklist](#appendix-c-termination-checklist)
     - [Appendix D: Training Matrix](#appendix-d-training-matrix)
