@@ -1,0 +1,28 @@
+%%{init: {"themeVariables": {
+  "fontFamily": "Trebuchet MS, sans-serif",
+  "fontSize": "16px",
+  "textColor": "#000000",
+  "primaryColor": "#ffffff",
+  "primaryBorderColor": "#1565c0",
+  "secondaryBorderColor": "#00838f",
+  "tertiaryBorderColor": "#2e7d32",
+  "quaternaryBorderColor": "#f57c00",
+  "quinaryBorderColor": "#6a1b9a",
+  "senaryBorderColor": "#c2185b"
+}}}%%
+
+flowchart LR
+    A["**PREPARATION**&nbsp;&nbsp;&nbsp;&nbsp;"]:::primary --> B["**DETECTION**&nbsp;&nbsp;&nbsp;&nbsp;"]:::secondary
+    B --> C["**ANALYSIS**&nbsp;&nbsp;&nbsp;&nbsp;"]:::tertiary
+    C --> D["**CONTAINMENT&nbsp;&nbsp;&nbsp;&nbsp;<br/>ERADICATION**&nbsp;&nbsp;&nbsp;&nbsp;"]:::quaternary
+    D --> E["**RECOVERY**&nbsp;&nbsp;&nbsp;&nbsp;"]:::quinary
+    E --> F["**LESSONS&nbsp;&nbsp;&nbsp;&nbsp;<br/>LEARNED**&nbsp;&nbsp;&nbsp;&nbsp;"]:::senary
+    F -.-> A
+
+classDef primary fill:#ffffff,stroke:#1565c0,stroke-width:2px,rx:8,ry:8,color:#000;
+classDef secondary fill:#ffffff,stroke:#00838f,stroke-width:2px,rx:8,ry:8,color:#000;
+classDef tertiary fill:#ffffff,stroke:#2e7d32,stroke-width:2px,rx:8,ry:8,color:#000;
+classDef quaternary fill:#ffffff,stroke:#f57c00,stroke-width:2px,rx:8,ry:8,color:#000;
+classDef quinary fill:#ffffff,stroke:#6a1b9a,stroke-width:2px,rx:8,ry:8,color:#000;
+classDef senary fill:#ffffff,stroke:#c2185b,stroke-width:2px,rx:8,ry:8,color:#000;
+

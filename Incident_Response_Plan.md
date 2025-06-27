@@ -155,19 +155,10 @@ Though rare in a cloud-native environment, physical threats—like device theft 
 
 *NIST Controls: IR-4, IR-5, IR-6, IR-7*
 
-```
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│ PREPARATION │ --> │  DETECTION  │ --> │  ANALYSIS   │
-└─────────────┘     └─────────────┘     └─────────────┘
-                                               |
-                                               v
-┌─────────────┐     ┌─────────────┐     ┌─────────────┐
-│   LESSONS   │ <-- │  RECOVERY   │ <-- │CONTAINMENT  │
-│   LEARNED   │     │             │     │ERADICATION  │
-└─────────────┘     └─────────────┘     └─────────────┘
-```
-
 Our incident response process follows the industry-standard phases while adapted for our small team reality. This circular process emphasizes that incident response is ongoing, with lessons learned feeding back into preparation for the next incident. We've found this systematic approach prevents panic-driven responses while ensuring we don't skip critical steps under pressure.
+
+![Lessons Learned](lessons.png)
+
 
 ### 4.2 Preparation Phase (Ongoing)
 
