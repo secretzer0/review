@@ -183,8 +183,6 @@ Responsibilities include:
 - Managing secure offboarding in coordination with IT, including access revocation and asset return checklists.
 - Reinforcing confidentiality and acceptable use expectations through policy communications and annual re-acknowledgments.
 
-In the absence of a dedicated HR department, these responsibilities are performed by a designated team member under the guidance of the Executive Management Team.
-
 ---
 
 ## 4. Asset Management
