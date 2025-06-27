@@ -371,11 +371,11 @@ We use simple 1-3 scoring because 1-5 scales create false precision for a small 
 
 **Impact Levels (What It Means for OversiteAI)**
 
-| Level | Financial Reality | Operational Reality | Customer Impact |
-|-------|------------------|-------------------|-----------------|
-| **High (3)** | >$100K or >5% annual revenue | Can't deliver core services | Multiple customers affected or one enterprise customer furious |
-| **Medium (2)** | $10K-$100K impact | Significant slowdown but still functioning | Individual customers annoyed but not leaving |
-| **Low (1)** | <$10K impact | Internal inefficiency only | Customers don't notice |
+| Level | Operational Reality | Customer Impact |
+|-------|-------------------|-----------------|
+| **High (3)** | Can't deliver core services | Multiple customers affected or one enterprise customer furious |
+| **Medium (2)** | Significant slowdown but still functioning | Individual customers annoyed but not leaving |
+| **Low (1)** | Internal inefficiency only | Customers don't notice |
 
 **Likelihood Levels (Our Simplified View)**
 
@@ -790,7 +790,7 @@ Before we commit to any new service, we ask three risk questions:
 ### 10.2 Making Risk Visible Without Extra Meetings
 
 **In Our Planning Board**
-- High-risk items get a 🔥 emoji in Azure DevOps
+- High-risk items get an orange font in Azure DevOps
 - Risk mitigation tasks are labeled "risk-reduction"
 - Post-incident fixes are labeled "incident-prevention"
 - This makes risk work visible without special reports

@@ -29,12 +29,21 @@
 14. [Definitions](#14-definitions)
 15. [Document Control](#document-control)
 16. [Appendices](#appendices)
+    - [Appendix A: Pre-Employment Checklist](#appendix-a-pre-employment-checklist)
+    - [Appendix B: Onboarding Checklist](#appendix-b-onboarding-checklist)
+    - [Appendix C: Termination Checklist](#appendix-c-termination-checklist)
+    - [Appendix D: Training Matrix](#appendix-d-training-matrix)
+    - [Appendix E: Policy Exception Request Form](#appendix-e-policy-exception-request-form)
+    - [Appendix F: Visitor Access Log Template](#appendix-f-visitor-access-log-template)
+    - [Appendix G: NIST Control Mapping](#appendix-g-nist-control-mapping)
 
 ---
 
 ## 1. Purpose and Scope
 
 ### 1.1 Purpose
+
+*NIST Controls: PL-1, PS-1, AT-1*
 
 This Human Resources Security and Governance Policy establishes OversiteAI's comprehensive framework for managing personnel-related security risks, defining acceptable use standards, and maintaining appropriate corporate governance while acknowledging our size as a small, remote-first software company. The policy ensures that our human resources practices align with security objectives and that our organization maintains proper oversight without creating unnecessary administrative burden.
 
@@ -46,6 +55,8 @@ The policy serves multiple purposes within our security program. It establishes 
 
 ### 1.2 Scope
 
+*NIST Controls: PL-1, PS-1, PS-7*
+
 This policy applies to all OversiteAI personnel, including full-time employees, part-time employees, contractors, consultants, interns, and any other individuals granted access to our systems or information. The policy covers all stages of the employment relationship from pre-employment screening through post-termination obligations.
 
 The scope encompasses several key areas of human resources security and governance. Personnel security controls apply throughout the employment lifecycle, acceptable use standards govern all company resources and systems, security awareness requirements apply to all personnel regardless of role, and governance structures provide appropriate oversight for our operations. These elements work together to create a comprehensive approach to managing human-related risks.
@@ -55,6 +66,8 @@ Geographic scope reflects our remote-first structure, with the policy applying t
 **Control Mapping**: CC1.4, CC2.3, CC9.1
 
 ### 1.3 Policy Principles
+
+*NIST Controls: PL-1, PS-6, AT-1*
 
 Our approach to human resources security and governance reflects several key principles that guide implementation across all areas. We believe in implementing controls appropriate to our size and risk profile, leveraging technology to automate processes where practical, maintaining transparency in our expectations and procedures, and fostering a security-conscious culture through positive reinforcement rather than fear.
 
@@ -70,6 +83,8 @@ The balance between security and usability remains critical to our success. Over
 
 ### 2.1 Pre-Employment Screening
 
+*NIST Controls: PS-3, PS-2, SA-21*
+
 Our pre-employment screening process provides appropriate verification of candidate qualifications and background while respecting privacy and maintaining efficiency. We implement screening measures scaled to the sensitivity of each role, recognizing that excessive screening creates unnecessary delays and costs without meaningful security benefits.
 
 For all positions, we require identity verification, employment eligibility confirmation, and professional reference checks. Background checks include criminal history review for the past seven years, verification of previous employment, and confirmation of educational credentials where relevant to the position. We conduct these checks through a reputable third-party provider that maintains appropriate privacy controls and compliance with applicable laws including the Fair Credit Reporting Act (FCRA).
@@ -81,6 +96,8 @@ The screening process begins only after a conditional offer of employment, ensur
 **Control Mapping**: CC1.4, CC1.5, CC9.2
 
 ### 2.2 Employment Terms and Agreements
+
+*NIST Controls: PS-6, PS-7, SA-3*
 
 Employment relationships at OversiteAI begin with comprehensive written agreements that establish clear expectations for security responsibilities and post-employment obligations. Our employment agreements include perpetual confidentiality obligations that survive termination, intellectual property assignment provisions ensuring company ownership of work product, and non-solicitation clauses protecting our workforce and customer relationships for one year post-employment.
 
@@ -94,6 +111,8 @@ The agreement structure provides flexibility for different types of working rela
 
 ### 2.3 Onboarding Process
 
+*NIST Controls: PS-4, AT-2, AC-2*
+
 Our security-focused onboarding process ensures new personnel receive appropriate training, access, and equipment while creating a positive first impression of our security culture. The process begins before the first day with preparation of accounts, equipment, and access requirements based on the principle of least privilege.
 
 The onboarding checklist drives consistent implementation across all new hires. HR or the hiring manager ensures completion of employment agreements and policy acknowledgments, submittal of access requests with appropriate approvals, configuration and delivery of company-issued devices, completion of initial security training, enrollment in multi-factor authentication systems, and collection of emergency contact information. This systematic approach prevents security gaps while avoiding overwhelming new employees.
@@ -105,6 +124,8 @@ The onboarding process extends through the first 30 days with progressive introd
 **Control Mapping**: CC1.4, CC1.5, CC2.2, CC9.2
 
 ### 2.4 Termination Process
+
+*NIST Controls: PS-4, PS-5, AC-2*
 
 Our termination process balances security requirements with respectful treatment of departing employees. Whether voluntary or involuntary, all terminations follow a consistent process designed to protect company assets while maintaining professional relationships where possible.
 
@@ -122,6 +143,8 @@ Post-termination activities ensure smooth transitions while maintaining security
 
 ### 3.1 General Use Standards
 
+*NIST Controls: PL-4, AC-20, AC-22*
+
 Our acceptable use policy establishes clear boundaries for the use of company resources while acknowledging the realities of modern work-life integration. We trust our employees to use good judgment while providing specific guidance on acceptable and prohibited activities.
 
 Acceptable uses of company resources include all business activities and communications necessary for job performance, professional development activities that enhance job-relevant skills, limited personal use that doesn't interfere with job duties or consume excessive resources, and approved open-source contributions that don't conflict with company interests. We recognize that absolute prohibition of personal use is both unrealistic and counterproductive in a remote work environment.
@@ -133,6 +156,8 @@ The policy acknowledges gray areas and encourages employees to seek guidance whe
 **Control Mapping**: CC6.1, CC6.6, CC6.7, CC9.2
 
 ### 3.2 Information Systems Use
+
+*NIST Controls: AC-2, AC-3, SC-7, SI-4*
 
 Secure use of information systems requires clear standards that employees can reasonably follow. Our requirements focus on essential security behaviors while avoiding overly complex rules that encourage workarounds.
 
@@ -146,6 +171,8 @@ Data handling requirements integrate with our broader data classification scheme
 
 ### 3.3 Social Media Guidelines
 
+*NIST Controls: AC-20, AC-22, PL-4*
+
 Our social media guidelines acknowledge the blurred lines between personal and professional online presence while protecting company interests. We encourage responsible social media use that enhances both personal and company brands.
 
 Professional social media use, particularly on LinkedIn, supports business objectives. Employees may share company successes and achievements that are already public, represent their professional expertise and company affiliation accurately, network with industry peers and potential partners, and participate in professional discussions relevant to our business. We provide guidance on effective professional social media use without mandating participation.
@@ -157,6 +184,8 @@ The distinction between personal opinion and company position requires careful n
 **Control Mapping**: CC6.7, CC9.2, PI1.3
 
 ### 3.4 Remote Work Standards
+
+*NIST Controls: AC-17, AC-19, PE-17, SC-15*
 
 As a fully remote company, our remote work standards form the foundation of our security program rather than an exception to office-based policies. We design all controls with remote work as the default, avoiding the security gaps that plague hybrid approaches.
 
@@ -174,6 +203,8 @@ Public space work creates unique vulnerabilities requiring specific controls. Wh
 
 ### 4.1 Training Program Structure
 
+*NIST Controls: AT-2, AT-3, AT-4*
+
 Our security awareness training program provides practical, relevant education scaled to our size and risk profile. Rather than generic, checkbox compliance training, we deliver targeted content that helps employees protect themselves and the company.
 Initial training for new employees occurs within their first 30 days, integrated with the onboarding process. The curriculum covers security fundamentals in accessible language, company-specific policies and procedures, data protection requirements relevant to their role, incident reporting with emphasis on our learning culture, phishing recognition using real-world examples, and physical security for remote work environments. We deliver this training through a combination of interactive modules, live sessions with experienced team members, and hands-on exercises that reinforce key concepts.
 
@@ -184,6 +215,8 @@ Specialized training addresses role-specific security needs. Developers receive 
 **Control Mapping**: CC1.4, CC1.5, CC2.2, CC2.3
 
 ### 4.2 Awareness Activities and Reinforcement
+
+*NIST Controls: AT-2, AT-3, SI-5*
 
 Security awareness extends beyond formal training through ongoing activities that reinforce good security behaviors. Our program uses multiple channels and approaches to maintain security visibility without becoming background noise.
 
@@ -196,6 +229,8 @@ Knowledge sharing creates a collaborative security culture. We encourage employe
 **Control Mapping**: CC1.4, CC1.5, CC2.2
 
 ### 4.3 Training Metrics and Effectiveness
+
+*NIST Controls: AT-2, CA-5, CA-7*
 
 Measuring training effectiveness ensures our program delivers value beyond mere compliance. We track multiple metrics to assess both participation and behavior change.
 
@@ -213,6 +248,8 @@ Regular program evaluation incorporates employee feedback, incident analysis, in
 
 ### 5.1 Governance Structure
 
+*NIST Controls: PM-1, PM-2, PM-9*
+
 Our governance structure provides appropriate oversight for a company of our size without creating bureaucratic impediments. We implement a streamlined approach that ensures accountability while maintaining agility.
 
 Board oversight of security matters occurs through quarterly updates and as-needed escalations. The board receives reports on significant security incidents and responses, annual risk assessment results and treatment plans, security budget requirements and resource allocation, strategic security initiatives and major changes, and compliance status including audit results. Board members with relevant expertise provide guidance on security strategy without micromanaging operational decisions.
@@ -225,6 +262,8 @@ Our Security Governance Committee operates informally but effectively. Monthly m
 
 ### 5.2 Business Ethics Program
 
+*NIST Controls: PL-4, PS-6, PS-8*
+
 Our business ethics program establishes clear standards for conduct while acknowledging the realities of operating a small company without a dedicated compliance department. We focus on practical ethics that employees can understand and follow.
 
 The Code of Conduct addresses core ethical principles in plain language. Requirements include honest and ethical behavior in all business dealings, compliance with applicable laws and regulations, prompt disclosure of conflicts of interest, fair dealing with customers, partners, and competitors, protection of company assets including intellectual property, maintenance of confidentiality, and creation of a respectful, inclusive workplace. We provide examples and scenarios to clarify expectations without creating a legalistic document that no one reads.
@@ -236,6 +275,8 @@ Ethics investigations follow a consistent process scaled to issue severity. Upon
 **Control Mapping**: CC1.1, CC1.4, CC2.1, CC9.2
 
 ### 5.3 Compliance Management
+
+*NIST Controls: CA-2, CA-5, PM-4*
 
 Our compliance management approach focuses on practical implementation of requirements rather than checkbox exercises. We maintain compliance with applicable laws, regulations, and contractual obligations through risk-based prioritization.
 
@@ -253,6 +294,8 @@ Regulatory change monitoring leverages external resources rather than attempting
 
 ### 6.1 Security Roles and Responsibilities
 
+*NIST Controls: PM-2, PS-7, PL-2*
+
 Our security organization embeds responsibilities throughout the company rather than creating a separate security department we cannot afford. This distributed model aligns with our size while ensuring comprehensive coverage.
 
 The Chief Technology Officer serves as our de facto security leader, developing and maintaining security strategy, creating and updating security policies, managing the security budget within IT allocations, leading incident response efforts, and reporting to the board on security matters. This combination with technology leadership ensures security considerations integrate with technical decisions from the start.
@@ -266,6 +309,8 @@ All employees regardless of role share fundamental security responsibilities. Th
 **Control Mapping**: CC1.2, CC1.4, CC2.2, CC2.3
 
 ### 6.2 External Security Support
+
+*NIST Controls: SA-2, SA-9, PS-7*
 
 Recognizing our size limitations, we strategically engage external security expertise where internal capabilities are insufficient or specialized skills are required. This approach provides access to deep expertise without the overhead of full-time specialists.
 
@@ -283,6 +328,8 @@ Vendor selection criteria emphasize practical value over prestigious names. We e
 
 ### 7.1 Environmental Responsibility
 
+*NIST Controls: PM-8, PM-9*
+
 Our environmental responsibility program leverages the inherent efficiency of our cloud-first, remote-work model while implementing additional measures where practical. We recognize that good environmental practices often align with good business practices.
 
 Green IT practices begin with our fundamental architecture choices. Our cloud-first strategy leverages Azure's efficient data centers with renewable energy commitments, advanced cooling systems, and optimized hardware utilization. By avoiding on-premises infrastructure, we eliminate inefficient server rooms, reduce electronic waste, and benefit from Microsoft's economies of scale in environmental management.
@@ -295,6 +342,8 @@ Additional environmental measures demonstrate commitment within our capabilities
 
 ### 7.2 Social Responsibility
 
+*NIST Controls: PM-8, PS-6*
+
 Our social responsibility efforts focus on areas where a small software company can make meaningful contributions without overextending limited resources. We emphasize quality over quantity in our social initiatives.
 
 Diversity and inclusion form core values reflected in our practices. As an equal opportunity employer, we actively work to eliminate bias in hiring through structured interviews and diverse hiring panels. We provide reasonable accommodations for employees with disabilities, create an inclusive culture welcoming all backgrounds and perspectives, and address any discrimination or harassment immediately. Our remote work model inherently supports inclusion by eliminating geographic barriers and providing flexibility for different life circumstances.
@@ -305,6 +354,8 @@ Employee wellbeing initiatives recognize that sustainable performance requires w
 **Control Mapping**: CC1.1, CC2.1
 
 ### 7.3 Corporate Responsibility
+
+*NIST Controls: PM-8, PM-9, SA-9*
 
 Our corporate responsibility program demonstrates ethical business practices appropriate for our size and industry. We focus on doing business the right way rather than elaborate CSR programs we cannot sustain.
 
@@ -322,6 +373,8 @@ Partner and vendor relationships reflect our values through fair dealing. We neg
 
 ### 8.1 Internal Audit Function
 
+*NIST Controls: CA-2, CA-7, AU-6*
+
 Our internal audit function provides independent assessment scaled to our size and resources. Rather than a full internal audit department, we implement a practical approach providing necessary oversight without excessive overhead.
 
 Audit activities focus on high-risk areas and regulatory requirements. Annual control assessments evaluate the design and effectiveness of key controls, quarterly spot checks verify ongoing compliance with critical policies, process effectiveness reviews identify improvement opportunities, and special audits address specific concerns or incidents. This risk-based approach maximizes value from limited audit resources.
@@ -333,6 +386,8 @@ Audit findings receive appropriate attention through formal reporting and tracki
 **Control Mapping**: CC4.1, CC4.2, CC4.3, CC5.1, CC5.2, CC5.3
 
 ### 8.2 External Validation
+
+*NIST Controls: CA-2, CA-6, SA-11*
 
 External validation provides independent verification of our security program effectiveness. We engage qualified third parties for assessments that internal resources cannot perform objectively or lack expertise to complete.
 
@@ -350,6 +405,8 @@ Continuous improvement drives our response to external findings. We treat all fi
 
 ### 9.1 Physical Visitor Management
 
+*NIST Controls: PE-2, PE-3, PE-8*
+
 While operating as a fully remote company, we maintain visitor management procedures for situations where physical meetings occur, such as team gatherings, client meetings, or co-working space usage.
 
 When meeting in temporary physical spaces, we implement appropriate visitor controls. All visitors sign in with contact information for potential contact tracing, remain escorted by an OversiteAI employee at all times, receive temporary identification if required by the facility, stay restricted from any areas containing sensitive information, and sign out upon departure. These basic controls provide accountability without elaborate systems.
@@ -361,6 +418,8 @@ Home office visits follow special guidelines to protect both security and privac
 **Control Mapping**: CC6.4, CC7.1
 
 ### 9.2 Virtual Visitor Management
+
+*NIST Controls: AC-3, AC-4, SC-13*
 
 Virtual meetings constitute our primary interaction mode, requiring robust controls that don't impede collaboration. Our virtual visitor management balances security with usability for daily operations.
 
@@ -378,6 +437,8 @@ Virtual event security scales these practices for larger gatherings. Webinars an
 
 ### 10.1 Policy Violation Response
 
+*NIST Controls: PS-8, IR-5, AU-6*
+
 Our approach to policy violations emphasizes learning and improvement while maintaining accountability. We recognize that in a small company, overly punitive approaches damage culture and trust without improving security.
 
 The investigation process balances thoroughness with practicality. When violations are reported or detected, we conduct an initial assessment to understand scope and severity, investigate facts without prejudgment, document findings objectively, determine appropriate responses considering context, and implement actions focused on preventing recurrence. Throughout this process, we maintain confidentiality and treat individuals with respect.
@@ -389,6 +450,8 @@ The context surrounding violations influences our response. We consider whether 
 **Control Mapping**: CC1.4, CC1.5, CC9.2
 
 ### 10.2 Positive Reinforcement
+
+*NIST Controls: AT-2, PM-13, PM-14*
 
 Positive reinforcement for good security behaviors proves more effective than punishment alone. Our program recognizes and rewards employees who strengthen our security posture.
 
@@ -406,6 +469,8 @@ Team celebrations for security achievements build collective ownership. When we 
 
 ### 11.1 HR Security Metrics
 
+*NIST Controls: CA-7, PM-6, PM-14*
+
 Human resources security metrics focus on measurable outcomes that indicate program effectiveness. We track key indicators without creating excessive measurement burden.
 
 Access management metrics ensure timely privilege changes. We measure time from termination to access revocation with a target under 2 hours, percentage of access reviews completed on schedule, number of unauthorized access attempts detected, and time to provision appropriate new user access. These metrics identify potential gaps in our joiner-mover-leaver processes.
@@ -417,6 +482,8 @@ Compliance metrics track adherence to HR security policies. We monitor backgroun
 **Control Mapping**: CC2.1, CC4.1, CC5.1, CC5.2
 
 ### 11.2 Governance Metrics
+
+*NIST Controls: CA-7, PM-6, PM-11*
 
 Governance metrics demonstrate oversight effectiveness and organizational maturity. We select metrics that provide actionable insights without creating bureaucracy.
 
@@ -446,6 +513,8 @@ Team-level reporting maintains front-line engagement. Weekly or bi-weekly update
 
 ### 12.1 Review and Update Process
 
+*NIST Controls: PL-1, PM-4, CA-5*
+
 Regular policy review ensures continued relevance and effectiveness. Our annual review cycle examines policy content for accuracy, completeness, and alignment with current practices.
 
 The review process incorporates multiple inputs including regulatory and legal requirement changes, security incident lessons learned, audit findings and recommendations, industry best practice evolution, organizational changes affecting security, technology changes requiring policy updates, and employee feedback on policy effectiveness. This comprehensive approach identifies necessary updates while avoiding change for change's sake.
@@ -457,6 +526,8 @@ Communication of policy changes ensures organization-wide awareness. We announce
 **Control Mapping**: CC1.3, CC2.1, CC5.3
 
 ### 12.2 Exception Management
+
+*NIST Controls: CA-5, PM-4, RA-3*
 
 Policy exceptions acknowledge that one-size-fits-all approaches don't work for every situation. Our exception process provides flexibility while maintaining control and accountability.
 
@@ -471,6 +542,8 @@ Exception tracking maintains visibility and accountability. We maintain a centra
 ---
 
 ## 13. Related Documents
+
+*NIST Controls: PL-4, PM-4*
 
 The following documents provide additional detail on specific aspects of our security program:
 
@@ -489,6 +562,8 @@ These documents work together to create comprehensive security coverage while av
 ---
 
 ## 14. Definitions
+
+*NIST Controls: PM-7*
 
 **Acceptable Use**: Authorized activities using company resources consistent with business purposes and policy requirements
 
@@ -511,6 +586,8 @@ These documents work together to create comprehensive security coverage while av
 ---
 
 ## Document Control
+
+*NIST Controls: PM-4, SA-5*
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
@@ -698,6 +775,94 @@ See Incident Response Plan for detailed incident reporting procedures and forms.
 **Completed By**: _____________________________
 
 **Review**: _____________________________
+
+---
+
+### Appendix G: NIST Control Mapping
+
+This policy addresses the following NIST SP 800-53 controls:
+
+**Access Control Family (AC)**
+- AC-2: Account Management - Sections 2.3, 2.4, 3.2
+- AC-3: Access Enforcement - Sections 3.2, 9.2
+- AC-4: Information Flow Enforcement - Section 9.2
+- AC-17: Remote Access - Section 3.4
+- AC-19: Access Control for Mobile Devices - Section 3.4
+- AC-20: Use of External Information Systems - Sections 3.1, 3.3
+- AC-22: Publicly Accessible Content - Sections 3.1, 3.3
+
+**Awareness and Training Family (AT)**
+- AT-1: Security Awareness and Training Policy and Procedures - Sections 1.1, 1.3
+- AT-2: Security Awareness Training - Sections 2.3, 4.1, 4.2, 4.3, 10.2
+- AT-3: Role-Based Security Training - Sections 4.1, 4.2
+- AT-4: Security Training Records - Sections 4.1, 4.3
+
+**Audit and Accountability Family (AU)**
+- AU-6: Audit Review, Analysis, and Reporting - Sections 8.1, 10.1
+
+**Security Assessment and Authorization Family (CA)**
+- CA-2: Security Assessments - Sections 5.3, 8.1, 8.2
+- CA-5: Plan of Action and Milestones - Sections 4.3, 5.3, 12.1, 12.2
+- CA-6: Security Authorization - Section 8.2
+- CA-7: Continuous Monitoring - Sections 4.3, 8.1, 11.1, 11.2
+
+**Incident Response Family (IR)**
+- IR-5: Incident Monitoring - Section 10.1
+
+**Physical and Environmental Protection Family (PE)**
+- PE-2: Physical Access Authorizations - Section 9.1
+- PE-3: Physical Access Control - Section 9.1
+- PE-8: Visitor Access Records - Section 9.1
+- PE-17: Alternate Work Site - Section 3.4
+
+**Planning Family (PL)**
+- PL-1: Security Planning Policy and Procedures - Sections 1.1, 1.2, 1.3, 12.1
+- PL-2: System Security Plan - Section 6.1
+- PL-4: Rules of Behavior - Sections 3.1, 3.3, 5.2, 13
+
+**Program Management Family (PM)**
+- PM-1: Information Security Program Plan - Section 5.1
+- PM-2: Senior Information Security Officer - Sections 5.1, 6.1
+- PM-4: Plan of Action and Milestones Process - Sections 5.3, 12.1, 12.2, 13, Document Control
+- PM-6: Information Security Measures of Performance - Sections 11.1, 11.2
+- PM-7: Enterprise Architecture - Sections 14
+- PM-8: Critical Infrastructure Plan - Sections 7.1, 7.2, 7.3
+- PM-9: Risk Management Strategy - Sections 5.1, 7.1, 7.3
+- PM-11: Mission/Business Process Definition - Section 11.2
+- PM-13: Information Security Workforce - Section 10.2
+- PM-14: Testing, Training, and Monitoring - Sections 10.2, 11.1
+
+**Personnel Security Family (PS)**
+- PS-1: Personnel Security Policy and Procedures - Sections 1.1, 1.2
+- PS-2: Position Risk Designation - Section 2.1
+- PS-3: Personnel Screening - Section 2.1
+- PS-4: Personnel Termination - Sections 2.3, 2.4
+- PS-5: Personnel Transfer - Sections 2.4
+- PS-6: Access Agreements - Sections 1.3, 2.2, 5.2, 7.2
+- PS-7: Third-Party Personnel Security - Sections 1.2, 2.2, 6.1, 6.2
+- PS-8: Personnel Sanctions - Sections 5.2, 10.1
+
+**Risk Assessment Family (RA)**
+- RA-3: Risk Assessment - Section 12.2
+
+**System and Services Acquisition Family (SA)**
+- SA-2: Allocation of Resources - Section 6.2
+- SA-3: System Development Life Cycle - Section 2.2
+- SA-5: Information System Documentation - Sections Document Control
+- SA-9: External Information System Services - Sections 6.2, 7.3
+- SA-11: Developer Security Testing and Evaluation - Section 8.2
+- SA-21: Developer Screening - Section 2.1
+
+**System and Communications Protection Family (SC)**
+- SC-7: Boundary Protection - Section 3.2
+- SC-13: Cryptographic Protection - Section 9.2
+- SC-15: Collaborative Computing Devices - Section 3.4
+
+**System and Information Integrity Family (SI)**
+- SI-4: Information System Monitoring - Section 3.2
+- SI-5: Security Alerts, Advisories, and Directives - Section 4.2
+
+This comprehensive mapping demonstrates alignment with federal security standards while maintaining practical implementation appropriate for our small business context. Controls are implemented proportionally to our size and risk profile, leveraging automation and cloud-native features where possible.
 
 ---
 
