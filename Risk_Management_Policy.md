@@ -30,7 +30,7 @@
 17. [Document Control](#17-document-control)
 18. [Definitions](#18-definitions)
 19. [Appendices](#19-appendices)
-    - [Appendix A: NIST Control Mapping](#appendix-b-nist-control-mapping)
+    - [Appendix A: NIST Control Mapping](#appendix-a-nist-control-mapping)
     - [Appendix B: Quick Reference Templates](#appendix-b-quick-reference-templates)
     - [Appendix C: Emergency Contacts](#appendix-c-emergency-contacts)
 
