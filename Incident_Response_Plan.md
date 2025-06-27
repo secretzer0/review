@@ -293,7 +293,7 @@ If you have questions, please contact:
 [Contact Information]
 
 Sincerely,
-[Name], CEO
+[Name], [Role]
 OversiteAI
 ```
 
