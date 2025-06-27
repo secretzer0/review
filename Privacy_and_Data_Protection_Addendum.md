@@ -1,12 +1,12 @@
 # Privacy and Data Protection Addendum
 ## OversiteAI, LLC
 
-**Document Version**: 1.0  
+**Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
 **Last Review Date**: January 1, 2025  
 **Next Review Date**: January 1, 2026  
 **Classification**: Public  
-**Owner**: Chief Executive Officer  
+**Owner**: Chief Technology Officer  
 **Approved By**: Chief Executive Officer  
 **Domain**: oversiteai.io
 
@@ -595,10 +595,10 @@ For regulatory authorities needing to contact us regarding privacy matters, we p
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | January 1, 2025 | CEO | Initial comprehensive version |
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
 
 **Document Review and Approval**:
-- **Author**: Chief Executive Officer
+- **Author**: Chief Technology Officer
 - **Reviewed By**: Leadership Team
 - **Approved By**: Chief Executive Officer
 - **Approval Date**: January 1, 2025
