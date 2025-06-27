@@ -1,9 +1,9 @@
 # Access Control Policy
 ## OversiteAI, LLC
 
-**Document Version**: 1.0  
+**Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
-**Last Updated**: January 1, 2025  
+**Last Updated**: June 25, 2025  
 **Review Frequency**: Annual  
 **Next Review Date**: January 1, 2026  
 **Classification**: Internal  
@@ -538,10 +538,10 @@ _____________________________________________
 - Reason for temporary access: ______________
 
 **Approvals**
-- Requesting Manager: _____________ Date: _____
-- HR Verification: _______________ Date: _____
-- IT Review: ____________________ Date: _____
-- CTO (if privileged): ___________ Date: _____
+- Requesting Manager: _____________  Date: _____
+- HR Verification: _______________   Date: _____
+- IT Review: _____________________   Date: _____
+- CTO (if privileged): ___________   Date: _____
 
 ---
 
