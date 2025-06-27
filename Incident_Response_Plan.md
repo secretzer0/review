@@ -103,7 +103,7 @@ Our infrastructure is hosted on Microsoft Azure, and we make use of the support 
 | Incident Commander | CTO | DevOps Lead | - |
 | Technical Lead | Sr Dev | DevOps Eng | - |
 | Communications | CEO | - | - |
-| Azure Support | - | - | [Support#] |
+| Azure Support | - | - | - |
 
 Our escalation tree ensures rapid activation regardless of when incidents occur. The on-call engineer serves as the first point of contact during after-hours incidents, with authority to begin initial response and escalate as needed. They immediately contact the Technical Lead for any confirmed security incident, who assesses severity and activates the Incident Commander for Severity 1 or 2 incidents. The CEO receives direct escalation only for Severity 1 incidents that threaten business continuity or require executive decisions on public communications or significant resource allocation.
 
