@@ -1,0 +1,142 @@
+Document Request,Domain,Doc Ref
+"Documentation that defines the Enterprise Risk Management program requirements (e.g., Enterprise risk governance plan, policies and procedures)",A. Enterprise Risk Management,A.1
+Documentation that defines the organization's risk assessment lifecycle,A. Enterprise Risk Management,A.2
+Inventory/register of applicable risks and controls included in the risk management program,A. Enterprise Risk Management,A.2
+"Documentation that provides examples of dashboards, scorecards, metrics, and management reports of the enterprise risk management program.",A. Enterprise Risk Management,A.3
+"Documentation that defines the IT risk assessment process requirements for systems and critical business processes, including a list of critical business processes related to the services provided",A. Enterprise Risk Management,A.4
+"Documentation that defines the organization's third party risk management program and assessment requirements e.g., policies, standards, procedures",A. Enterprise Risk Management,A.5
+Documentation and evidence of the structure and maintenance of the organization's third party inventory and vendor classification,A. Enterprise Risk Management,A.5
+"Documentation that describes the organization's process for addressing contract clauses within fourth party (vendor or service provider) agreements and including evidence that the organization's required data protection requirements (e.g., standard provisions, addendums, appendices) have been included in the contracting process",A. Enterprise Risk Management,A.6
+Documentation that defines the organization's guidelines and process for management and approval of exception handling for required contract terms,A. Enterprise Risk Management,A.6
+"Documentation that defines the requirements for selection, due diligence and management of any Fourth-Nth parties.",A. Enterprise Risk Management,A.7
+"A list of the critical parties and evidence of the execution of the standard contract provisions, master services agreements in place that are required for the delivery of the services",A. Enterprise Risk Management,A.8
+"Documentation that defines the requirements for the assessment process that is in place to manage information security of its Fourth-Nth parties (e.g., Vendors, Service Providers, subcontractors, sub-processors)",A. Enterprise Risk Management,A.9
+A copy of the formal criteria and methodology used to identify the inherent and residual risk associated to any third party entity involved in the delivery of the services.,A. Enterprise Risk Management,A.10
+"Documentation that reflects the logging, tracking and risk rating of subcontractor issues",A. Enterprise Risk Management,A.11
+Documentation of the organization's information security policies,B. Security Policy,B.1
+Documentation of the organization's information security standards,B. Security Policy,B.2
+"A copy of its current, approved Information Security (IS) organizational document, including IS roles and responsibilities",C. Organizational Security,C.1
+"Documentation that defines Information Asset Management Program e.g., policies, procedures or standards",D. Asset and Info Management,D.1.1
+"Documentation that defines Data Classification and Data Handling procedures in place e.g., policies, standards",D. Asset and Info Management,D.1.2
+"Documentation of the information asset inventory report and any associated documentation including the categories of assets (Hardware, applications software, operating system software and supporting database management systems)",D. Asset and Info Management,D.1.3
+"Documentation regarding the policies, procedures, and logs used for tracking inbound and outbound media shipments",D. Asset and Info Management,D.2
+"Documentation regarding the transportation process used for pickup and transport of inbound and outbound media shipments, including a copy of its processes and log for the transport of backup media for offsite pickup and delivery",D. Asset and Info Management,D.3
+Organization documentation of its process for restricting the use of removable devices,D. Asset and Info Management,D.4
+"Documentation regarding the organizations encryption key management policy, procedures or standards",D. Asset and Info Management,D.5
+"Documentation that describes policies, procedures or guidelines for web site encryption for internet or public facing web sites",D. Asset and Info Management,D.6
+"Documentation regarding the policies and procedures for asset destruction and secure disposal, including sample destruction report",D. Asset and Info Management,D.7
+"Documentation reflecting the current human resource security and background investigation policy and procedures, including but not limited to evidence of completion of background checks prior to employment",E. Human Resources Security,E.1
+"Documentation regarding the policies and procedures for acknowledgement and receipt of company policies, including a current constituent list for constituents with access to scoped data",E. Human Resources Security,E.2
+A copy of the organization's security awareness training program and a listing of its current constituents,E. Human Resources Security,E.3
+Documentation of its process managing the formal performance and appraisal process for employees,E. Human Resources Security,E.4
+Documentation of its process for handling involuntary/voluntary separations,E. Human Resources Security,E.5
+"Documentation regarding the organization's policies, standards or guidelines for environmental controls",F. Physical and Environmental,F.1
+"Documentation of the policies, standards or guidelines for physical access to data or systems",F. Physical and Environmental,F.2
+Document(s) that are part of the secure workspace physical security and risk management programs,F. Physical and Environmental,F.3
+"Organization documentation of its physical security plan and other relevant documentation, including fire authority certification for the offsite facility, if an offsite facility exists",F. Physical and Environmental,F.4
+Documentation of the policy and procedures for maintaining access logs including a sample of an access log within the last 90 days,F. Physical and Environmental,F.5
+A copy of the inspection program documentation that encompasses the secure workspace and the current inspection reports,F. Physical and Environmental,F.6
+Documentation regarding its visitor management program and a copy of the organization's visitor logs from the past 90 days,F. Physical and Environmental,F.7
+Documentation of its policy and procedures for inspecting and testing its fire and security alarms and environmental control monitoring systems,F. Physical and Environmental,F.8
+Obtain the policies/procedures related to operational procedures. Include a recent copy of the master change log for all target systems for the past six months,G. IT Operations Management,G.1
+"Security patch process, including the name of the tool used for patch management",G. IT Operations Management,G.2
+"A list of application security risks that are documented as part of the application security program, and review the most recent application security report",G. IT Operations Management,G.3
+"Documentation of the policies, procedures, and standards that are in place for website setup and security, including architecture diagrams for any in scope web applications",G. IT Operations Management,G.4
+Documentation regarding the organization's IT operational procedures,G. IT Operations Management,G.5
+Documentation regarding the organization's problem management life cycle and ticketing system framework,G. IT Operations Management,G.6
+"Documentation regarding the organization's customer contact and communication process, including any specific Service Level Agreements (SLA) or requirements",G. IT Operations Management,G.7
+Documentation regarding the policies and procedures for the monitoring of security operations including evidence of day to day management of monitoring and reporting activities,G. IT Operations Management,G.8
+Access control policy and procedure documentation,H. Access Control,H.1
+Corporate password policy and procedures documentation,H. Access Control,H.2
+"Process for revoking system and physical access, including an example of a termination checklist",H. Access Control,H.3
+"A copy of the current, approved logical access policy",H. Access Control,H.4
+"Documentation regarding the process for reviewing, revoking or disabling access to inactive accounts, including a sample user access report",H. Access Control,H.5
+Documentation regarding the policies and procedures to prevent unauthorized access to unattended systems,H. Access Control,H.6
+Access control policy and procedure for privileged accounts,H. Access Control,H.7
+"A copy of the current, approved physical access policy",H. Access Control,H.8
+Policy and procedures for remote access,H. Access Control,H.9
+Documentation regarding the process for monitoring and reviewing user access rights,H. Access Control,H.10
+Documentation that details policy and procedures regarding system boot,H. Access Control,H.11
+Process for granting customer user access,H. Access Control,H.12
+Documentation related to the use of a remote desktop support function,H. Access Control,H.13
+"Documentation regarding the organization's policies, standards, procedures regarding the use of log on banners for accessing target systems, including the standard language used to convey obligations for access",H. Access Control,H.14
+Document(s) that constitute the application security risk governance program,I. Application Security,I.1
+"All policies, standards and procedures related to SDLC controls",I. Application Security,I.2
+"Documents that define the organization's SDLC requirements, criteria, and the process to conduct security reviews",I. Application Security,I.3
+"Documentation regarding the standard policies and procedures to address security in the development process, including code reviews for target systems or applications",I. Application Security,I.4
+Documentation regarding the process for maintenance of software application inventory and evidence of the software application inventory,I. Application Security,I.5
+A copy of the organization's risk classification process,I. Application Security,I.6
+"Documentation regarding the policies and procedures for performing a privacy impact assessment, including the lists of projects in development or completed in the last 12 months",I. Application Security,I.7
+A copy of their secure architectural design process or standard,I. Application Security,I.8
+A copy of its secure code review process,I. Application Security,I.9
+"Documentation regarding the policies and procedures for performing security reviews on externally developed applications, including a list of externally developed applications that process, store or transmit scoped data",I. Application Security,I.10
+A copy of its utilization of open source code process,I. Application Security,I.11
+A copy of its QA_UAT process,I. Application Security,I.12
+A copy of its procedures related to the use and protection of production data being utilized in the test environment(s),I. Application Security,I.13
+"Documentation on policies, procedures or standards for web server and application log on activity logging",I. Application Security,I.14
+Documentation regarding the policies and procedures for administrative activity logging,I. Application Security,I.15
+Documentation on policy and procedures regarding log retention,I. Application Security,I.16
+Documentation regarding its system monitoring process,I. Application Security,I.17
+A copy of the security production monitoring process,I. Application Security,I.18
+Documentation on the policies and content of the application security training program and evidence that developers have completed such training,I. Application Security,I.19
+"A copy of the incident management policy(ies), plans and procedures",J. Cybersecurity Incident Mgmt,J.1
+Documentation which validates roles and responsibilities of its incident response team as well as training,J. Cybersecurity Incident Mgmt,J.2
+"Incident management related communications plans, procedures and templates",J. Cybersecurity Incident Mgmt,J.3
+"Documentation detailing resources and tools available for information security/information technology incident handling including recommended practices for securing networks, systems and applications",J. Cybersecurity Incident Mgmt,J.4
+Documentation related to the process for identifying incidents and the common attack vectors related to those incidents,J. Cybersecurity Incident Mgmt,J.5
+Documentation describing the Incident Management Analysis process,J. Cybersecurity Incident Mgmt,J.6
+Documentation of the process for defining and maintaining records related to an information security/information technology incident,J. Cybersecurity Incident Mgmt,J.7
+Documentation validating the containment strategy employed by the information security/information technology incident management program for the organization,J. Cybersecurity Incident Mgmt,J.8
+Documentation regarding the information security/information technology incident management program including the processes for containment and eradication,J. Cybersecurity Incident Mgmt,J.9
+Documentation of its backup and recovery plan procedures to recover from an incident or threat that impacts critical assets or systems,J. Cybersecurity Incident Mgmt,J.10
+Documentation of its post incident process,J. Cybersecurity Incident Mgmt,J.11
+"A copy of its business resilience policy, as well as the documentation detailing business resilience roles and responsibilities, processes and management reporting",K. Operational Resilience,K.1
+A copy of the most recent business impact analysis (BIA),K. Operational Resilience,K.2
+The results of the latest enterprise and location level risk assessment(s) performed,K. Operational Resilience,K.3
+Documents regarding the most recent crisis management and business continuity and disaster recovery plans,K. Operational Resilience,K.4
+"Documentation regarding its backup and replication processes and capabilities, including an executive summary of the last test of the backup process and the replication process (as appropriate)",K. Operational Resilience,K.5
+"Business resilience exercise procedures and related reference information for critical systems, applications or business processes",K. Operational Resilience,K.6.
+A copy of its most recent infectious disease plan,K. Operational Resilience,K.7
+A copy of its business interruption insurance policy declaration pages,K. Operational Resilience,K.8
+"Documentation that defines organizational structures and oversight functions including any policies, standards, and procedures for compliance with legal, regulatory, and standards obligations",L. Compliance and Ops Risk,L.1
+"Documentation of its Environmental, Social, and Corporate Governance (ESG) risk management program, including processes for reporting, documenting and monitoring its commitments",L. Compliance and Ops Risk,L.2
+A copy of its professional ethics and business practices program and related operational procedures and/or guidelines,L. Compliance and Ops Risk,L.3
+A copy of its compliance program or set of policies and procedures that address its marketing and selling activities,L. Compliance and Ops Risk,L.4
+Documentation on policy and procedures for end user or endpoint security configuration standards,M. Endpoint Device Security,M.1
+"Documentation of the policies and procedures for end user device log on activity logging, including a sample activity log or screen shot that shows logging of end user device access",M. Endpoint Device Security,M.2
+"Documentation regarding the process to maintain up-to-date IDS/IPS signatures, including the most report or screen shot of the IDS/IPS signatures",N. Network Security,N.1
+"Documentation regarding the deployment of firewalls or devices to protect the organization from outside entities, including a network diagram of the target systems or applications",N. Network Security,N.2
+Documentation regarding the policies and procedures for deployment of IDS/IPS systems,N. Network Security,N.3
+Documentation related to its standards for requiring input validation for all internet facing web forms,N. Network Security,N.4
+Documentation regarding the guidelines for the management of externally facing administration ports,N. Network Security,N.5
+Documented process for DoS protection,N. Network Security,N.6
+"Documentation regarding the policies and processes to manage and monitor for unauthorized wireless networks, including evidence of the most recent scan",N. Network Security,N.7
+Documentation regarding the organization's policies and procedures to encrypt wireless networks,N. Network Security,N.8
+Policies and procedures related to its firewall rule change management,N. Network Security,N.9
+"Documentation regarding the process maintain network logging, including a sample network connection log",N. Network Security,N.10
+Documentation regarding its network monitoring process,N. Network Security,N.11
+"Documentation for data loss prevention program that includes but is not limited policies, procedures and evaluation criteria",N. Network Security,N.12
+"Documentation related to its DLP configuration, rules/policies and fingerprinting",N. Network Security,N.13
+Documentation reflecting the current monitoring processes and metrics in place,N. Network Security,N.14
+"Compliance documentation regarding its client-scoped data inventory, the data flow, in scope privacy regulatory jurisdictions, privacy policy and procedures, including any data classification policy or procedures",P. Privacy,P.1
+"Documentation regarding organizational structure and scope of the data privacy or data protection program, including policies, standards and procedures related to privacy program management functions.",P. Privacy,P.2
+Documentation regarding the delivery and schedule of privacy awareness training to the organization and its constituents,P. Privacy,P.3
+Documentation regarding the organization's privacy impact assessment process or policies/procedures that demonstrate how privacy requirements are addressed based on changes to the internal or external environment,P. Privacy,P.4
+"Documentation including any data confidentiality agreements, operating procedures or any related instructions, statements of work, compliance requirements, applicable terms and conditions, regarding scoped data",P. Privacy,P.5
+"Privacy Notice documentation that includes a sample of the current web privacy notice(s) applicable to the services provided; description of the mechanism to provide access to the Notice and documentation regarding the policies, procedures or guidelines for maintenance of the notice",P. Privacy,P.6
+"Documentation of policies, procedures or guidelines that describe the privacy incident reporting, notification, communications and post-incident handling regarding unauthorized disclosure or breach of personal information",P. Privacy,P.7
+"Documentation of policies, procedures or guidelines that describe the privacy incident reporting, notification, communications and post-incident handling regarding unauthorized disclosure or breach of personal information",P. Privacy,P.8
+"Documentation regarding policies, procedures or guidelines regarding the definition and implementation of standard contractual agreements, data processing agreements, terms and conditions and governance processes for entities involved in the delivery of services. Documentation should include any external audit reports specific to the services provided e.g., SCA, SOC1, SOC2, SOC3",P. Privacy,P.9
+"Documentation regarding the organization's legal or regulatory authorizations, process for handling privacy inquiries, complaints or disputes from individuals; and any publicly available privacy regulator complaints, findings or court ruling(s) concerning privacy",P. Privacy,P.10
+"Documentation that includes policies, procedures or standards that address the deployment of controls for anti-malware, including the current settings and definitions for each product",T. Threat Management,T.1
+Documentation regarding the procedures to deploy and maintain virus protection software,T. Threat Management,T.2
+Documentation regarding the process for managing anti-virus definition files for workstations,T. Threat Management,T.3
+Documentation regarding the process for internal and/or external vulnerability scans on internal system components and networks including the latest internal or external scan results,T. Threat Management,T.4
+"Documentation regarding the process for conducting vulnerability testing and developing remediation plans for target systems, including test results from one external vulnerability scan report dated within the preceding two to six months",T. Threat Management,T.5
+"Documentation regarding the policies, standards or guidelines regarding the use of mobile code in the environment for target systems",T. Threat Management,T.6
+"A copy of the current, approved system configuration and hardening standards for each type of operating system in use for workstations, servers and network devices",U. Server Security,U.1
+"Documentation regarding the current, approved system configuration and hardening standard for each type of non-Windows based operating system in use for specific operating systems",U. Server Security,U.2
+Documentation on policies and operational procedures specific to patch management,U. Server Security,U.3
+Documentation regarding the approved system configuration and hardening standard and/or the operational procedures for emerging technologies,U. Server Security,U.4
+"Documentation regarding the usage of Cloud Service Provider (CSP) services related to security policies, controls and delineation of security responsibilities, including component and system configuration standards",V. Cloud Hosting Services,V.1
+"Documentation on the company's governance process for cloud hosting, include the internal and external audit assurance responsibilities; the Cloud Hosting Provider's independent audit reports (e.g., Service Operational Control-SOC, ISO Certification) for their cloud hosting services and any CSP audit program documentation",V. Cloud Hosting Services,V.2
