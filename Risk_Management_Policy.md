@@ -790,7 +790,7 @@ Before we commit to any new service, we ask three risk questions:
 ### 10.2 Making Risk Visible Without Extra Meetings
 
 **In Our Planning Board**
-- High-risk items get a 🔥 emoji in Azure DevOps
+- High-risk items get highlighted in bold red font on Azure DevOps
 - Risk mitigation tasks are labeled "risk-reduction"
 - Post-incident fixes are labeled "incident-prevention"
 - This makes risk work visible without special reports
