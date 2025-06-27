@@ -127,7 +127,7 @@ Severity 4 - Low incidents can be addressed the next business day and cover rout
 
 ### 3.2 Incident Types
 
-*NIST Controls: IR-4, IR-8*
+*NIST Controls: IR-4, IR-5, IR-6, IR-8, IR-9, AC-7, AC-17, IA-5, SI-3, SI-4, SI-7, SI-12, SI-13, CP-10, PE-3, PE-6, MP-5, MP-6
 
 We maintain a proactive posture toward security, identifying and classifying potential incidents to ensure appropriate controls, rapid response, and continuous mitigation efforts. While incidents often span multiple categories, our approach is rooted in anticipating attack vectors and limiting impact through layered defenses and procedural readiness.
 
