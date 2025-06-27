@@ -106,49 +106,84 @@ Before any code reaches production, it undergoes security testing appropriate to
 
 ## 3. Roles and Responsibilities
 
-### 3.1 Leadership Accountability
+### 3.1 Executive Oversight and Strategic Security Governance
 
-**Chief Executive Officer (CEO)**
+#### Executive Management Team
 
-As the leader of OversiteAI, our CEO bears ultimate accountability for the organization's security posture and the protection of company and customer interests. This responsibility extends beyond mere oversight to active championship of security initiatives and culture throughout the organization. The CEO demonstrates this commitment by allocating appropriate resources to security initiatives, even when competing against feature development or other business priorities.
+OversiteAI’s Executive Management Team—comprising key corporate officers such as the Chief Executive Officer (CEO), Chief Technology Officer (CTO), and Chief Operating Officer (COO)—bears collective responsibility for the organization’s security posture. Executive oversight ensures that information security is integrated into strategic decision-making and aligned with the company’s risk tolerance, legal obligations, and business objectives.
 
-The CEO's security responsibilities include approving major security policies and investments, ensuring that security considerations are included in strategic business decisions, and serving as the ultimate escalation point for security matters that could impact business operations or reputation. Regular briefings from the CTO keep the CEO informed of our security posture, emerging threats, and any incidents that could affect stakeholders. This executive engagement ensures that security remains a business priority rather than being relegated to a purely technical concern.
+The Executive Management Team:
+- Endorses and periodically reviews the company’s information security policies.
+- Allocates sufficient resources, financial and personnel, to support the information security program.
+- Receives regular briefings on security matters from the CTO and/or designated security leadership.
+- Reviews findings from internal audits, assessments, and incidents with input from security and risk management personnel.
 
-**Chief Technology Officer (CTO)**
+#### Governance Committees
 
-Our CTO serves as the executive directly responsible for implementing and maintaining OversiteAI's information security program. This role combines strategic security leadership with hands-on technical oversight appropriate to our company size. The CTO develops and maintains our security policies, ensuring they remain relevant and practical as our business evolves. Rather than delegating security to a separate team, the CTO's direct involvement ensures security considerations are integrated into all technology decisions.
+OversiteAI’s security and risk strategy is supported by formal governance bodies such as the **Information Security Steering Committee** and the **Audit & Risk Committee** of the Board of Directors. These entities ensure independent oversight and maintain responsibility for approving critical security decisions and evaluating organizational risk exposure.
 
-The CTO leads our incident response efforts, serving as the incident commander for security events that could impact business operations. This includes maintaining relationships with external security resources we might need to engage for specialized investigations or response activities. Regular security metrics and status reports flow from the CTO to the CEO and board, providing transparency into our security posture and any areas requiring attention or investment.
+Security responsibilities may be delegated to appropriate personnel or committees through documented governance structures.
 
-### 3.2 Technical Leadership
+---
 
-**Development Team Lead**
+### 3.2 Technical Leadership and Implementation
 
-Our Development Team Lead plays a crucial role in translating security policies into practical implementation within our software development processes. This includes establishing and maintaining secure coding standards that developers can readily understand and follow. The Team Lead ensures that security requirements are properly captured and implemented in all development projects, working closely with developers to find secure solutions that don't compromise functionality or usability.
+#### Chief Technology Officer (CTO)
 
-Security testing coordination falls under the Team Lead's purview, including decisions about when additional security testing is warranted beyond our standard automated scans. The Team Lead also maintains our secure development environment, ensuring that development systems are properly isolated from production and that developers have the tools they need to write secure code efficiently. By embedding security expertise within development leadership, we ensure that security and functionality are balanced rather than competing concerns.
+The CTO is accountable for leading OversiteAI’s information security program as part of broader technology oversight. Operational execution of security strategies may be delegated to specialized personnel or committees while retaining executive visibility and governance.
 
-**DevOps Lead**
+Key responsibilities include:
+- Developing and maintaining security policies, standards, and guidelines in line with business needs and regulatory requirements.
+- Ensuring that security is embedded into technology decisions, architecture, and operational planning.
+- Leading the response to significant security incidents, with coordination across relevant internal and external stakeholders.
+- Providing periodic security metrics and risk updates to the Executive Management Team and Board oversight committees.
 
-Infrastructure security is the primary domain of our DevOps Lead, who implements and maintains the technical controls that protect our Azure-based infrastructure. This includes configuring cloud security services, managing identity and access management systems, and ensuring that all systems maintain secure configurations. The DevOps Lead serves as our primary technical investigator for security alerts, analyzing Azure Security Center notifications and other monitoring outputs to identify genuine threats requiring response.
+#### Development Team Leadership
 
-Beyond reactive monitoring, the DevOps Lead proactively improves our infrastructure security posture by implementing automation that reduces human error and ensures consistent security configurations. This includes infrastructure-as-code approaches that make security configurations reproducible and auditable. The DevOps Lead also manages the technical aspects of access control, implementing just-in-time access systems and ensuring that privileged access is properly controlled and monitored.
+Designated engineering leadership, typically the Development Team Lead or an equivalent role, ensures the secure development of OversiteAI’s software and services.
 
-### 3.3 Organizational Responsibilities
+Key responsibilities include:
+- Translating security policies into practical development practices.
+- Maintaining secure coding standards and integrating security requirements into software development lifecycles.
+- Coordinating application-level security testing and vulnerability remediation.
+- Ensuring that development environments are logically separated from production and remain appropriately secured.
 
-**All Employees**
+#### DevOps Leadership
 
-Every member of the OversiteAI team shares responsibility for maintaining our security posture. This universal responsibility reflects the reality that in a small organization, security cannot be delegated to a specialized team but must be embraced by everyone. Employees are expected to familiarize themselves with and follow all security policies and procedures relevant to their roles, recognizing that these policies protect not just the company but also their own work and reputation.
+The DevOps Lead, or infrastructure lead responsible for platform operations, oversees the secure configuration and operation of OversiteAI’s infrastructure.
 
-Prompt reporting of security incidents or concerns is a critical employee responsibility. We maintain a no-blame culture for security reporting, recognizing that early detection and response to security issues is more valuable than perfect prevention. Employees must report lost or stolen devices within two hours, suspicious emails or access attempts immediately upon detection, and any observed violations of security policy regardless of who is involved. This reporting culture creates multiple sensors for detecting security issues before they escalate.
+Key responsibilities include:
+- Maintaining secure configurations and hardening practices for cloud-based systems (e.g., Azure).
+- Managing identity and access management in accordance with least privilege and just-in-time access principles.
+- Monitoring infrastructure for threats and misconfigurations using automated tools and responding to alerts.
+- Leveraging Infrastructure-as-Code (IaC) and other automation to enforce consistent, auditable security controls.
 
-Security training is not optional but a required element of employment at OversiteAI. All employees must complete initial security orientation during onboarding and annual refresher training thereafter. Role-specific training provides deeper knowledge for those in positions with greater security impact. Employees are expected to apply this training in their daily work, maintaining strong passwords, locking screens when away from their desks, and questioning unusual requests even from apparent authority figures.
+---
 
-**Human Resources Function**
+### 3.3 Organizational Security Responsibilities
 
-While we don't have a dedicated HR department at our current size, the team member responsible for HR functions plays a vital role in our security program. This begins with conducting appropriate background checks during the hiring process, scaled to the level of access and responsibility the position will hold. The HR function ensures that new employees receive security orientation as part of onboarding, including review and acknowledgment of security policies before system access is granted.
+#### All Employees
 
-The HR function coordinates closely with IT during employee terminations to ensure that access is revoked promptly and company assets are returned. This includes maintaining termination checklists that ensure no access paths are overlooked. For employees with elevated access or knowledge of particularly sensitive information, the HR function may coordinate additional exit procedures such as reminders of continuing confidentiality obligations. Throughout the employee lifecycle, the HR function maintains appropriate confidentiality of employee information while supporting security requirements.
+Every team member is responsible for supporting OversiteAI’s security posture by complying with established security policies and participating in the organization’s risk-aware culture.
+
+Employee responsibilities include:
+- Completing required security training during onboarding and annually thereafter.
+- Reporting security incidents or concerns promptly, supported by a no-blame reporting culture.
+- Practicing secure behavior such as using strong passwords, locking devices, and verifying suspicious communications.
+
+Security awareness and behavior are monitored and reinforced by periodic simulations, role-based training, and compliance tracking.
+
+#### Human Resources (HR) Function
+
+The HR function supports OversiteAI’s security program through secure workforce management practices throughout the employee lifecycle.
+
+Responsibilities include:
+- Ensuring appropriate background checks during hiring, proportionate to access and role sensitivity.
+- Coordinating onboarding security training and policy acknowledgment prior to system access.
+- Managing secure offboarding in coordination with IT, including access revocation and asset return checklists.
+- Reinforcing confidentiality and acceptable use expectations through policy communications and annual re-acknowledgments.
+
+In the absence of a dedicated HR department, these responsibilities are performed by a designated team member under the guidance of the Executive Management Team.
 
 ---
 
