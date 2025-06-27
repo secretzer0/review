@@ -33,9 +33,9 @@
     - [Appendix A: NIST Control Mapping](#appendix-a-nist-control-mapping)
     - [Appendix B: Data Inventory](#appendix-a-data-inventory)
     - [Appendix C: Vendor Privacy Matrix](#appendix-b-vendor-privacy-matrix)
-    - [Appendix D: Privacy Incident Response Quick Reference(#appendix-d-privacy-incident-response-quick-reference)
-    - [Appendix E: Template Privacy Responses(#appendix-e-template-privacy-responses)
-    - [Appendix F: Annual Privacy Review Checklist(appendix-f-annual-privacy-review-checklist)
+    - [Appendix D: Privacy Incident Response Quick Reference](#appendix-d-privacy-incident-response-quick-reference)
+    - [Appendix E: Template Privacy Responses](#appendix-e-template-privacy-responses)
+    - [Appendix F: Annual Privacy Review Checklist](appendix-f-annual-privacy-review-checklist)
 
 
 ---
