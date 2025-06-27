@@ -27,7 +27,8 @@
 13. [Legal and Regulatory Requirements](#13-legal-and-regulatory-requirements)
 14. [Resource Management](#14-resource-management)
 15. [Document Maintenance](#15-document-maintenance)
-16. [Appendices](#16-appendices)
+16. [Document Control](#16-document-control)
+17. [Appendices](#17-appendices)
     - [Appendix A: Incident Report Form](#appendix-a-incident-report-form)
     - [Appendix B: Evidence Chain of Custody Form](#appendix-b-evidence-chain-of-custody-form)
     - [Appendix C: Communication Templates](#appendix-c-communication-templates)
@@ -35,7 +36,6 @@
     - [Appendix E: Technical Procedures](#appendix-e-technical-procedures)
     - [Appendix F: Contact Lists](#appendix-f-contact-lists)
     - [Appendix G: NIST Control Mapping](#appendix-g-nist-control-mapping)
-17. [Document Control](#17-document-control)
 
 ---
 
@@ -694,7 +694,38 @@ Audit trail maintenance demonstrates due diligence to auditors while supporting 
 
 ---
 
-## 16. Appendices
+## 16. Document Control
+
+*NIST Controls: PM-4, SA-5*
+
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 1.1 | January 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
+| 2.0 | January 27, 2025 | CTO | Complete narrative transformation - converted bullet points to flowing prose while maintaining all technical content |
+
+**Review and Approval**
+
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
+
+- **Reviewed By**: _________________ Date: _______
+  Legal Counsel
+
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
+
+**Next Review Date**: January 1, 2026
+
+**Distribution**:
+- Executive Team
+- Incident Response Team
+- Board of Directors (summary version)
+- External Auditors (upon request)
+
+---
+
+## 17. Appendices
 
 ### Appendix A: Incident Report Form
 
@@ -1046,37 +1077,3 @@ This Incident Response Plan implements the following NIST SP 800-53 controls:
 
 This comprehensive control mapping demonstrates our commitment to federal standards while maintaining practical implementation appropriate for our size and cloud-native architecture.
 
----
-
-## 17. Document Control
-
-*NIST Controls: PM-4, SA-5*
-
-| Version | Date | Author | Changes |
-|---------|------|--------|---------|
-| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
-| 1.1 | January 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
-| 2.0 | January 27, 2025 | CTO | Complete narrative transformation - converted bullet points to flowing prose while maintaining all technical content |
-
-**Review and Approval**
-
-- **Prepared By**: _________________ Date: _______
-  Chief Technology Officer
-
-- **Reviewed By**: _________________ Date: _______
-  Legal Counsel
-
-- **Approved By**: _________________ Date: _______
-  Chief Executive Officer
-
-**Next Review Date**: January 1, 2026
-
-**Distribution**:
-- Executive Team
-- Incident Response Team
-- Board of Directors (summary version)
-- External Auditors (upon request)
-
----
-
-*End of Document*
