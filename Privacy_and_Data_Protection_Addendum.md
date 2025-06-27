@@ -54,7 +54,7 @@ OversiteAI operates under a revolutionary privacy model: we have architected our
 
 This addendum applies to all OversiteAI operations, employees, contractors, and business processes. It clarifies the distinction between the minimal business data we process for our operations and the complete absence of customer data processing in our business model. All team members must understand and support this privacy-first architecture.
 
-**Control Mapping**: SOC 2 CC1.2, CC1.3, CC1.4, CC1.5, P1.1
+**Control Mapping**: SOC 2 CC1.2, CC1.3, CC1.4, CC1.5, P1.1 | NIST PM-1, AR-1
 
 ---
 
@@ -82,7 +82,7 @@ Our architectural approach provides several unique privacy advantages. Data resi
 
 Privacy compliance becomes significantly simpler for our customers. They don't need to evaluate our privacy practices, review our subprocessors, or worry about our compliance with various privacy regulations regarding their data. Since we never touch their data, we can't compromise it, lose it, or misuse it. This dramatically reduces their vendor risk assessment burden and simplifies their own privacy compliance efforts.
 
-**Control Mapping**: SOC 2 CC1.1, CC3.1, CC6.1, P1.1, P2.1
+**Control Mapping**: SOC 2 CC1.1, CC3.1, CC6.1, P1.1, P2.1 | NIST AR-1, AR-2, AR-7, UL-2
 
 ---
 
@@ -117,7 +117,7 @@ For the limited business data we do process, we adhere to core privacy principle
 
 We implement appropriate retention periods based on legal requirements and business needs, not indefinite retention. We ensure data security through comprehensive technical and organizational measures detailed in our Information Security Policy. We provide transparency through this document and our privacy notices about what data we process and why.
 
-**Control Mapping**: SOC 2 CC3.1, CC3.2, P2.1, P3.1, P3.2
+**Control Mapping**: SOC 2 CC3.1, CC3.2, P2.1, P3.1, P3.2 | NIST DI-1, DM-1, SE-1, UL-1
 
 ---
 
@@ -145,7 +145,7 @@ While we eliminate privacy risks through architecture, we recognize that our cus
 
 Our software includes features that help customers meet their privacy obligations. Configurable data retention policies allow automatic deletion after specified periods. Role-based access controls enable principle of least privilege. Audit trails track all data access and modifications. These features operate entirely within the customer environment, maintaining our zero-access model while supporting customer compliance.
 
-**Control Mapping**: SOC 2 CC1.2, CC2.1, CC6.1, P1.1, P4.1
+**Control Mapping**: SOC 2 CC1.2, CC2.1, CC6.1, P1.1, P4.1 | NIST AP-2, IP-1, DM-3
 
 ---
 
@@ -173,7 +173,7 @@ Our internal business operations follow privacy-by-design principles similar to 
 
 We maintain clear boundaries between different types of business data. HR data is accessible only to those with specific need-to-know. Financial data is restricted to finance team members. Customer contact data is available to sales and support teams but not to development teams. This segmentation reduces privacy risks from both accidental exposure and potential breaches.
 
-**Control Mapping**: SOC 2 CC1.3, CC2.1, P2.1, P5.1, P6.1
+**Control Mapping**: SOC 2 CC1.3, CC2.1, P2.1, P5.1, P6.1 | NIST DM-2, SE-1, UL-1
 
 ---
 
@@ -205,7 +205,7 @@ For individuals who wish to exercise privacy rights regarding data we process, w
 
 We commit to acknowledging requests within 48 business hours and fulfilling them within 30 days, though our simple data architecture typically allows much faster response. We don't charge fees for rights requests and don't have complex eligibility requirements. If we cannot fulfill a request (for example, because we don't have any data about the requester), we clearly explain this rather than creating obstacles.
 
-**Control Mapping**: SOC 2 P6.1, P6.2, P6.3, P6.4, P6.5, P6.6, P6.7
+**Control Mapping**: SOC 2 P6.1, P6.2, P6.3, P6.4, P6.5, P6.6, P6.7 | NIST IP-2, IP-3, IP-4, DI-2
 
 ---
 
@@ -233,7 +233,7 @@ Supporting international customers while maintaining our zero-access architectur
 
 When international customers require contractual commitments regarding data protection, we provide our standard zero-access attestations. These documents explain that international data transfer provisions are unnecessary when no data transfer capability exists. This architectural approach often simplifies customer procurement processes by eliminating complex data transfer impact assessments.
 
-**Control Mapping**: SOC 2 CC1.4, P2.1, P7.1
+**Control Mapping**: SOC 2 CC1.4, P2.1, P5.2 | NIST UL-4, AC-20
 
 ---
 
@@ -269,7 +269,7 @@ Every privacy incident, even minor ones, triggers a lessons-learned review. Our 
 
 Improvements are implemented rapidly. Unlike large organizations that might take months to roll out changes, we can update procedures, implement new controls, and retrain staff within days. This agility helps us continuously improve our privacy posture based on real-world experience.
 
-**Control Mapping**: SOC 2 CC7.1, CC7.2, CC7.3, CC7.4, CC7.5, P6.6
+**Control Mapping**: SOC 2 CC7.1, CC7.2, CC7.3, CC7.4, CC7.5, P6.6 | NIST SE-2, IR-1, IR-2, IR-3, IR-4, IR-5, IR-6, IR-7, IR-8
 
 ---
 
@@ -297,7 +297,7 @@ This position extends to our product development. We don't outsource development
 
 When vendors ask about subprocessor lists or fourth-party management, we can confidently state: there are none. This often accelerates customer procurement processes, as they don't need to evaluate complex processing chains or worry about data flowing to unknown fourth parties.
 
-**Control Mapping**: SOC 2 CC3.3, CC9.1, CC9.2, P4.1, P4.2, P4.3
+**Control Mapping**: SOC 2 CC3.3, CC9.1, CC9.2, P4.1, P4.2, P4.3 | NIST AR-3, UL-2, UL-3
 
 ---
 
@@ -325,7 +325,7 @@ While large technology companies publish transparency reports about government d
 
 Annually, we publish a simple transparency statement covering government requests for data (typically zero), privacy rights requests received and fulfilled, significant privacy incidents (hopefully zero), and changes to our privacy program. This report demonstrates our commitment to transparency even when there's little to report.
 
-**Control Mapping**: SOC 2 CC1.1, CC1.2, CC1.3, CC2.1, CC2.2, CC2.3, P1.1
+**Control Mapping**: SOC 2 CC1.1, CC1.2, CC1.3, CC2.1, CC2.2, CC2.3, P1.1 | NIST TR-1, TR-2, TR-3
 
 ---
 
@@ -355,7 +355,7 @@ We participate in industry discussions about privacy regulation and software arc
 
 When new regulations emerge, our compliance review is straightforward: Do we process covered data? Usually, the answer is no for customer data, and minimal for business operations. This allows us to focus on substantive compliance for the data we do process rather than complex applicability analyses.
 
-**Control Mapping**: SOC 2 CC1.4, CC1.5, CC2.1, P1.1, P8.1
+**Control Mapping**: SOC 2 CC1.4, CC1.5, CC2.1, P1.1, P8.1 | NIST AR-5, AR-8
 
 ---
 
@@ -385,7 +385,7 @@ We maintain open channels for privacy questions and concerns. Any employee can r
 
 Success stories reinforce our privacy culture. When we win deals because of our zero-access architecture, we share these wins company-wide. When we help customers solve complex compliance challenges through our architecture, we celebrate. These positive reinforcements maintain enthusiasm for our privacy-first approach.
 
-**Control Mapping**: SOC 2 CC1.1, CC1.2, CC2.2, CC2.3, CC2.4, P1.1
+**Control Mapping**: SOC 2 CC1.1, CC1.2, CC2.2, CC2.3, CC2.4, P1.1 | NIST AR-4, AT-1, AT-2, AT-3, AT-4
 
 ---
 
@@ -415,7 +415,7 @@ The PIA process integrates with our vendor management and change control process
 
 Results of PIAs are documented simply—often just an email thread or a brief document. We focus on capturing decisions and rationales rather than generating extensive paperwork. This documentation proves valuable when similar proposals arise later or when explaining our decisions to auditors or customers.
 
-**Control Mapping**: SOC 2 CC1.3, CC3.1, CC3.2, P1.1, P2.1, P8.1
+**Control Mapping**: SOC 2 CC1.3, CC3.1, CC3.2, P1.1, P2.1, P8.1 | NIST AR-2, CM-4
 
 ---
 
@@ -445,7 +445,7 @@ Documentation clearly explains the privacy implications of any configuration cha
 
 The principle of data protection by default extends to our business operations. New employees don't automatically get access to all systems—they receive only what their role requires. Marketing tools don't automatically capture maximum data—they're configured for minimal collection. Privacy isn't something we add when regulations require it; it's the starting point we relax only when necessary.
 
-**Control Mapping**: SOC 2 CC1.1, CC3.1, CC4.1, CC6.1, P1.1, P2.1
+**Control Mapping**: SOC 2 CC1.1, CC3.1, CC6.1, P1.1, P2.1 | NIST AR-7, SC-8
 
 ---
 
@@ -475,7 +475,7 @@ Improvement initiatives focus on practical enhancements rather than theoretical 
 
 We measure privacy program effectiveness through simple, meaningful metrics: Number of privacy incidents (target: zero), time to fulfill rights requests (target: under 5 days), privacy-related customer concerns (target: decreasing trend), and employee privacy training completion (target: 100%). These metrics drive real improvements rather than creating measurement burden.
 
-**Control Mapping**: SOC 2 CC1.1, CC1.2, CC1.3, CC1.4, CC1.5, CC2.1, P1.1
+**Control Mapping**: SOC 2 CC1.1, CC1.2, CC1.3, CC1.4, CC1.5, CC2.1, P1.1 | NIST AR-1, AR-8, PM-2
 
 ---
 
@@ -495,17 +495,18 @@ OverSiteAI is committed to upholding transparency and supporting the responsible
 
 For regulatory authorities needing to contact us regarding privacy matters, we provide direct access to decision-makers. Our CEO serves as the primary regulatory contact, ensuring authoritative responses to official inquiries. We maintain positive relationships with privacy regulators through transparency and responsiveness.
 
-**Control Mapping**: SOC 2 CC1.1, CC2.1, P1.1, P6.7
+**Control Mapping**: SOC 2 CC1.1, CC2.1, P1.1, P6.7 | NIST IP-4
 
 ---
 
 ## 17. Document Control
 
-*NIST Controls: PM-4, SA-5*
+**Control Mapping**: NIST PM-4, SA-5, CM-3
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 2.0 | June 27, 2025 | CTO | Updated NIST control mappings throughout document |
 
 **Review and Approval**
 
@@ -529,16 +530,120 @@ For regulatory authorities needing to contact us regarding privacy matters, we p
 
 ### Appendix A: NIST Control Mapping
 
-| Control Domain | SOC 2 Criteria | Implementation |
-|----------------|----------------|----------------|
-| Privacy Notice | P1.1 | Published notices, transparent practices |
-| Choice and Consent | P2.1 | Minimal processing, clear opt-outs |
-| Collection | P3.1, P3.2 | Data minimization, purpose limitation |
-| Use and Retention | P4.1, P4.2, P4.3 | Limited use, defined retention |
-| Disclosure | P5.1, P5.2 | No customer data disclosure possible |
-| Access | P6.1-P6.7 | Rights request process, support |
-| Quality | P7.1 | Accuracy maintenance procedures |
-| Monitoring | P8.1 | Privacy program monitoring |
+This appendix provides a comprehensive mapping of NIST Privacy Controls and SOC 2 criteria to specific sections within this Privacy and Data Protection Addendum. The mapping demonstrates how our privacy program addresses relevant control requirements through our architectural approach and operational practices.
+
+**Note on NIST Privacy Controls**: The NIST Privacy Control families referenced below are derived from NIST Special Publication 800-53, Revision 5, Appendix J (Privacy Control Catalog). These controls supplement security controls with privacy-specific requirements. Control mappings indicate where each section's content addresses the intent of specific NIST controls, though implementation may vary based on our organization's size and architectural model.
+
+#### Privacy Control Families Addressed
+
+**Authority and Purpose (AP)**
+- AP-1: Authority to Collect - Section 3 (Scope of Data Processing)
+- AP-2: Purpose Specification - Sections 3, 4 (Data Processing & Customer Responsibilities)
+
+**Authority and Responsibility (AR)**
+- AR-1: Governance and Privacy Program - Sections 2, 15 (Architecture & Governance)
+- AR-2: Privacy Impact and Risk Assessment - Sections 2, 13 (Architecture & PIAs)
+- AR-3: Privacy Requirements for Contractors - Section 9 (Third-Party Management)
+- AR-4: Privacy Monitoring and Auditing - Section 12 (Training and Awareness)
+- AR-5: Privacy Awareness and Training - Section 11 (Regulatory Compliance)
+- AR-7: Privacy-Enhanced System Design - Sections 2, 14 (Architecture & Design)
+- AR-8: Accountability, Audit, and Risk Management - Section 15 (Governance)
+
+**Data Quality and Integrity (DI)**
+- DI-1: Data Quality - Section 3 (Scope of Data Processing)
+- DI-2: Data Integrity and Integrity Board - Section 6 (Rights Framework)
+
+**Data Minimization and Retention (DM)**
+- DM-1: Minimization of Personally Identifiable Information - Section 3 (Scope)
+- DM-2: Data Retention and Disposal - Section 5 (Business Operations)
+- DM-3: Minimization of PII Used in Testing - Section 4 (Customer Responsibilities)
+
+**Individual Participation and Redress (IP)**
+- IP-1: Consent - Section 4 (Customer Responsibilities)
+- IP-2: Individual Access - Section 6 (Rights Framework)
+- IP-3: Redress - Section 6 (Rights Framework)
+- IP-4: Complaint Management - Sections 6, 16 (Rights & Contact)
+
+**Security (SE)**
+- SE-1: Inventory of Personally Identifiable Information - Section 5, Appendix B
+- SE-2: Privacy Incident Response - Section 8 (Privacy Incident Response)
+
+**Transparency (TR)**
+- TR-1: Privacy Notice - Section 10 (Documentation and Transparency)
+- TR-2: System of Records Notices and Privacy Act - Section 10 (Documentation)
+- TR-3: Dissemination of Privacy Program Information - Section 10 (Documentation)
+
+**Use Limitation (UL)**
+- UL-1: Internal Use - Section 3 (Scope of Data Processing)
+- UL-2: Information Sharing with Third Parties - Sections 2, 9 (Architecture & Third Parties)
+- UL-3: Information Sharing - Section 9 (Third-Party Management)
+- UL-4: Information Sharing with Foreign Countries - Section 7 (International Transfers)
+
+**Program Management (PM)**
+- PM-1: Information Security Program Plan - Section 1 (Executive Summary)
+- PM-2: Senior Information Security Officer - Section 15 (Governance)
+- PM-4: Plan of Action and Milestones Process - Section 17 (Document Control)
+
+**System and Services Acquisition (SA)**
+- SA-5: Information System Documentation - Section 17 (Document Control)
+
+**Configuration Management (CM)**
+- CM-3: Configuration Change Control - Section 17 (Document Control)
+- CM-4: Security Impact Analysis - Section 13 (Privacy Impact Assessments)
+
+**Access Control (AC)**
+- AC-20: Use of External Information Systems - Section 7 (International Transfers)
+
+**Incident Response (IR)**
+- IR-1 through IR-8: Incident Response Planning and Handling - Section 8
+
+**Awareness and Training (AT)**
+- AT-1 through AT-4: Security Awareness and Training - Section 12
+
+**System and Communications Protection (SC)**
+- SC-8: Transmission Confidentiality and Integrity - Section 14 (By Design)
+
+#### SOC 2 Privacy Criteria Mapping by Section
+
+| Section | Primary SOC 2 Criteria | Supporting NIST Controls |
+|---------|------------------------|-------------------------|
+| 1. Executive Summary | CC1.2-CC1.5, P1.1 | PM-1, AR-1 |
+| 2. Privacy Architecture | CC1.1, CC3.1, CC6.1, P1.1, P2.1 | AR-1, AR-2, AR-7, UL-2 |
+| 3. Scope of Data Processing | CC3.1-CC3.2, P2.1, P3.1-P3.2 | DI-1, DM-1, SE-1, UL-1 |
+| 4. Customer Responsibilities | CC1.2, CC2.1, CC6.1, P1.1, P4.1 | AP-2, IP-1, DM-3 |
+| 5. Business Operations | CC1.3, CC2.1, P2.1, P5.1, P6.1 | DM-2, SE-1, UL-1 |
+| 6. Privacy Rights | P6.1-P6.7 | IP-2, IP-3, IP-4, DI-2 |
+| 7. International Transfers | CC1.4, P2.1, P5.2 | UL-4, AC-20 |
+| 8. Privacy Incident Response | CC7.1-CC7.5, P6.6 | SE-2, IR-1 through IR-8 |
+| 9. Third-Party Management | CC3.3, CC9.1-CC9.2, P4.1-P4.3 | AR-3, UL-2, UL-3 |
+| 10. Documentation | CC1.1-CC1.3, CC2.1-CC2.3, P1.1 | TR-1, TR-2, TR-3 |
+| 11. Regulatory Compliance | CC1.4-CC1.5, CC2.1, P1.1, P8.1 | AR-5, AR-8 |
+| 12. Training and Awareness | CC1.1-CC1.2, CC2.2-CC2.4 | AR-4, AT-1 through AT-4 |
+| 13. Privacy Impact Assessments | CC1.3, CC3.1-CC3.2, P1.1, P2.1, P8.1 | AR-2, CM-4 |
+| 14. Privacy by Design | CC1.1, CC3.1, CC6.1, P1.1, P2.1 | AR-7, SC-8 |
+| 15. Privacy Governance | CC1.1-CC1.5, CC2.1, P1.1 | AR-1, AR-8, PM-2 |
+| 16. Contact Information | CC1.1, CC2.1, P1.1, P6.7 | IP-4 |
+| 17. Document Control | N/A | PM-4, SA-5, CM-3 |
+
+#### Control Family Coverage Summary
+
+| NIST Control Family | Primary Sections | Secondary Sections |
+|---------------------|------------------|-------------------|
+| Authority and Purpose (AP) | 3, 4 | - |
+| Authority and Responsibility (AR) | 2, 9, 11, 12, 13, 14, 15 | 1 |
+| Data Quality and Integrity (DI) | 3, 6 | - |
+| Data Minimization and Retention (DM) | 3, 4, 5 | - |
+| Individual Participation (IP) | 4, 6, 16 | - |
+| Security (SE) | 5, 8 | 3 |
+| Transparency (TR) | 10 | - |
+| Use Limitation (UL) | 2, 3, 5, 7, 9 | - |
+| Program Management (PM) | 1, 15, 17 | - |
+| System Acquisition (SA) | 17 | - |
+| Configuration Management (CM) | 13, 17 | - |
+| Access Control (AC) | 7 | - |
+| Incident Response (IR) | 8 | - |
+| Awareness and Training (AT) | 12 | - |
+| System Protection (SC) | 14 | - |
 
 ### Appendix B: Data Inventory
 
