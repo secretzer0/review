@@ -1,14 +1,12 @@
 # Access Control Policy
 ## OversiteAI, LLC
 
-**Document Version**: 2.0  
-**Effective Date**: January 1, 2025  
-**Last Updated**: June 25, 2025  
-**Review Frequency**: Annual  
-**Next Review Date**: January 1, 2026  
-**Classification**: Internal  
+**Document Version**: 2.0
+**Effective Date**: January 1, 2025
+**Last Updated**: June 27, 2025
+**Classification**: Restricted
 **Owner**: Chief Technology Officer  
-**Domain**: oversiteai.io
+**Approved By**: Chief Executive Officer 
 
 ---
 
@@ -479,24 +477,23 @@ Clear definitions ensure consistent understanding across our organization:
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
 
-**Review History**:
-- Document Created: January 1, 2025
-- Effective Date: January 1, 2025
-- Last Review: June 27, 2025
-- Next Review Due: January 1, 2026
-- Review Frequency: Annual
+**Review and Approval**
 
-**Document Approval**:
-- Prepared By: Chief Technology Officer  ______________  Date: __________
-- Reviewed By: Security Consultant  ____________________ Date: ___________
-- Approved By: Chief Executive Officer  ________________ Date: ___________
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
+
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
+
+**Next Review Date**: January 1, 2026
 
 **Distribution**:
 - All Employees: Via company policy portal
 - IT Team: Direct distribution for implementation
-- Auditors: Upon request
-- Partners: Relevant sections as needed
+- Executive Team
+- External Auditors (upon request)
 
 ---
 

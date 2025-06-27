@@ -1,13 +1,10 @@
 # Human Resources Security and Governance Policy
-## OversiteAI, LLC
-
-**Document Version**: 2.0  
-**Effective Date**: January 1, 2025  
-**Last Review Date**: June 27, 2025  
-**Next Review Date**: January 1, 2026  
-**Classification**: Internal  
-**Owner**: Chief Executive Officer  
-**Domain**: oversiteai.io
+**Document Version**: 2.0
+**Effective Date**: January 1, 2025
+**Last Updated**: June 27, 2025
+**Classification**: Restricted
+**Owner**: Chief Technology Officer
+**Approved By**: Chief Executive Officer
 
 ---
 
@@ -585,28 +582,30 @@ These documents work together to create comprehensive security coverage while av
 
 ---
 
-## Document Control
+## 15. Document Control
 
 *NIST Controls: PM-4, SA-5*
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 2.0 | June 25, 2025 | CTO | Initial comprehensive policy |
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
 
-**Review and Approval**:
+**Review and Approval**
 
-- **Document Owner**: Chief Technology Officer
-- **Technical Review**: Chief Technology Officer  
-- **Legal Review**: [External Legal Counsel]
-- **Board Approval**: [Board Chair]
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
 
-**Review Schedule**:
-- Last Review: June 27, 2025
-- Next Review Due: January 1, 2026
-- Review Frequency: Annual
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
+
+**Next Review Date**: January 1, 2026
 
 **Distribution**:
-This document is classified as Internal and is available to all OversiteAI employees through our standard documentation repository. The current version supersedes all previous versions.
+- All Employees: Via company policy portal
+- IT Team: Direct distribution for implementation
+- Executive Team
+- External Auditors (upon request)
 
 ---
 

@@ -1,14 +1,12 @@
 # Asset Management and Data Protection Policy
 ## OversiteAI, LLC
 
-**Document Version**: 2.0  
-**Effective Date**: January 1, 2025  
-**Last Updated**: January 15, 2025  
-**Review Frequency**: Annual  
-**Next Review Date**: January 1, 2026  
-**Classification**: Internal  
-**Owner**: Chief Technology Officer  
-**Approved By**: Chief Executive Officer  
+**Document Version**: 2.0
+**Effective Date**: January 1, 2025
+**Last Updated**: June 27, 2025
+**Classification**: Restricted
+**Owner**: Chief Technology Officer
+**Approved By**: Chief Executive Officer
 
 ---
 
@@ -588,30 +586,26 @@ We also maintain relationships with security communities and vendor resources th
 
 *NIST Controls: PM-4, SA-5*
 
-### Document History
-
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
-| 1.0 | January 1, 2025 | [Name], CTO | Initial comprehensive version transformed from framework |
-| 2.0 | January 15, 2025 | [Name], CTO | Added NIST control mappings throughout document and new Appendix G |
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
 
-### Review and Approval
+**Review and Approval**
 
-**Document Review**:
-- Last Review Date: January 15, 2025
-- Next Review Date: January 1, 2026
-- Review Frequency: Annual
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
 
-**Approval Record**:
-- Prepared By: _______________________ Title: Chief Technology Officer  Date: January 15, 2025
-- Reviewed By: _______________________ Title: [Title]  Date: ______________
-- Approved By: _______________________ Title: Chief Executive Officer  Date: ______________
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
 
-### Distribution and Access
+**Next Review Date**: January 1, 2026
 
-This policy is distributed to all OversiteAI employees through our SharePoint document management system. The current version is always available in the Security Policies folder, with previous versions archived for reference. All employees receive notification of significant updates through company communication channels.
-
-Access to this policy is granted to all employees, contractors with signed NDAs, and external auditors under appropriate confidentiality agreements. The policy is marked as Internal classification, requiring protection from public disclosure while allowing broad internal distribution to ensure all team members understand their security responsibilities.
+**Distribution**:
+- All Employees: Via company policy portal
+- IT Team: Direct distribution for implementation
+- Executive Team
+- External Auditors (upon request)
 
 ---
 

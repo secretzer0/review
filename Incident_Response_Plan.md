@@ -3,7 +3,7 @@
 
 **Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
-**Last Updated**: January 27, 2025  
+**Last Updated**: June 27, 2025  
 **Classification**: Restricted  
 **Owner**: Chief Technology Officer  
 **Approved By**: Chief Executive Officer  
@@ -707,9 +707,6 @@ Audit trail maintenance demonstrates due diligence to auditors while supporting 
 
 - **Prepared By**: _________________ Date: _______
   Chief Technology Officer
-
-- **Reviewed By**: _________________ Date: _______
-  Legal Counsel
 
 - **Approved By**: _________________ Date: _______
   Chief Executive Officer

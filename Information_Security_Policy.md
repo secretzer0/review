@@ -1,119 +1,40 @@
 # Information Security Policy
 ## OversiteAI, LLC
 
-**Document Version**: 2.0  
-**Effective Date**: January 1, 2025  
-**Classification**: Internal  
-**Owner**: Chief Technology Officer  
-**Approved By**: Chief Executive Officer  
+**Document Version**: 2.0
+**Effective Date**: January 1, 2025
+**Last Updated**: June 27, 2025
+**Classification**: Restricted
+**Owner**: Chief Technology Officer
+**Approved By**: Chief Executive Officer
 
 ---
 
 ## Table of Contents
 
 1. [Purpose and Scope](#1-purpose-and-scope)
-   - 1.1 [Purpose](#11-purpose)
-   - 1.2 [Scope](#12-scope)
-   - 1.3 [Policy Objectives](#13-policy-objectives)
-
 2. [Information Security Principles](#2-information-security-principles)
-   - 2.1 [Core Security Principles](#21-core-security-principles)
-   - 2.2 [Security by Design](#22-security-by-design)
-
 3. [Roles and Responsibilities](#3-roles-and-responsibilities)
-   - 3.1 [Leadership Accountability](#31-leadership-accountability)
-   - 3.2 [Technical Leadership](#32-technical-leadership)
-   - 3.3 [Organizational Responsibilities](#33-organizational-responsibilities)
-
 4. [Asset Management](#4-asset-management)
-   - 4.1 [Comprehensive Asset Inventory](#41-comprehensive-asset-inventory)
-   - 4.2 [Information Classification Framework](#42-information-classification-framework)
-   - 4.3 [Asset Lifecycle Management](#43-asset-lifecycle-management)
-   - 4.4 [Acceptable Use Standards](#44-acceptable-use-standards)
-
 5. [Access Control](#5-access-control)
-   - 5.1 [Access Management Philosophy](#51-access-management-philosophy)
-   - 5.2 [Identity and Authentication Management](#52-identity-and-authentication-management)
-   - 5.3 [Authorization and Privileged Access](#53-authorization-and-privileged-access)
-   - 5.4 [Remote Access Security](#54-remote-access-security)
-
 6. [Cryptography and Data Protection](#6-cryptography-and-data-protection)
-   - 6.1 [Encryption Strategy](#61-encryption-strategy)
-   - 6.2 [Key Management Practices](#62-key-management-practices)
-   - 6.3 [Certificate Management](#63-certificate-management)
-
 7. [Physical and Environmental Security](#7-physical-and-environmental-security)
-   - 7.1 [Remote Work Security Model](#71-remote-work-security-model)
-   - 7.2 [Device Security Controls](#72-device-security-controls)
-   - 7.3 [Clean Desk and Information Handling](#73-clean-desk-and-information-handling)
-
 8. [Operations Security](#8-operations-security)
-   - 8.1 [Architectural Security Through Customer Data Isolation](#81-architectural-security-through-customer-data-isolation)
-   - 8.2 [Change Management and Configuration Control](#82-change-management-and-configuration-control)
-   - 8.3 [Security Monitoring and Event Management](#83-security-monitoring-and-event-management)
-   - 8.4 [Vulnerability Management Program](#84-vulnerability-management-program)
-   - 8.5 [Malware Protection Strategy](#85-malware-protection-strategy)
-
 9. [Communications Security](#9-communications-security)
-   - 9.1 [Network Security Architecture](#91-network-security-architecture)
-   - 9.2 [Application Security Framework](#92-application-security-framework)
-   - 9.3 [Secure Information Transfer](#93-secure-information-transfer)
-
 10. [System Development and Maintenance](#10-system-development-and-maintenance)
-    - 10.1 [Secure Development Lifecycle](#101-secure-development-lifecycle)
-    - 10.2 [Code Security Practices](#102-code-security-practices)
-    - 10.3 [Testing and Quality Assurance](#103-testing-and-quality-assurance)
-    - 10.4 [Change Control and Release Management](#104-change-control-and-release-management)
-
 11. [Supplier and Third-Party Security](#11-supplier-and-third-party-security)
-    - 11.1 [Vendor Risk Management](#111-vendor-risk-management)
-    - 11.2 [Cloud Service Provider Management](#112-cloud-service-provider-management)
-    - 11.3 [Supply Chain Security](#113-supply-chain-security)
-
 12. [Incident Management](#12-incident-management)
-    - 12.1 [Incident Response Framework](#121-incident-response-framework)
-    - 12.2 [Detection and Reporting](#122-detection-and-reporting)
-    - 12.3 [Investigation and Recovery](#123-investigation-and-recovery)
-    - 12.4 [Post-Incident Activities](#124-post-incident-activities)
-
 13. [Business Continuity and Resilience](#13-business-continuity-and-resilience)
-    - 13.1 [Business Continuity Planning](#131-business-continuity-planning)
-    - 13.2 [Security Considerations in Business Continuity](#132-security-considerations-in-business-continuity)
-    - 13.3 [Disaster Recovery Architecture](#133-disaster-recovery-architecture)
-
 14. [Compliance Management](#14-compliance-management)
-    - 14.1 [Legal and Regulatory Compliance](#141-legal-and-regulatory-compliance)
-    - 14.2 [Contractual Security Obligations](#142-contractual-security-obligations)
-    - 14.3 [Internal Policy Compliance](#143-internal-policy-compliance)
-    - 14.4 [Evidence Management](#144-evidence-management)
-
 15. [Security Training and Awareness](#15-security-training-and-awareness)
-    - 15.1 [Comprehensive Security Education Program](#151-comprehensive-security-education-program)
-    - 15.2 [Specialized Technical Training](#152-specialized-technical-training)
-    - 15.3 [Security Awareness Measurement](#153-security-awareness-measurement)
-    - 15.4 [Security Culture Development](#154-security-culture-development)
-
 16. [Policy Management and Governance](#16-policy-management-and-governance)
-    - 16.1 [Policy Lifecycle Management](#161-policy-lifecycle-management)
-    - 16.2 [Policy Communication and Accessibility](#162-policy-communication-and-accessibility)
-    - 16.3 [Exception Management](#163-exception-management)
-    - 16.4 [Governance and Oversight](#164-governance-and-oversight)
-
 17. [Enforcement and Accountability](#17-enforcement-and-accountability)
-    - 17.1 [Creating a Culture of Security Accountability](#171-creating-a-culture-of-security-accountability)
-    - 17.2 [Monitoring and Detection](#172-monitoring-and-detection)
-    - 17.3 [Consistent and Fair Response](#173-consistent-and-fair-response)
-    - 17.4 [Positive Reinforcement and Recognition](#174-positive-reinforcement-and-recognition)
-
 18. [Related Policies and Standards](#18-related-policies-and-standards)
-    - 18.1 [Integrated Policy Framework](#181-integrated-policy-framework)
-    - 18.2 [Operational Standards and Procedures](#182-operational-standards-and-procedures)
-    - 18.3 [Compliance and Audit Documentation](#183-compliance-and-audit-documentation)
-    - 18.4 [Continuous Improvement Through Integration](#184-continuous-improvement-through-integration)
-
 19. [Definitions and Glossary](#19-definitions-and-glossary)
-
 20. [Document Control](#20-document-control)
+21. [Appendices](#16-appendices)
+    - [Appendix A: NIST Control Mapping](#appendix-a-nist-control-mapping)
+
 
 [Acknowledgment](#acknowledgment)
 
@@ -860,134 +781,34 @@ Stakeholder feedback on policy interactions helps identify practical challenges 
 
 ## 20. Document Control
 
-**Document Title**: Information Security Policy  
-**Document ID**: ISP-001  
-**Current Version**: 2.0  
-**Effective Date**: January 1, 2025  
-**Next Scheduled Review**: January 1, 2026  
-**Document Owner**: Chief Technology Officer (CTO)  
-**Document Approver**: Chief Executive Officer (CEO)  
-**Classification**: Internal Use Only  
+*NIST Controls: PM-4, SA-5*
 
-### 20.1 Version History
+| Version | Date | Author | Changes |
+|---------|------|--------|---------|
+| 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
+| 2.0 | Jun 27, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
 
-| Version | Date | Author | Description of Changes | Reviewed By | Approved By |
-|---------|------|--------|------------------------|-------------|-------------|
-| 2.0 | June 25, 2025 | CTO | Initial version - Comprehensive narrative transformation from framework | Security Consultant | CEO |
+**Review and Approval**
 
-### 20.2 Review Schedule and Triggers
+- **Prepared By**: _________________ Date: _______
+  Chief Technology Officer
 
-**Scheduled Reviews**:
-- **Annual Review**: Every January (aligns with fiscal year planning)
-- **Quarterly Check-ins**: Brief assessment for needed updates (March, June, September)
+- **Approved By**: _________________ Date: _______
+  Chief Executive Officer
 
-**Trigger-Based Reviews** (Immediate review required upon):
-- Major security incident or breach
-- Significant changes to regulatory requirements (SOC 2, GDPR, CCPA)
-- Material changes to IT infrastructure or architecture
-- Merger, acquisition, or significant organizational restructuring
-- Introduction of new technologies or services
-- Customer or auditor findings requiring policy updates
+**Next Review Date**: January 1, 2026
 
-**Review Process**:
-1. **Quarterly Assessment** (Month 3, 6, 9): CTO performs quick review for necessary updates
-2. **Annual Comprehensive Review** (Month 12): 
-   - Compare against current industry standards and threats
-   - Incorporate lessons learned from incidents and audits
-   - Update based on organizational changes
-   - Benchmark against peer organizations
-3. **Ad-hoc Reviews**: Triggered by events listed above
-
-### 20.3 Distribution and Access Control
-
-**Internal Distribution**:
-- All OversiteAI employees: Full access via internal wiki
-- Board of Directors: Quarterly updates and annual approval
-- Leadership Team: Real-time access with change notifications
-
-**External Distribution** (Under NDA only):
-- External auditors: Full access during audit periods
-- Customers: Relevant sections upon request
-- Prospective customers: Summary version for security assessments
-- Insurance providers: As required for cyber liability coverage
-
-**Access Management**:
-- Maintained in version-controlled repository
-- Read access for all employees through internal systems
-- Write access restricted to CTO and designated security team members
-- All access logged and reviewed quarterly
-
-### 20.4 Change Management Process
-
-**Minor Updates** (Clarifications, typos, formatting):
-- Identified by any employee
-- Reviewed and approved by CTO
-- Implemented within 5 business days
-- Communicated via wiki update notification
-
-**Material Changes** (New requirements, significant modifications):
-- Proposed by security team or leadership
-- Impact assessment conducted
-- Stakeholder review period (minimum 10 business days)
-- Executive approval required
-- 30-day implementation notice to organization
-- Training provided if needed
-
-**Emergency Changes** (Critical security response):
-- Verbal approval from CEO or CTO
-- Immediate implementation authorized
-- Documentation within 24 hours
-- Full review and approval within 5 business days
-
-### 20.5 Policy Governance and Oversight
-
-**Ownership Structure**:
-- **Policy Owner (CTO)**: Maintains content accuracy, coordinates reviews, manages updates
-- **Policy Approver (CEO)**: Final approval authority, ensures business alignment
-- **Policy Administrator**: Manages distribution, tracking, and acknowledgments
-
-**Compliance Tracking**:
-- Annual acknowledgment required from all employees
-- New hire acknowledgment within first week
-- Acknowledgment tracking maintained in HR systems
-- Quarterly compliance reports to leadership
-
-**Audit Trail Requirements**:
-- All changes tracked in version control system
-- Review comments and decisions documented
-- Approval records maintained for 7 years
-- Distribution logs retained for audit purposes
+**Distribution**:
+- All Employees: Via company policy portal
+- IT Team: Direct distribution for implementation
+- Executive Team
+- External Auditors (upon request)
 
 ---
 
-## Acknowledgment
+## 21. Appendices
 
-By signing below, I acknowledge that I have read, understood, and agree to comply with the OversiteAI Information Security Policy and all related security policies and procedures. I understand that violation of these policies may result in disciplinary action up to and including termination of employment or contract.
-
-I further acknowledge that:
-- I will protect OversiteAI's confidential information and assets
-- I will report any suspected security incidents or policy violations immediately
-- I will complete all required security training
-- I will maintain the security of any devices and accounts assigned to me
-- I understand that my activities on company systems may be monitored for security purposes
-
-Employee Name: _________________________________
-
-Employee Signature: _____________________________
-
-Date: _________________________________
-
-Manager Name: _________________________________
-
-Manager Signature: _____________________________
-
-Date: _________________________________
-
-*This acknowledgment must be completed by all employees upon hire and annually thereafter, with signed copies maintained in personnel files.*
-
----
-
-## Appendix A: SOC 2 Trust Services Criteria Control Mapping
+### Appendix A: NIST Control Mapping
 
 This appendix provides a comprehensive mapping of Information Security Policy sections to SOC 2 Trust Services Criteria and NIST Cybersecurity Framework controls. This mapping assists auditors in identifying control coverage and helps OversiteAI ensure comprehensive compliance.
 
@@ -1084,3 +905,31 @@ This appendix provides a comprehensive mapping of Information Security Policy se
 - Update when policy sections change
 - Validate against SOC 2 criteria updates annually
 - Enhance based on auditor feedback
+
+---
+
+## Acknowledgment
+
+By signing below, I acknowledge that I have read, understood, and agree to comply with the OversiteAI Information Security Policy and all related security policies and procedures. I understand that violation of these policies may result in disciplinary action up to and including termination of employment or contract.
+
+I further acknowledge that:
+- I will protect OversiteAI's confidential information and assets
+- I will report any suspected security incidents or policy violations immediately
+- I will complete all required security training
+- I will maintain the security of any devices and accounts assigned to me
+- I understand that my activities on company systems may be monitored for security purposes
+
+Employee Name: _________________________________
+
+Employee Signature: _____________________________
+
+Date: _________________________________
+
+Manager Name: _________________________________
+
+Manager Signature: _____________________________
+
+Date: _________________________________
+
+*This acknowledgment must be completed by all employees upon hire and annually thereafter, with signed copies maintained in personnel files.*
+
