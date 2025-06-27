@@ -3,7 +3,7 @@
 
 **Document Version**: 2.0  
 **Effective Date**: January 1, 2025  
-**Last Updated**: January 15, 2025  
+**Last Updated**: June 25, 2025  
 **Review Frequency**: Annual  
 **Next Review Date**: January 1, 2026  
 **Classification**: Internal  
@@ -712,7 +712,7 @@ This Change Management and Business Continuity Policy operates within OversiteAI
 | Document Owner | Chief Technology Officer |
 | Initial Creation Date | January 1, 2025 |
 | Current Version | 2.0 |
-| Last Updated | January 15, 2025 |
+| Last Updated | June 25, 2025 |
 | Classification | Internal |
 | Review Frequency | Annual |
 | Next Review Date | January 1, 2026 |
