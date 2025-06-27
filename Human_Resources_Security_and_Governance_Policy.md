@@ -24,8 +24,8 @@
 12. [Policy Maintenance](#12-policy-maintenance)
 13. [Related Documents](#13-related-documents)
 14. [Definitions](#14-definitions)
-15. [Document Control](#document-control)
-16. [Appendices](#appendices)
+15. [Document Control](#15-document-control)
+16. [Appendices](#16-appendices)
     - [Appendix A: Pre-Employment Checklist](#appendix-a-pre-employment-checklist)
     - [Appendix B: Onboarding Checklist](#appendix-b-onboarding-checklist)
     - [Appendix C: Termination Checklist](#appendix-c-termination-checklist)
@@ -609,7 +609,7 @@ These documents work together to create comprehensive security coverage while av
 
 ---
 
-## Appendices
+## 16. Appendices
 
 ### Appendix A: Code of Conduct Acknowledgment Form
 
