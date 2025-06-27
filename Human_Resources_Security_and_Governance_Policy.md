@@ -1,10 +1,12 @@
 # Human Resources Security and Governance Policy
-**Document Version**: 2.0
-**Effective Date**: January 1, 2025
-**Last Updated**: June 27, 2025
-**Classification**: Restricted
-**Owner**: Chief Technology Officer
-**Approved By**: Chief Executive Officer
+## OversiteAI, LLC
+
+**Document Version**: 2.0  
+**Effective Date**: January 1, 2025  
+**Last Updated**: June 27, 2025  
+**Classification**: Restricted  
+**Owner**: Chief Technology Officer  
+**Approved By**: Chief Executive Officer  
 
 ---
 
