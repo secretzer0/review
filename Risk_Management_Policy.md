@@ -132,6 +132,22 @@ This honest appetite statement helps auditors understand our decision-making and
 ## 3. Risk Management Framework
 
 ### 3.1 Framework Components
+<!--
+flowchart TD
+    A["**Quarterly Planning**<br/>“What are we trying to achieve?”<br/>Business objectives drive risk priorities"]
+    B["**Risk Identification**<br/>“What could stop us or hurt us?”<br/>Team brainstorming + automated scanning"]
+    C["**Practical Assessment**<br/>“How bad? How likely? What’s it worth to fix?”<br/>Simple scoring — not complex matrices"]
+    D["**Smart Treatment**<br/>Fix by design → Automate → Manual → Accept<br/>Prefer permanent solutions"]
+    E["**Automated Monitoring**<br/>Azure alerts us; we don’t watch dashboards<br/>Set-and-forget where possible"]
+
+    A --> B --> C --> D --> E
+
+    style A fill:#ffffff,stroke:#005b96,stroke-width:2px,rx:8,ry:8,color:#000
+    style B fill:#ffffff,stroke:#00838f,stroke-width:2px,rx:8,ry:8,color:#000
+    style C fill:#ffffff,stroke:#fbc02d,stroke-width:2px,rx:8,ry:8,color:#000
+    style D fill:#ffffff,stroke:#ef6c00,stroke-width:2px,rx:8,ry:8,color:#000
+    style E fill:#ffffff,stroke:#6a1b9a,stroke-width:2px,rx:8,ry:8,color:#000
+-->
 
 Our risk management framework is intentionally simple—complex frameworks require dedicated staff we don't have. We follow a straightforward cycle that integrates with our quarterly business planning:
 
