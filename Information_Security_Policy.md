@@ -1,7 +1,7 @@
 # Information Security Policy
 ## OversiteAI, LLC
 
-**Document Version**: 2.4  
+**Document Version**: 2.1  
 **Effective Date**: January 1, 2025  
 **Last Updated**: June 30, 2025  
 **Last Reviewed**: June 30, 2025  
