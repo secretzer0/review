@@ -1,10 +1,10 @@
 # Information Security Policy
 ## OversiteAI, LLC
 
-**Document Version**: 2.0  
+**Document Version**: 2.4  
 **Effective Date**: January 1, 2025  
-**Last Updated**: June 25, 2025  
-**Last Reviewed**: June 27, 2025  
+**Last Updated**: June 30, 2025  
+**Last Reviewed**: June 30, 2025  
 **Classification**: Restricted  
 **Owner**: Chief Technology Officer  
 **Approved By**: Chief Executive Officer  
@@ -33,7 +33,7 @@
 18. [Related Policies and Standards](#18-related-policies-and-standards)
 19. [Definitions and Glossary](#19-definitions-and-glossary)
 20. [Document Control](#20-document-control)
-21. [Appendices](#16-appendices)
+21. [Appendices](#21-appendices)
     - [Appendix A: NIST Control Mapping](#appendix-a-nist-control-mapping)
 
 
@@ -42,6 +42,8 @@
 ---
 
 ## 1. Purpose and Scope
+
+*NIST Controls: ID.GV-1, ID.AM-6, PR.IP-1*
 
 ### 1.1 Purpose
 OversiteAI has established this Information Security Policy as the cornerstone of our commitment to protecting the information assets that drive our business and maintain the trust of our customers. As a software company specializing in client-hosted data collection and correlation solutions, we recognize that security is not just a technical requirement but a fundamental business imperative that shapes how we design, develop, and deliver our products.
@@ -66,7 +68,11 @@ Most importantly, this policy seeks to foster a security-conscious culture throu
 
 ## 2. Information Security Principles
 
+*NIST Controls: ID.GV-1, ID.GV-3*
+
 ### 2.1 Core Security Principles
+
+*NIST Controls: ID.BE-1, PR.PT-3, ID.RM-1*
 
 **Data Sovereignty and Isolation**
 
@@ -96,6 +102,8 @@ We prioritize improvements based on risk reduction potential and implementation 
 
 ### 2.2 Security by Design
 
+*NIST Controls: PR.IP-2, ID.RA-1, DE.AE-5*
+
 Security considerations are integrated into every phase of our software development lifecycle, from initial concept through deployment and maintenance. This "security by design" approach is more effective and economical than attempting to add security after the fact. During the design phase of any new feature or system, we conduct threat modeling exercises to identify potential security risks and design appropriate controls from the outset.
 
 Our development teams are trained to think like attackers, considering how features might be misused or exploited. Security requirements are defined alongside functional requirements, ensuring that security is not an afterthought but a core component of what we build. We maintain secure coding standards that our developers follow, supplemented by automated security scanning tools integrated into our continuous integration pipeline.
@@ -106,7 +114,11 @@ Before any code reaches production, it undergoes security testing appropriate to
 
 ## 3. Roles and Responsibilities
 
+*NIST Controls: ID.GV-2, ID.AM-6*
+
 ### 3.1 Executive Oversight and Strategic Security Governance
+
+*NIST Controls: ID.GV-2, ID.RM-3, ID.GV-4*
 
 #### Executive Management Team
 
@@ -127,6 +139,8 @@ Security responsibilities may be delegated to appropriate personnel or committee
 ---
 
 ### 3.2 Technical Leadership and Implementation
+
+*NIST Controls: PR.IP-7, PR.IP-9, RS.CO-1*
 
 #### Chief Technology Officer (CTO)
 
@@ -162,6 +176,8 @@ Key responsibilities include:
 
 ### 3.3 Organizational Security Responsibilities
 
+*NIST Controls: PR.AT-1, PR.IP-11, PR.AT-2*
+
 #### All Employees
 
 Every team member is responsible for supporting OversiteAI’s security posture by complying with established security policies and participating in the organization’s risk-aware culture.
@@ -187,7 +203,11 @@ Responsibilities include:
 
 ## 4. Asset Management
 
+*NIST Controls: ID.AM-1, ID.AM-2*
+
 ### 4.1 Comprehensive Asset Inventory
+
+*NIST Controls: ID.AM-1, ID.AM-3*
 
 Effective security begins with knowing what we need to protect. OversiteAI maintains a comprehensive inventory of all information assets that could impact our security posture if compromised. This inventory serves multiple purposes beyond security, including license management, budget planning, and disaster recovery preparation. Given our size, we maintain this inventory using Azure's built-in asset management capabilities supplemented by a simple spreadsheet for assets outside Azure's scope.
 
@@ -196,6 +216,8 @@ Our hardware inventory includes all company-provided laptops and mobile devices,
 Software asset tracking encompasses both commercial applications and our own developed software. We maintain records of all software licenses to ensure compliance and identify when security updates are available. Our source code repositories receive special attention in asset tracking, as they represent our primary intellectual property. Cloud infrastructure resources are continuously inventoried through Azure's management tools, providing real-time visibility into our infrastructure footprint and ensuring we don't lose track of resources that could become security vulnerabilities if neglected.
 
 ### 4.2 Information Classification Framework
+
+*NIST Controls: ID.AM-5, PR.IP-1, PR.DS-1*
 
 Not all information requires the same level of protection, and attempting to protect everything equally would be both impractical and economically infeasible. Our information classification framework provides clear categories that help employees understand how to handle different types of information appropriately. We deliberately keep our classification scheme simple with just four categories, avoiding the complexity that would make consistent application difficult for a small team.
 
@@ -209,6 +231,8 @@ Not all information requires the same level of protection, and attempting to pro
 
 ### 4.3 Asset Lifecycle Management
 
+*NIST Controls: PR.DS-3, PR.IP-1*
+
 Every asset follows a lifecycle from acquisition through disposal, and security considerations apply at each stage. When acquiring new assets, whether hardware, software, or cloud services, we evaluate security implications as part of the selection process. This includes reviewing security features, vendor security practices, and how the asset will integrate with our existing security controls. For significant acquisitions, we may require security assessments or contractual security commitments from vendors.
 
 During active use, assets must be properly configured and maintained according to their classification and security requirements. Hardware devices receive standard security configurations before deployment, including encryption, endpoint protection, and remote management capabilities. Software assets are kept current with security patches according to our patch management procedures. Cloud resources are configured according to our security baselines, with infrastructure-as-code ensuring consistent and auditable configurations.
@@ -216,6 +240,8 @@ During active use, assets must be properly configured and maintained according t
 Asset disposal requires particular attention to ensure that sensitive information doesn't leave our control. For hardware devices, we use encryption to ensure that data remains protected even if devices are lost or improperly disposed. When devices reach end-of-life, we perform secure wiping before disposal or recycling. For cloud resources, we carefully remove all data and configurations before releasing resources. Software licenses are properly transferred or terminated to maintain compliance and prevent unauthorized use.
 
 ### 4.4 Acceptable Use Standards
+
+*NIST Controls: PR.AC-4, PR.AT-1, PR.IP-11*
 
 Clear acceptable use standards help employees understand their responsibilities when using company assets. We maintain a balance between enabling productivity and protecting security, avoiding overly restrictive policies that employees might circumvent. Our acceptable use policy emphasizes personal responsibility and good judgment rather than attempting to enumerate every possible scenario.
 
@@ -228,7 +254,11 @@ We particularly emphasize the risks of mixed personal and business use on device
 
 ## 5. Access Control
 
+*NIST Controls: PR.AC-1, PR.AC-4*
+
 ### 5.1 Access Management Philosophy
+
+*NIST Controls: PR.AC-1, PR.AC-4, PR.PT-3*
 
 Access control forms the foundation of our security program, determining who can access what resources under which circumstances. Our approach to access management balances security requirements with operational efficiency, recognizing that overly complex access controls can lead to workarounds that undermine security. We implement role-based access control (RBAC) wherever possible, simplifying administration and ensuring consistency while maintaining appropriate segregation of duties for critical functions.
 
@@ -237,6 +267,8 @@ Our access control philosophy is grounded in the principle of least privilege, b
 We emphasize preventive controls supported by detective measures, recognizing that in a small organization, we cannot maintain real-time monitoring of all access. Instead, we focus on strong authentication, clear authorization models, and comprehensive logging that enables investigation when concerns arise. This balanced approach provides effective security without requiring a dedicated security operations center that would be impractical at our size.
 
 ### 5.2 Identity and Authentication Management
+
+*NIST Controls: PR.AC-1, PR.AC-7*
 
 **User Identity Lifecycle**
 
@@ -256,6 +288,8 @@ Account lockout policies protect against brute force attacks while avoiding deni
 
 ### 5.3 Authorization and Privileged Access
 
+*NIST Controls: PR.AC-4*
+
 **Role-Based Authorization Model**
 
 Our authorization model maps permissions to job functions rather than individuals, simplifying administration and ensuring consistency. We've defined standard roles that cover most access needs such as Developer, DevOps Engineer, Business Analyst, and Administrative Staff. Each role includes predefined access to systems and data necessary for that function. This role-based approach means new employees can be productive quickly while maintaining appropriate security boundaries.
@@ -274,6 +308,8 @@ Monitoring and auditing of privileged access provides detective controls to comp
 
 ### 5.4 Remote Access Security
 
+*NIST Controls: PR.AC-3, PR.AC-5*
+
 As a fully remote organization, secure remote access is not an exception but our standard operating model. All access to OversiteAI development resources requires connection through our VPN infrastructure, which provides encrypted tunnels and enables consistent security policy enforcement regardless of user location. The VPN serves not just as an encryption mechanism but as a policy enforcement point where we verify device compliance before allowing connections.
 
 Device health checks confirm that connecting systems meet our security baselines including current patches, enabled encryption, and active endpoint protection. Non-compliant devices are redirected to a remediation portal that guides users through required updates before access is granted. This automated enforcement ensures consistent security without requiring manual intervention for routine cases. We maintain exemption processes for exceptional situations, but these require security team review and are time-limited.
@@ -284,7 +320,11 @@ Session management controls limit the impact of compromised sessions or unattend
 
 ## 6. Cryptography and Data Protection
 
+*NIST Controls: PR.DS-1, PR.DS-2*
+
 ### 6.1 Encryption Strategy
+
+*NIST Controls: PR.DS-1, PR.DS-2*
 
 Cryptographic controls provide our last line of defense, ensuring that even if other controls fail, sensitive data remains protected. Our encryption strategy addresses data throughout its lifecycle, from creation through transmission, storage, and eventual destruction. We standardize on industry-proven algorithms and implementations rather than attempting to create custom cryptographic solutions, recognizing that cryptography is a specialized field where amateur attempts often introduce vulnerabilities.
 
@@ -294,6 +334,8 @@ Data in transit receives equal protection through mandatory TLS 1.2 or higher fo
 
 ### 6.2 Key Management Practices
 
+*NIST Controls: PR.DS-1, PR.AC-1*
+
 Effective key management is essential for maintaining the value of encryption, as improperly managed keys can render even strong encryption useless. We leverage Azure Key Vault as our central key management system, providing hardware security module (HSM) protection for our most sensitive keys while maintaining operational efficiency. This cloud-native approach eliminates the complexity of managing physical HSMs while providing comparable security for our needs.
 
 Key rotation follows defined schedules based on key usage and sensitivity. Master keys rotate annually, while data encryption keys rotate more frequently based on usage volume. Automated rotation processes ensure consistency and prevent human error, with Azure Key Vault handling much of the complexity transparently. We maintain careful documentation of rotation schedules and procedures, ensuring continuity even if key personnel are unavailable during critical rotation windows.
@@ -301,6 +343,8 @@ Key rotation follows defined schedules based on key usage and sensitivity. Maste
 Split knowledge and dual control principles protect our most critical keys, ensuring no single person can compromise core encryption systems. Master key operations require two authorized individuals working together, with neither having complete access independently. While this adds operational overhead, we've limited its application to truly critical keys where the additional protection justifies the complexity. For routine encryption operations, we balance security with operational efficiency through role-based access controls and comprehensive audit logging.
 
 ### 6.3 Certificate Management
+
+*NIST Controls: PR.AC-1, PR.AC-7*
 
 Digital certificates enable secure communications and authentication throughout our infrastructure, but they require careful management to maintain their security value. We obtain certificates exclusively from trusted Certificate Authorities (CAs), avoiding self-signed certificates except in isolated development environments where they pose no production risk. Our standardized certificate request process ensures consistency and includes security review for certificates protecting critical services.
 
@@ -312,7 +356,11 @@ Private key protection receives special attention given that certificate securit
 
 ## 7. Physical and Environmental Security
 
+*NIST Controls: PR.AC-2, PR.DS-3*
+
 ### 7.1 Remote Work Security Model
+
+*NIST Controls: PR.AC-2, PR.DS-3, PR.IP-11*
 
 As a fully distributed organization, OversiteAI's approach to physical security differs significantly from traditional office-based companies. Rather than securing a central facility, we focus on helping employees establish and maintain secure home office environments. This distributed security model recognizes that each employee's home becomes an extension of our security perimeter, requiring thoughtful controls that respect both security needs and personal privacy.
 
@@ -322,6 +370,8 @@ Physical access controls in home offices focus on preventing unauthorized access
 
 ### 7.2 Device Security Controls
 
+*NIST Controls: PR.DS-3, PR.AC-3*
+
 Every device that accesses OversiteAI information becomes a potential entry point for attackers, making device security a critical control. Our device security program begins before deployment, with standard security configurations applied to all company-provided equipment. These configurations include full disk encryption, endpoint detection and response software, automatic screen locking, and remote wipe capabilities. We maintain configuration templates that ensure consistency while allowing flexibility for different roles' requirements.
 
 Travel security receives particular attention given that mobile devices face elevated risks outside the relatively controlled home office environment. Employees must carry devices as carry-on luggage when flying, preventing both theft and potential tampering in checked baggage. Devices should never be left unattended in public spaces, even briefly, as theft can occur in seconds. When working in public spaces, employees must use privacy screens and position themselves to prevent shoulder surfing of sensitive information. International travel requires additional precautions including travel-specific devices when visiting high-risk countries.
@@ -329,6 +379,8 @@ Travel security receives particular attention given that mobile devices face ele
 Lost or stolen device procedures emphasize rapid response to minimize potential impact. Employees must report device loss within two hours of discovery, enabling rapid remote wipe before potential data access. We maintain 24/7 contact procedures for device loss reports, recognizing that incidents don't follow business hours. Post-incident reviews examine circumstances to identify process improvements, but we maintain a no-blame culture for good-faith losses, recognizing that punitive approaches discourage prompt reporting that enables effective response.
 
 ### 7.3 Clean Desk and Information Handling
+
+*NIST Controls: PR.DS-3, PR.AC-2, PR.IP-1*
 
 The clean desk policy extends beyond traditional desk cleanliness to encompass comprehensive information handling practices in home offices. When not actively in use, all confidential information must be secured from unauthorized access. This includes both digital and physical forms, recognizing that printouts and handwritten notes can expose sensitive information just as effectively as unsecured screens. Employees should minimize printing of sensitive information, but when necessary, must store printouts in locked drawers or filing cabinets when not actively referenced.
 
@@ -340,7 +392,11 @@ Information disposal requires equal attention to prevent dumpster diving or casu
 
 ## 8. Operations Security
 
+*NIST Controls: DE.AE-1, DE.CM-1*
+
 ### 8.1 Architectural Security Through Customer Data Isolation
+
+*NIST Controls: PR.DS-5*
 
 The cornerstone of OversiteAI's operational security is our fundamental architectural decision to maintain complete separation between customer data and our systems. This isn't merely a configuration choice or policy decision but is built into the very architecture of our solutions. Our software operates as a fully self-contained application deployed entirely within customer infrastructure, with no phone-home capabilities, telemetry collection, or data synchronization back to our systems.
 
@@ -350,6 +406,8 @@ Our development and testing environments mirror this isolation, using only synth
 
 ### 8.2 Change Management and Configuration Control
 
+*NIST Controls: PR.IP-3*
+
 Disciplined change management prevents many security incidents by ensuring that modifications to our systems are properly planned, reviewed, and tested before implementation. Our change management process scales appropriately to our size, avoiding bureaucratic overhead while maintaining necessary controls. All changes to production systems follow a defined workflow that includes impact assessment, approval requirements, testing validation, and rollback planning.
 
 Change proposals begin with clear documentation of what will be modified and why, including specific configuration changes or code deployments planned. Security impact assessment is integrated into this proposal process, with explicit consideration of how changes might affect our security posture. This might range from simple acknowledgment that security impact was considered and found minimal, to detailed analysis of new attack surfaces or control modifications for security-significant changes.
@@ -357,6 +415,8 @@ Change proposals begin with clear documentation of what will be modified and why
 Testing in non-production environments is mandatory before production deployment, with test environments maintaining reasonable parity to production to ensure valid results. Our infrastructure-as-code approach enables rapid provisioning of test environments that accurately reflect production configurations. After testing validates both functionality and security, changes deploy through automated pipelines that ensure consistency and maintain audit trails. Post-implementation reviews for significant changes capture lessons learned and identify process improvements.
 
 ### 8.3 Security Monitoring and Event Management
+
+*NIST Controls: DE.AE-1, DE.CM-1*
 
 Effective security monitoring enables detection of potential incidents before they escalate into breaches. We leverage Azure's native security monitoring capabilities supplemented by additional tools where necessary, providing comprehensive visibility into our environment without the complexity of managing separate SIEM infrastructure. Azure Security Center serves as our primary security monitoring dashboard, aggregating alerts from across our infrastructure and providing actionable recommendations for improvement.
 
@@ -366,6 +426,8 @@ Alert tuning balances detection sensitivity with operational practicality. We've
 
 ### 8.4 Vulnerability Management Program
 
+*NIST Controls: ID.RA-1, RS.MI-3*
+
 Proactive vulnerability management reduces our attack surface by identifying and remediating weaknesses before they can be exploited. Our vulnerability management program combines multiple detection methods including automated scanning, manual testing, and threat intelligence monitoring. We've sized this program appropriately for our organization, focusing on high-impact activities rather than attempting comprehensive coverage that would require dedicated security staff.
 
 Azure Security Center provides continuous vulnerability assessment for our cloud infrastructure, automatically scanning for misconfigurations and missing patches. These automated scans run continuously, providing near real-time visibility into our vulnerability posture. For application security, we integrate vulnerability scanning into our CI/CD pipeline, catching many issues before they reach production. Static application security testing (SAST) tools analyze our source code for common vulnerability patterns, while software composition analysis (SCA) identifies known vulnerabilities in third-party components we use.
@@ -373,6 +435,8 @@ Azure Security Center provides continuous vulnerability assessment for our cloud
 Remediation prioritization follows a risk-based approach that considers both vulnerability severity and actual exploitability in our environment. Critical vulnerabilities in internet-facing systems receive immediate attention, with patches applied within 7 days or compensating controls implemented if patching must be delayed. High and medium severity vulnerabilities follow 30 and 90-day remediation timelines respectively, with exceptions requiring documented risk acceptance. This structured approach ensures consistent treatment while maintaining flexibility for operational necessities.
 
 ### 8.5 Malware Protection Strategy
+
+*NIST Controls: DE.CM-4, PR.DS-1, PR.AT-1*
 
 While our Linux-based infrastructure and macOS development environments face different malware threats than traditional Windows enterprises, protection against malicious software remains important. Our malware protection strategy layers multiple controls, recognizing that no single solution provides complete protection. Endpoint detection and response (EDR) software on all endpoints provides real-time protection against known malware while also detecting suspicious behaviors that might indicate novel threats.
 
@@ -385,7 +449,11 @@ Regular security awareness training helps employees recognize and avoid malware 
 
 ## 9. Communications Security
 
+*NIST Controls: PR.AC-5, PR.DS-2*
+
 ### 9.1 Network Security Architecture
+
+*NIST Controls: PR.AC-5, PR.DS-2*
 
 Our network security architecture reflects our cloud-first, remote-work reality, where traditional perimeter-based security models no longer apply. Instead, we implement a zero-trust approach that verifies every connection regardless of source. Azure's native network security capabilities provide the foundation, with Network Security Groups (NSGs) enforcing micro-segmentation between different application tiers and functions. This granular control ensures that even if one segment is compromised, lateral movement to other systems is restricted.
 
@@ -395,6 +463,8 @@ For our remote workforce, all connections to development resources traverse our 
 
 ### 9.2 Application Security Framework
 
+*NIST Controls: PR.IP-2, DE.AE-2, ID.RA-1*
+
 Security is embedded throughout our application development lifecycle rather than bolted on as an afterthought. Our secure development framework begins with threat modeling during design phases, where we systematically identify potential attack vectors and design appropriate mitigations. These threat models are living documents, updated as features evolve and new threats emerge. By considering security from the earliest stages, we avoid the costly rework that comes from discovering vulnerabilities late in development.
 
 Secure coding standards provide consistent guidance to developers, covering common vulnerability patterns and language-specific security considerations. These standards are practical rather than academic, with real examples from our codebase showing both vulnerable and secure implementations. We maintain these standards in our development wiki, making them easily accessible and searchable. Regular secure coding training ensures developers understand not just what the standards require but why these practices matter for security.
@@ -402,6 +472,8 @@ Secure coding standards provide consistent guidance to developers, covering comm
 Security testing is integrated into our continuous integration pipeline, providing rapid feedback on potential vulnerabilities. Static analysis tools scan every code commit, flagging potential security issues before they can be merged. Dynamic analysis during integration testing exercises application security controls, verifying that authentication, authorization, and input validation work as designed. For major releases, we engage penetration testers who bring fresh perspectives and specialized skills to challenge our assumptions and find issues our internal processes might miss.
 
 ### 9.3 Secure Information Transfer
+
+*NIST Controls: PR.DS-2, PR.AC-3*
 
 Information must often move between systems and organizations, creating potential exposure points that require careful control. Our secure information transfer mechanisms provide appropriate protection based on data sensitivity while maintaining usability. For routine internal transfers, our standard encrypted channels provide adequate protection. For sensitive external transfers, we leverage additional controls including dedicated secure file transfer platforms that provide encryption, access control, and audit trails.
 
@@ -413,7 +485,11 @@ Data loss prevention (DLP) controls provide an additional layer of protection ag
 
 ## 10. System Development and Maintenance
 
+*NIST Controls: PR.IP-2, PR.IP-3*
+
 ### 10.1 Secure Development Lifecycle
+
+*NIST Controls: PR.IP-2, ID.RA-1*
 
 Security is not a phase of development but a continuous consideration throughout our software development lifecycle. From initial concept through deployment and maintenance, security requirements receive equal priority with functional requirements. This integrated approach produces more secure software while actually reducing overall development time by catching issues early when they're less expensive to fix.
 
@@ -423,6 +499,8 @@ Design reviews include security architecture evaluation, ensuring that security 
 
 ### 10.2 Code Security Practices
 
+*NIST Controls: PR.IP-2, ID.SC-2*
+
 Writing secure code requires both knowledge and discipline. Our developers receive regular training on secure coding practices specific to the languages and frameworks we use. This training goes beyond academic vulnerability discussions to provide practical guidance on avoiding common pitfalls. We maintain a library of secure coding patterns that developers can reference and reuse, reducing the likelihood of introducing vulnerabilities through inexperience or oversight.
 
 Code reviews include explicit security checks alongside functional correctness validation. Reviewers use security-focused checklists that highlight common vulnerability patterns to watch for. These reviews serve dual purposes: catching security issues before they reach production and providing continuous security education as developers learn from reviewing others' code. We've found that peer review often catches subtle security issues that automated tools miss, particularly logic flaws that require understanding business context.
@@ -431,6 +509,8 @@ Third-party components receive particular scrutiny, as they can introduce vulner
 
 ### 10.3 Testing and Quality Assurance
 
+*NIST Controls: DE.DP-3, PR.IP-2*
+
 Security testing is integrated throughout our testing processes rather than relegated to a final gate before release. Unit tests include security-focused test cases that verify authentication, authorization, and input validation logic. These automated tests run with every build, providing immediate feedback when changes break security controls. Integration tests exercise security controls in realistic scenarios, verifying that components work together securely.
 
 Penetration testing provides valuable external validation of our security controls. We engage qualified penetration testers annually for comprehensive assessments, with additional targeted tests for major new features or architectural changes. These testers bring specialized skills and fresh perspectives, often finding issues that internal testing missed. We treat penetration test findings as learning opportunities rather than failures, using them to improve both our products and our development processes.
@@ -438,6 +518,8 @@ Penetration testing provides valuable external validation of our security contro
 Test environments maintain security controls appropriate to the data they handle. While test environments use only synthetic data, we still implement access controls and monitoring to prevent them from being used as launching points for attacks on production systems. Test environment configurations closely mirror production to ensure security testing results are valid. After testing completes, we sanitize test environments to prevent accumulation of test data that might be mistaken for real information.
 
 ### 10.4 Change Control and Release Management
+
+*NIST Controls: PR.IP-3, PR.IP-1, DE.CM-7*
 
 Every change to production systems follows our formal change control process, which scales appropriately to change risk and complexity. Minor patches might follow an expedited process with abbreviated testing, while major releases undergo comprehensive review and testing. All changes require documented approval from appropriate stakeholders, creating accountability and ensuring changes align with business objectives.
 
@@ -449,7 +531,11 @@ Release management procedures ensure consistent, repeatable deployments that mai
 
 ## 11. Supplier and Third-Party Security
 
+*NIST Controls: ID.SC-1, ID.SC-2*
+
 ### 11.1 Third-Party and Open Source Risk Management
+
+*NIST Controls: ID.SC-3*
 
 Every third-party relationship introduces potential security risks that must be understood and managed. Our vendor risk management program scales vendor scrutiny to the risk they present, avoiding wasteful deep-dives on low-risk vendors while ensuring appropriate diligence for critical suppliers. Initial vendor assessment considers factors including the type of data they might access, their role in our operations, and their security maturity.
 
@@ -459,6 +545,8 @@ Contractual security requirements translate our security expectations into bindi
 
 ### 11.2 Cloud Service Provider Management
 
+*NIST Controls: ID.SC-2, ID.SC-5, PR.DS-4*
+
 Microsoft Azure serves as our primary infrastructure provider, making their security posture critical to our own. We've chosen Azure partly for their comprehensive security capabilities and compliance certifications, which provide assurance without requiring detailed audits beyond our capabilities. Regular review of Azure's security documentation and compliance reports ensures their controls remain aligned with our needs.
 
 Beyond trusting Azure's baseline security, we actively configure and monitor the security of our Azure resources. The shared responsibility model means that while Azure secures the underlying infrastructure, we must properly configure and use the services they provide. We leverage Azure Security Center's recommendations to identify and remediate misconfigurations. Regular reviews of our Azure architecture ensure we're following cloud security best practices and taking advantage of new security features as they become available.
@@ -466,6 +554,8 @@ Beyond trusting Azure's baseline security, we actively configure and monitor the
 Our cloud exit strategy, while hopefully never needed, ensures we're not locked into Azure in ways that could compromise our security or business flexibility. We maintain infrastructure-as-code definitions that could be adapted to other cloud providers if necessary. Regular exports of critical configurations and data ensure we could recover operations elsewhere if required. This planning exercise also improves our disaster recovery capabilities and helps identify unnecessary dependencies that could be eliminated to improve portability.
 
 ### 11.3 Supply Chain Security
+
+*NIST Controls: ID.SC-2, ID.SC-4*
 
 Software supply chain attacks have become increasingly common, making the security of our development tools and dependencies critical. We carefully evaluate the security of development tools, preferring established vendors with strong security track records. Development tool access is restricted to authorized developers, with additional controls for tools that could modify our code or build processes. Regular updates ensure we benefit from security patches while testing in non-production environments first to avoid breaking changes.
 
@@ -477,7 +567,11 @@ Build pipeline security ensures that our software cannot be compromised during t
 
 ## 12. Incident Management
 
+*NIST Controls: RS.RP-1, RS.CO-2*
+
 ### 12.1 Incident Response Framework
+
+*NIST Controls: RS.RP-1, ID.RA-3, RS.CO-3*
 
 Despite our best preventive efforts, security incidents may still occur. Our incident response framework ensures rapid, effective response that minimizes impact while preserving evidence for investigation and improvement. The framework scales to incident severity, avoiding over-reaction to minor issues while ensuring major incidents receive appropriate resources. Clear roles and responsibilities prevent confusion during the stress of incident response.
 
@@ -487,6 +581,8 @@ Our incident response team structure reflects our small size while ensuring nece
 
 ### 12.2 Detection and Reporting
 
+*NIST Controls: DE.AE-3, RS.CO-2, DE.DP-4*
+
 Rapid incident detection enables faster response and reduced impact. Our detection capabilities combine automated monitoring with human observation, recognizing that each has strengths the other lacks. Automated systems excel at detecting known attack patterns and anomalies from baselines, while humans often notice subtle indicators that don't trigger automated alerts. We cultivate a security-aware culture where employees feel empowered to report concerns without fear of being wrong.
 
 Reporting procedures emphasize speed over perfection, encouraging immediate notification even when full details aren't yet known. We maintain multiple reporting channels including email, phone, and chat to ensure availability regardless of circumstances. After-hours procedures ensure incidents outside business hours receive appropriate attention. The on-call engineer performs initial triage, escalating to additional resources as needed. This graduated response balances availability with sustainability for our small team.
@@ -495,6 +591,8 @@ Initial response focuses on containment and evidence preservation rather than im
 
 ### 12.3 Investigation and Recovery
 
+*NIST Controls: RS.AN-1, RS.AN-2*
+
 Incident investigation follows structured procedures that ensure thoroughness while maintaining chain of custody for potential legal proceedings. We document all actions taken during investigation, including commands run, files accessed, and conclusions drawn. This documentation serves multiple purposes: enabling others to understand and verify our work, providing evidence for any legal proceedings, and creating training materials for future incidents.
 
 Technical investigation leverages the comprehensive logging we maintain across our environment. Centralized log storage enables correlation of events across systems, often revealing attack patterns not visible from individual systems. We maintain investigation playbooks for common incident types, providing step-by-step guidance that ensures consistency and completeness. These playbooks are living documents, updated after each incident with lessons learned and new techniques discovered.
@@ -502,6 +600,8 @@ Technical investigation leverages the comprehensive logging we maintain across o
 Recovery procedures prioritize business continuity while ensuring security is maintained or improved. We resist the temptation to simply restore systems to their pre-incident state if that state enabled the incident. Instead, recovery includes implementing additional controls or configuration changes to prevent recurrence. Post-recovery validation confirms not just that systems function correctly but that security controls are properly implemented. Extended monitoring after recovery watches for incident recurrence or related attacks.
 
 ### 12.4 Post-Incident Activities
+
+*NIST Controls: RS.IM-1, RS.IM-2, RS.AN-5*
 
 Every incident, regardless of outcome, provides learning opportunities that strengthen our security posture. Post-incident reviews examine not just technical aspects but also process effectiveness and team performance. We maintain a blame-free culture for these reviews, focusing on systemic improvements rather than individual failures. This approach encourages honest discussion and surfaces issues that might otherwise remain hidden.
 
@@ -513,7 +613,11 @@ Communication about incidents balances transparency with appropriate confidentia
 
 ## 13. Business Continuity and Resilience
 
+*NIST Controls: PR.IP-9, RC.RP-1*
+
 ### 13.1 Business Continuity Planning
+
+*NIST Controls: PR.IP-9, PR.IP-4*
 
 Business continuity planning ensures OversiteAI can maintain essential operations despite disruptive events, whether security incidents, natural disasters, or other interruptions. Our planning process begins with business impact analysis that identifies critical business functions and their supporting resources. For a software company like ours, this primarily focuses on maintaining development capabilities, protecting source code, and ensuring customer support availability.
 
@@ -523,6 +627,8 @@ Continuity procedures are documented in runbooks that provide step-by-step recov
 
 ### 13.2 Security Considerations in Business Continuity
 
+*NIST Controls: PR.IP-10, RC.CO-3, PR.AC-5*
+
 Security cannot be abandoned during crisis response, yet emergency situations often create pressure to bypass normal controls. Our continuity procedures explicitly address security requirements, ensuring that recovery efforts don't create new vulnerabilities. Emergency access procedures provide necessary elevation of privileges while maintaining audit trails and requiring post-event review. We've pre-positioned emergency access credentials in secure storage, accessible to authorized personnel when normal authentication systems are unavailable.
 
 Communication security during incidents receives special attention, as normal channels may be compromised or unavailable. We maintain out-of-band communication methods including personal phone numbers and alternative collaboration platforms. Encryption requirements remain in force for sensitive communications, with pre-shared keys enabling secure communication even if PKI infrastructure is unavailable. These preparations ensure we can coordinate response efforts without exposing sensitive information to attackers who might be monitoring normal channels.
@@ -530,6 +636,8 @@ Communication security during incidents receives special attention, as normal ch
 Recovery validation includes security testing to ensure that restored systems haven't been compromised or misconfigured during recovery. We maintain security validation checklists that verify critical controls are properly implemented before systems return to production. This validation has occasionally identified configuration drift that occurred over time, making recovery events valuable for ensuring security baselines are maintained. Post-recovery monitoring watches for signs that incidents might recur or that recovered systems might be targeted.
 
 ### 13.3 Disaster Recovery Architecture
+
+*NIST Controls: RC.RP-1, RC.IM-1*
 
 Our disaster recovery architecture leverages cloud-native capabilities to provide resilience without the complexity of traditional disaster recovery sites. Azure's geo-redundant storage automatically replicates critical data to secondary regions, providing protection against regional failures. We've architected our systems for rapid rebuild rather than traditional failover, using infrastructure-as-code to quickly provision new environments when needed.
 
@@ -541,7 +649,11 @@ Testing validates our recovery capabilities and identifies gaps before they matt
 
 ## 14. Compliance Management
 
+*NIST Controls: ID.GV-3, ID.GV-4*
+
 ### 14.1 Legal and Regulatory Compliance
+
+*NIST Controls: ID.GV-3, ID.GV-4, ID.RA-3*
 
 Operating in the software industry requires navigating an evolving landscape of legal and regulatory requirements. Our compliance program takes a risk-based approach, focusing effort where legal obligations are clearest and penalties most severe. We maintain a compliance register that maps applicable laws and regulations to our operations, identifying specific requirements and our methods of compliance. This register is reviewed quarterly and updated as new obligations arise or existing ones change.
 
@@ -551,6 +663,8 @@ Working with legal counsel ensures our interpretation of requirements is sound a
 
 ### 14.2 Contractual Security Obligations
 
+*NIST Controls: ID.GV-3, ID.SC-1, DE.DP-1*
+
 Customer contracts often impose security requirements beyond legal minimums, reflecting their own risk management needs. We maintain a library of common contractual security requirements and our standard responses, speeding contract negotiations while ensuring consistency. This library includes evidence of how we meet each requirement, from technical control descriptions to relevant certifications. By proactively addressing common requirements, we reduce negotiation cycles and demonstrate security maturity.
 
 SOC 2 Type II certification serves as objective evidence of our security controls' design and operating effectiveness. This certification covers the Trust Services Criteria relevant to our services: Security, Availability, and Confidentiality. The annual audit process not only provides customer assurance but also drives internal improvements as we address auditor findings. We make our SOC 2 report available under NDA to customers and prospects, providing transparency into our security controls.
@@ -558,6 +672,8 @@ SOC 2 Type II certification serves as objective evidence of our security control
 Monitoring contractual compliance requires systematic tracking of obligations across all customer agreements. We maintain a compliance matrix that maps specific contractual requirements to responsible parties and evidence of compliance. Regular reviews ensure we remain compliant as contracts evolve through amendments or renewals. When we cannot meet specific requirements, we document risk acceptance or compensating controls, ensuring conscious decisions rather than overlooked obligations.
 
 ### 14.3 Internal Policy Compliance
+
+*NIST Controls: DE.DP-4, DE.DP-5*
 
 Policies provide little value if not followed, making compliance monitoring essential. Our monitoring program uses multiple methods to assess compliance, from automated technical scans to management reviews. We avoid creating a police-state atmosphere while ensuring policies are more than just paper exercises. Monitoring focuses on high-risk areas and policies where non-compliance is both likely and impactful.
 
@@ -567,19 +683,63 @@ Self-assessments by process owners provide insight into operational compliance w
 
 ### 14.4 Evidence Management
 
+*NIST Controls: PR.IP-1, DE.AE-3, RS.AN-3*
+
 Demonstrating compliance requires evidence that controls are not just designed but operating effectively. Our evidence management approach balances thoroughness with practicality, focusing on evidence that provides meaningful assurance without creating overwhelming administrative burden. We leverage automated evidence collection where possible, such as system-generated logs and reports that demonstrate control operation without manual effort.
 
 Evidence retention periods reflect both compliance requirements and practical limitations. We maintain audit logs for one year, providing sufficient history for most compliance needs while avoiding excessive storage costs. Other evidence types have retention periods based on specific requirements or business needs. Clear retention schedules ensure consistent treatment and prevent both premature deletion and indefinite retention of evidence that no longer provides value.
 
 Audit support procedures ensure smooth interactions with auditors while protecting business operations. We maintain standard evidence packages for common audit requests, reducing preparation time and ensuring consistency. Designated audit liaisons coordinate requests and responses, preventing auditors from disrupting operations through uncoordinated requests to multiple staff members. Post-audit reviews capture lessons learned and identify evidence gaps for proactive remediation before the next audit cycle.
 
---- we don't wait for scheduled reviews when significant changes occur. Trigger events like major incidents, new regulations, or significant business changes prompt immediate policy updates to maintain relevance.
+---
+
+## 15. Security Training and Awareness
+
+*NIST Controls: PR.AT-1, PR.AT-2*
+
+### 15.1 Building a Security-Aware Culture
+
+*NIST Controls: PR.AT-1, PR.AT-3*
+
+Security awareness forms the foundation of our defense strategy, recognizing that well-informed employees are our strongest security control. Every OversiteAI team member must complete mandatory security awareness training within 30 days of joining the company, establishing a baseline understanding of our security requirements and their role in protecting company assets. This initial training culminates in an assessment where employees must achieve a minimum score of 80% to demonstrate comprehension. Those who don't meet this threshold receive additional coaching and must complete remedial training until they achieve the required competency level.
+
+Our training program continues throughout each employee's tenure with annual refresher training required by their employment anniversary date. This ongoing education keeps security awareness current while introducing new threats and updated procedures. Beyond formal training sessions, we maintain security visibility through quarterly phishing simulations that test and reinforce email security skills. Employees learn from both successes and failures in these exercises, with immediate feedback helping them recognize increasingly sophisticated threats. Role-specific training addresses the unique security challenges different positions face, ensuring developers understand secure coding practices while administrators master privileged access management.
+
+### 15.2 Shared Accountability for Security Education
+
+*NIST Controls: PR.AT-2, PR.IP-11, ID.GV-2*
+
+Creating effective security awareness requires partnership between employees and management. Each employee bears responsibility for completing assigned training within required timeframes, actively participating in security exercises, and applying their security knowledge to daily activities. This isn't passive compliance but active engagement—reporting security concerns through established channels and participating constructively in simulations and exercises. When employees encounter security questions or concerns, they're expected to seek clarification rather than making assumptions that could compromise security.
+
+Managers play an equally critical role by ensuring their team members complete required training on schedule and reinforcing security awareness through regular team communications. They model good security behavior, demonstrating that security isn't just policy but practice. When training deadlines approach, managers receive notifications about their team's compliance status, allowing them to provide gentle reminders before escalation becomes necessary. This shared accountability model ensures security training isn't viewed as an IT requirement but as a fundamental business responsibility.
+
+### 15.3 Measuring and Enforcing Training Effectiveness
+
+*NIST Controls: PR.AT-4, DE.DP-3, PR.IP-11*
+
+Training compliance directly impacts both system access and employment standing, reflecting the critical importance we place on security awareness. When employees miss training deadlines, our system initiates escalating reminders to both the employee and their manager, providing multiple opportunities for completion before enforcement actions begin. Persistent non-compliance may result in access restrictions, as we cannot risk uninformed users accessing sensitive systems. Employees who repeatedly fail phishing simulations receive additional targeted training, focusing on the specific attack patterns they struggle to recognize.
+
+We measure our training program's effectiveness through multiple metrics that demonstrate real security improvement rather than mere compliance. Our target of 100% training completion ensures no employee operates without current security knowledge. We maintain a phishing simulation failure rate below 10%, acknowledging that perfect detection is unrealistic while setting a high bar for awareness. Security incident reporting rates provide another key indicator—increased reporting often indicates better awareness rather than more incidents. Regular assessments measure knowledge retention, ensuring training translates into lasting behavioral change. By including training compliance in performance evaluations, we reinforce that security awareness is a core job requirement, not an optional addition to primary responsibilities.
+
+---
+
+## 16. Policy Management and Governance
+
+*NIST Controls: ID.GV-1*
+
+### 16.1 Policy Lifecycle Management
+
+*NIST Controls: ID.GV-1, PR.IP-1, ID.RM-1*
+
+Security policies require active management throughout their lifecycle to remain relevant and effective. Our policy management framework ensures systematic review, updates, and retirement of policies as our business evolves. Annual reviews assess each policy's continued relevance, effectiveness, and alignment with current practices. However, we don't wait for scheduled reviews when significant changes occur. Trigger events like major incidents, new regulations, or significant business changes prompt immediate policy updates to maintain relevance.
 
 Policy development follows a collaborative process that balances security requirements with operational practicality. Draft policies undergo review by affected stakeholders who provide feedback on feasibility and potential unintended consequences. This collaborative approach improves policy quality while building buy-in from those who must implement the policies. We've learned that policies developed in isolation by security staff often face resistance or prove impractical, while collaborative development produces policies that are both secure and workable.
 
 Version control and change tracking ensure policy modifications are transparent and auditable. We maintain complete version history showing what changed, when, and why. This history proves valuable during audits and helps new employees understand policy evolution. Major policy changes require executive approval, ensuring leadership awareness and support. Minor clarifications follow a simplified process to avoid bureaucratic delays while maintaining appropriate oversight.
 
 ### 16.2 Policy Communication and Accessibility
+
+*NIST Controls: PR.AT-1, ID.GV-3, PR.IP-1*
 
 The best policies are worthless if employees can't find or understand them. Our policy repository provides centralized access to all current policies, procedures, and standards. Simple navigation and robust search capabilities help employees quickly find relevant information. We avoid burying policies in complex document management systems, instead using familiar tools that employees access daily. Mobile-friendly formatting ensures policies are accessible to our remote workforce regardless of device.
 
@@ -588,6 +748,8 @@ Plain language communication makes policies understandable to all employees, not
 Change communication ensures employees are aware of new or updated policies that affect them. We use multiple channels including email announcements, team meeting discussions, and internal wiki updates. Major changes receive dedicated training sessions to ensure understanding. We track acknowledgment of critical policy changes, ensuring all affected employees are aware of new requirements. This proactive communication prevents the excuse of ignorance and ensures consistent implementation across the organization.
 
 ### 16.3 Exception Management
+
+*NIST Controls: ID.RA-3*
 
 No policy can anticipate every situation, making a robust exception process essential for handling edge cases without compromising security. Our exception management framework provides clear pathways for requesting, evaluating, and tracking policy exceptions while maintaining security integrity and audit trails.
 
@@ -687,6 +849,8 @@ When multiple similar exceptions occur, we evaluate whether the underlying polic
 
 ### 16.4 Governance and Oversight
 
+*NIST Controls: ID.GV-2, ID.RM-3, DE.DP-5*
+
 Effective governance ensures our security program remains aligned with business objectives while maintaining appropriate independence. Our governance structure reflects our company size, avoiding heavyweight processes while ensuring appropriate oversight. The CTO reports directly to the CEO on security matters, providing independence from operational pressures. Regular board updates ensure director-level awareness of security posture and significant risks.
 
 Security metrics provide objective assessment of program effectiveness. We track meaningful indicators like incident frequency and impact, vulnerability remediation timelines, and training completion rates. These metrics are presented in business context, showing how security supports operational goals rather than presenting abstract technical measurements. Trend analysis identifies improving or degrading security posture, enabling proactive intervention before minor issues become major problems.
@@ -697,7 +861,11 @@ External validation through audits and assessments provides independent perspect
 
 ## 17. Enforcement and Accountability
 
+*NIST Controls: PR.IP-11*
+
 ### 17.1 Creating a Culture of Security Accountability
+
+*NIST Controls: PR.IP-11, PR.AT-1, ID.GV-2*
 
 Enforcement of security policies requires a delicate balance between ensuring compliance and maintaining a positive work environment. Our approach emphasizes education and support over punishment, recognizing that most policy violations result from misunderstanding or oversight rather than malicious intent. By creating an environment where employees feel safe asking questions and reporting mistakes, we achieve better security outcomes than through fear-based enforcement.
 
@@ -707,6 +875,8 @@ Progressive discipline provides a measured response to violations while offering
 
 ### 17.2 Monitoring and Detection
 
+*NIST Controls: DE.CM-3, DE.DP-4, PR.PT-1*
+
 Effective enforcement requires knowing when violations occur, but monitoring must respect employee privacy and maintain trust. Our monitoring focuses on security-relevant activities rather than general employee surveillance. We're transparent about what we monitor and why, helping employees understand that monitoring protects both company assets and their own reputation. Technical controls automate much monitoring, providing consistent enforcement without human bias.
 
 Behavioral monitoring identifies patterns that might indicate security issues or policy violations. Unusual access patterns, like accessing systems outside normal working hours or downloading large data volumes, trigger alerts for investigation. We tune these alerts to minimize false positives while catching genuinely concerning activities. Investigation procedures ensure fair, consistent evaluation of alerts, distinguishing legitimate unusual activities from actual security concerns.
@@ -714,6 +884,8 @@ Behavioral monitoring identifies patterns that might indicate security issues or
 Regular compliance assessments complement continuous monitoring by examining areas that automated tools might miss. These assessments might include physical security walk-throughs in home offices (with appropriate notice and consent), review of security configurations on devices, or verification of training completion. We position these assessments as health checks that help employees maintain security rather than gotcha exercises looking for violations. This supportive approach encourages cooperation and honest discussion of challenges.
 
 ### 17.3 Consistent and Fair Response
+
+*NIST Controls: PR.IP-11, ID.GV-4, RS.IM-1*
 
 When violations are confirmed, our response must be consistent, fair, and proportional to the violation's severity and impact. We maintain a violation response matrix that guides decisions based on violation type, intent, impact, and history. This matrix ensures similar violations receive similar responses regardless of who is involved. Documentation of all violations and responses creates a record that demonstrates consistent treatment and supports any necessary formal disciplinary action.
 
@@ -725,7 +897,11 @@ Learning from violations improves our overall security posture. Post-violation r
 
 ## 18. Related Policies and Standards
 
+*NIST Controls: ID.GV-1*
+
 ### 18.1 Integrated Policy Framework
+
+*NIST Controls: ID.GV-1, PR.IP-1, ID.GV-3*
 
 The Information Security Policy does not stand alone but serves as the cornerstone of an integrated framework of policies, standards, and procedures that collectively protect OversiteAI's assets. Each supporting document addresses specific aspects of security in greater detail while maintaining alignment with the principles and requirements established here. This hierarchical approach provides clarity and prevents conflicts while allowing detailed guidance where needed.
 
@@ -735,6 +911,8 @@ The Data Classification and Handling Policy elaborates on the classification fra
 
 ### 18.2 Operational Standards and Procedures
 
+*NIST Controls: PR.IP-1, PR.IP-2, PR.IP-3*
+
 Supporting standards translate policy requirements into specific technical implementations. Our Secure Development Standards provide language-specific guidance for avoiding common vulnerabilities. Rather than abstract security principles, these standards show actual code examples of vulnerable and secure implementations. Developers can reference these standards during coding, reducing security defects through proactive guidance rather than reactive finding and fixing.
 
 Incident Response Procedures operationalize the framework described in Section 12, providing step-by-step instructions for detecting, responding to, and recovering from security incidents. These procedures include contact lists, escalation criteria, and evidence preservation techniques. Checklists ensure critical steps aren't missed during the stress of incident response. Regular drills validate these procedures and identify necessary updates as our environment evolves.
@@ -743,6 +921,8 @@ Change Management Procedures ensure the principles in Section 10 are consistentl
 
 ### 18.3 Compliance and Audit Documentation
 
+*NIST Controls: ID.GV-4, DE.DP-5, RS.IM-1*
+
 The Risk Management Policy provides the framework for identifying, assessing, and treating the risks that our security controls address. It establishes risk appetite, assessment methodologies, and treatment strategies that guide security investment decisions. Regular risk assessments identify emerging threats and evaluate control effectiveness, ensuring our security program evolves appropriately. This risk-based approach ensures we focus limited resources where they provide the greatest benefit.
 
 Business Continuity and Disaster Recovery Plans ensure security remains effective even during disruptions. These plans address maintaining security controls during incidents, recovering securely from disasters, and validating security after recovery. They recognize that emergencies create pressure to bypass security controls and provide pre-approved procedures that maintain necessary protection while enabling rapid response. Regular testing validates these plans and identifies necessary updates.
@@ -750,6 +930,8 @@ Business Continuity and Disaster Recovery Plans ensure security remains effectiv
 The Human Resources Security Policy addresses security throughout the employee lifecycle from recruitment through termination. It establishes background check requirements, security training obligations, and termination procedures that protect company assets. This policy is particularly important for our remote workforce, addressing unique challenges like equipment recovery and access revocation when employees may be geographically distant. Clear procedures ensure consistent handling regardless of circumstances.
 
 ### 18.4 Continuous Improvement Through Integration
+
+*NIST Controls: PR.IP-7, ID.RA-1, RS.IM-2*
 
 Policy integration enables continuous improvement across our security program. Lessons learned from incidents inform updates to multiple policies, ensuring comprehensive remediation. New threats identified through risk assessment drive updates to technical standards and training programs. Audit findings might reveal gaps requiring new procedures or policy clarifications. This integrated approach ensures improvements strengthen our entire security program rather than creating point solutions.
 
@@ -760,6 +942,8 @@ Stakeholder feedback on policy interactions helps identify practical challenges 
 ---
 
 ## 19. Definitions and Glossary
+
+*NIST Controls: ID.GV-1*
 
 **Access Control**: The process of granting or denying specific requests to obtain and use information and related information processing services.
 
@@ -807,12 +991,13 @@ Stakeholder feedback on policy interactions helps identify practical challenges 
 
 ## 20. Document Control
 
-*NIST Controls: PM-4, SA-5*
+*NIST Controls: ID.GV-1, ID.GV-4*
 
 | Version | Date | Author | Changes |
 |---------|------|--------|---------|
 | 1.0 | January 1, 2025 | CTO | Initial comprehensive version |
-| 2.0 | Jun 25, 2025 | CTO | Added NIST control mappings throughout document and new Appendix G |
+| 2.0 | Jun 25, 2025 | CTO | Added NIST control mappings throughout document and new Appendix A |
+| 2.1 | Jun 30, 2025 | Security Team | Updated Control Mapping Matrix to include NIST controls and mappings from subsections |
 
 **Review and Approval**
 
@@ -834,6 +1019,8 @@ Stakeholder feedback on policy interactions helps identify practical challenges 
 
 ## 21. Appendices
 
+*NIST Controls: ID.GV-1*
+
 ### Appendix A: NIST Control Mapping
 
 This appendix provides a comprehensive mapping of Information Security Policy sections to SOC 2 Trust Services Criteria and NIST Cybersecurity Framework controls. This mapping assists auditors in identifying control coverage and helps OversiteAI ensure comprehensive compliance.
@@ -842,31 +1029,88 @@ This appendix provides a comprehensive mapping of Information Security Policy se
 
 | Policy Section | SOC 2 Criteria | NIST CSF | Control Objective |
 |----------------|----------------|----------|-------------------|
-| **1. Purpose and Scope** | CC1.1, CC1.2 | ID.GV-1 | Organizational security governance and scope |
+| **1. Purpose and Scope** | CC1.1, CC1.2 | ID.GV-1, ID.AM-6, PR.IP-1 | Organizational security governance and scope |
 | **2. Information Security Principles** | CC1.4, CC2.1 | ID.GV-1, ID.GV-3 | Security philosophy and commitment |
+| **2.1 Core Security Principles** | CC1.4, CC3.1 | ID.BE-1, PR.PT-3, ID.RM-1 | Business environment understanding and resilience |
+| **2.2 Security by Design** | CC8.1 | PR.IP-2, ID.RA-1, DE.AE-5 | Secure SDLC implementation |
 | **3. Roles and Responsibilities** | CC1.3, CC1.5 | ID.GV-2, ID.AM-6 | Clear accountability and ownership |
+| **3.1 Executive Oversight** | CC1.2, CC3.2 | ID.GV-2, ID.RM-3, ID.GV-4 | Risk governance and oversight |
+| **3.2 Technical Leadership** | CC7.1, CC7.5 | PR.IP-7, PR.IP-9, RS.CO-1 | Response planning and coordination |
+| **3.3 Organizational Security** | CC1.4, CC5.1 | PR.AT-1, PR.IP-11, PR.AT-2 | Security awareness and sanctions |
 | **4. Asset Management** | CC3.4, CC6.4 | ID.AM-1, ID.AM-2 | Inventory and classification of assets |
+| **4.1 Comprehensive Asset Inventory** | CC6.4 | ID.AM-1, ID.AM-3 | Asset inventory automation |
+| **4.2 Information Classification** | CC3.4, CC6.7 | ID.AM-5, PR.IP-1, PR.DS-1 | Data classification and handling |
+| **4.3 Asset Lifecycle Management** | CC6.7, CC6.4 | PR.DS-3, PR.IP-1 | Secure disposal and baseline management |
+| **4.4 Acceptable Use Standards** | CC5.1, CC1.4 | PR.AC-4, PR.AT-1, PR.IP-11 | Access permissions and training |
 | **5. Access Control** | CC6.1, CC6.2, CC6.3 | PR.AC-1, PR.AC-4 | Identity management and authorization |
+| **5.1 Access Management Philosophy** | CC6.1, CC6.3 | PR.AC-1, PR.AC-4, PR.PT-3 | Access control principles |
 | **5.2 Identity and Authentication** | CC6.1 | PR.AC-1, PR.AC-7 | Strong authentication requirements |
 | **5.3 Authorization and Privileged Access** | CC6.3 | PR.AC-4 | Least privilege and segregation |
 | **5.4 Remote Access Security** | CC6.6 | PR.AC-3, PR.AC-5 | Secure remote connectivity |
 | **6. Cryptography and Data Protection** | CC6.1, CC6.7 | PR.DS-1, PR.DS-2 | Encryption and key management |
+| **6.1 Encryption Strategy** | CC6.7 | PR.DS-1, PR.DS-2 | Cryptographic protection standards |
+| **6.2 Key Management Practices** | CC6.7 | PR.DS-1, PR.AC-1 | Cryptographic key management |
+| **6.3 Certificate Management** | CC6.1 | PR.AC-1, PR.AC-7 | Authenticator management |
 | **7. Physical and Environmental Security** | CC6.4, CC6.5 | PR.AC-2, PR.DS-3 | Physical access and environmental controls |
+| **7.1 Remote Work Security Model** | CC6.4, CC5.1 | PR.AC-2, PR.DS-3, PR.IP-11 | Remote physical security |
+| **7.2 Device Security Controls** | CC6.5 | PR.DS-3, PR.AC-3 | Device protection and session management |
+| **7.3 Clean Desk and Information** | CC6.7, CC6.4 | PR.DS-3, PR.AC-2, PR.IP-1 | Information handling procedures |
 | **8. Operations Security** | CC7.1, CC7.2 | DE.AE-1, DE.CM-1 | Operational control and monitoring |
 | **8.1 Customer Data Isolation** | CC6.1, P3.2 | PR.DS-5 | Architectural security controls |
 | **8.2 Change Management** | CC8.1 | PR.IP-3 | Change control processes |
 | **8.3 Security Monitoring** | CC7.1 | DE.AE-1, DE.CM-1 | Event detection and monitoring |
-| **8.4 Vulnerability Management** | CC7.1 | ID.RA-1, RS.MI-3 | Vulnerability identification and remediation |
+| **8.4 Vulnerability Management** | CC7.1, CC7.2 | ID.RA-1, RS.MI-3 | Vulnerability identification and remediation |
+| **8.5 Malware Protection Strategy** | CC7.1, CC6.1 | DE.CM-4, PR.DS-1, PR.AT-1 | Malicious code detection |
 | **9. Communications Security** | CC6.6, CC6.7 | PR.AC-5, PR.DS-2 | Network and application security |
+| **9.1 Network Security Architecture** | CC6.6 | PR.AC-5, PR.DS-2 | Boundary protection and transmission security |
+| **9.2 Application Security Framework** | CC8.1, CC7.1 | PR.IP-2, DE.AE-2, ID.RA-1 | Application security monitoring |
+| **9.3 Secure Information Transfer** | CC6.7 | PR.DS-2, PR.AC-3 | Information flow enforcement |
 | **10. System Development** | CC8.1 | PR.IP-2, PR.IP-3 | Secure development lifecycle |
+| **10.1 Secure Development Lifecycle** | CC8.1 | PR.IP-2, ID.RA-1 | SDLC security integration |
+| **10.2 Code Security Practices** | CC8.1 | PR.IP-2, ID.SC-2 | Secure coding and supply chain |
+| **10.3 Testing and Quality Assurance** | CC8.1 | DE.DP-3, PR.IP-2 | Security testing and validation |
+| **10.4 Change Control and Release** | CC8.1, CC7.2 | PR.IP-3, PR.IP-1, DE.CM-7 | Change detection and monitoring |
 | **11. Supplier and Third-Party Security** | CC9.1, CC9.2 | ID.SC-1, ID.SC-2 | Vendor risk management |
+| **11.1 Third-Party Risk Management** | CC9.1 | ID.SC-3 | Supplier risk assessment |
+| **11.2 Cloud Service Provider Management** | CC9.2, CC6.7 | ID.SC-2, ID.SC-5, PR.DS-4 | Cloud provider security |
+| **11.3 Supply Chain Security** | CC9.2 | ID.SC-2, ID.SC-4 | Software supply chain controls |
 | **12. Incident Management** | CC7.3, CC7.4, CC7.5 | RS.RP-1, RS.CO-2 | Incident response and recovery |
+| **12.1 Incident Response Framework** | CC7.3, CC3.2 | RS.RP-1, ID.RA-3, RS.CO-3 | Incident planning and coordination |
+| **12.2 Detection and Reporting** | CC7.3, CC4.1 | DE.AE-3, RS.CO-2, DE.DP-4 | Incident detection procedures |
+| **12.3 Investigation and Recovery** | CC7.4 | RS.AN-1, RS.AN-2 | Incident handling and monitoring |
+| **12.4 Post-Incident Activities** | CC7.5, CC4.2 | RS.IM-1, RS.IM-2, RS.AN-5 | Incident improvement and lessons |
 | **13. Business Continuity** | A1.1, A1.2, A1.3 | PR.IP-9, RC.RP-1 | Resilience and recovery planning |
+| **13.1 Business Continuity Planning** | A1.2 | PR.IP-9, PR.IP-4 | Contingency planning and backup |
+| **13.2 Security in Business Continuity** | A1.2, CC6.6 | PR.IP-10, RC.CO-3, PR.AC-5 | BC security considerations |
+| **13.3 Disaster Recovery Architecture** | A1.3 | RC.RP-1, RC.IM-1 | Alternate site capabilities |
 | **14. Compliance Management** | CC2.2, CC2.3 | ID.GV-3, ID.GV-4 | Legal and regulatory compliance |
+| **14.1 Legal and Regulatory** | CC2.2, CC3.2 | ID.GV-3, ID.GV-4, ID.RA-3 | Regulatory risk assessment |
+| **14.2 Contractual Obligations** | CC2.3, CC9.1 | ID.GV-3, ID.SC-1, DE.DP-1 | Contract compliance monitoring |
+| **14.3 Internal Policy Compliance** | CC4.1 | DE.DP-4, DE.DP-5 | Security assessments and continuous monitoring |
+| **14.4 Evidence Management** | CC5.2, CC7.4 | PR.IP-1, DE.AE-3, RS.AN-3 | Audit evidence and forensics |
 | **15. Security Training** | CC1.4 | PR.AT-1, PR.AT-2 | Security awareness and training |
+| **15.1 Building Security-Aware Culture** | CC1.4 | PR.AT-1, PR.AT-3 | Role-based training and awareness |
+| **15.2 Shared Accountability** | CC1.4, CC1.3 | PR.AT-2, PR.IP-11, ID.GV-2 | Training accountability |
+| **15.3 Measuring Effectiveness** | CC4.1, CC1.4 | PR.AT-4, DE.DP-3, PR.IP-11 | Training metrics and monitoring |
 | **16. Policy Management** | CC5.2 | ID.GV-1 | Policy lifecycle and governance |
+| **16.1 Policy Lifecycle Management** | CC5.2, CC3.1 | ID.GV-1, PR.IP-1, ID.RM-1 | Policy risk management |
+| **16.2 Policy Communication** | CC2.1, CC1.4 | PR.AT-1, ID.GV-3, PR.IP-1 | Policy awareness and compliance |
 | **16.3 Exception Management** | CC3.3, CC5.3 | ID.RA-3 | Risk acceptance and exception handling |
 | **17. Enforcement and Accountability** | CC1.5 | PR.IP-11 | Disciplinary process and accountability |
+| **18. Related Policies and Standards** | CC2.1 | ID.GV-1 | Policy integration and coherence |
+| **19. Definitions and Glossary** | CC2.1 | ID.GV-1 | Common terminology and understanding |
+| **20. Document Control** | CC2.3 | ID.GV-1, ID.GV-4 | Document lifecycle management |
+
+### NIST Control Framework Note
+
+This document uses NIST Cybersecurity Framework (CSF) control identifiers throughout. The NIST CSF uses a Function.Category-# format where:
+- **ID** = Identify Function
+- **PR** = Protect Function  
+- **DE** = Detect Function
+- **RS** = Respond Function
+- **RC** = Recover Function
+
+Examples: ID.GV-1 (Identify.Governance-1), PR.AC-1 (Protect.Access Control-1), DE.CM-1 (Detect.Continuous Monitoring-1)
 
 ### SOC 2 Common Criteria (CC) Coverage Summary
 
