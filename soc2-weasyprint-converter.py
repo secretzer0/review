@@ -62,6 +62,7 @@ class SOC2WeasyPrintConverter:
         lines = content.split('\n')
         processed_lines = []
         i = 0
+        in_toc = False
         
         while i < len(lines):
             line = lines[i]
@@ -83,6 +84,37 @@ class SOC2WeasyPrintConverter:
             
             # Skip separator lines at the beginning
             if i < 20 and line.strip() == '---':
+                i += 1
+                continue
+            
+            # Process TOC to show only top-level items
+            if line.strip() == "## Table of Contents" or line.strip() == "Table of Contents":
+                in_toc = True
+                processed_lines.append(line)
+                i += 1
+                continue
+            
+            if in_toc:
+                # End of TOC when we hit the next section
+                if re.match(r'^#{1,3}\s+\d+\.?\s+', line):
+                    in_toc = False
+                    processed_lines.append(line)
+                    i += 1
+                    continue
+                
+                # Only include top-level TOC items (starting with a number)
+                if re.match(r'^\d+\.\s+\[', line):
+                    processed_lines.append(line)
+                    i += 1
+                    continue
+                
+                # Skip subsection entries (starting with spaces or dashes)
+                if re.match(r'^\s*-\s*\d+\.\d+', line) or line.strip().startswith('-'):
+                    i += 1
+                    continue
+                
+                # Keep empty lines and other content
+                processed_lines.append(line)
                 i += 1
                 continue
             
@@ -132,17 +164,17 @@ class SOC2WeasyPrintConverter:
         /* Page setup */
         @page {
             size: letter;
-            margin: 1in 0.75in;
+            margin: 0.75in 0.75in 1in 0.75in;  /* top right bottom left */
             
             @top-left {
                 content: '';
                 width: 50px;
-                height: 30px;
+                height: 40px;
                 background-image: url('""" + logo_url + """');
                 background-size: contain;
                 background-repeat: no-repeat;
-                background-position: bottom left;
-                vertical-align: bottom;
+                background-position: left center;
+                margin-top: -0.25in;
             }
             
             @top-center {
@@ -151,8 +183,7 @@ class SOC2WeasyPrintConverter:
                 font-weight: bold;
                 font-size: 12pt;
                 color: #1e3a5f;
-                vertical-align: bottom;
-                padding-bottom: 0;
+                margin-top: -0.25in;
             }
             
             @top-right {
@@ -175,13 +206,7 @@ class SOC2WeasyPrintConverter:
             }
         }
         
-        /* Remove header/footer from first page - we'll add custom header */
-        @page:first {
-            @top-left { content: none; }
-            @top-center { content: none; }
-            @bottom-left { content: none; }
-            @bottom-center { content: none; }
-        }
+        /* Keep header/footer on all pages including first */
         
         /* Base styles */
         body {
@@ -190,51 +215,22 @@ class SOC2WeasyPrintConverter:
             line-height: 1.6;
             color: #2c3e50;
             text-align: justify;
+            padding-top: 0.5in;
+            border-top: 2px solid #1e3a5f;
         }
         
         /* Title page */
         .title-page {
-            position: relative;
             text-align: center;
-            margin-top: 0;
-            padding-top: 0;
+            padding-top: 2in;
             page-break-after: always;
-        }
-        
-        /* Custom header for title page */
-        .title-page-header {
-            display: flex;
-            align-items: flex-end;
-            justify-content: center;
-            height: 50px;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #1e3a5f;
-            padding-bottom: 10px;
-        }
-        
-        .title-page-logo {
-            position: absolute;
-            left: 0;
-            bottom: 10px;
-            height: 40px;
-            width: auto;
-        }
-        
-        .title-page-company {
-            font-family: 'TeX Gyre Schola', 'DejaVu Serif', 'Times New Roman', serif;
-            font-weight: bold;
-            font-size: 12pt;
-            color: #1e3a5f;
-            margin: 0;
-            line-height: 1;
         }
         
         .document-title {
             font-size: 24pt;
             font-weight: bold;
             color: #1e3a5f;
-            margin-top: 2in;
-            margin-bottom: 0.5in;
+            margin-bottom: 1in;
         }
         
         .metadata-table {
@@ -433,12 +429,6 @@ class SOC2WeasyPrintConverter:
 <body>
     <!-- Title Page -->
     <div class="title-page">
-        <!-- Custom header for title page -->
-        <div class="title-page-header">
-            <img src="file://{os.path.abspath(self.logo_path)}" alt="OverSiteAI Logo" class="title-page-logo">
-            <h2 class="title-page-company">OverSiteAI, LLC</h2>
-        </div>
-        
         <h1 class="document-title">{metadata['title']}</h1>
         
         <table class="metadata-table">
