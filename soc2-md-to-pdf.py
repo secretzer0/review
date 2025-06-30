@@ -85,32 +85,32 @@ class NumberedCanvas(canvas.Canvas):
                 self.drawImage(img_reader, 0.75 * inch, header_y - logo_height/2, 
                              width=logo_width, height=logo_height, preserveAspectRatio=True)
                 
-                # Company name next to logo - try to use serif font
+                # Company name centered - try to use serif font
                 try:
                     self.setFont("DejaVuSerif-Bold", 12)
                 except:
                     self.setFont("Helvetica-Bold", 12)
                     
                 self.setFillColor(colors.HexColor('#1e3a5f'))
-                self.drawString(0.75 * inch + logo_width + 0.2 * inch, header_y - 0.1 * inch, 
+                self.drawCentredString(letter[0] / 2.0, header_y - 0.1 * inch, 
                               self.company_name)
             except Exception as e:
                 print(f"Warning: Could not load logo: {e}")
-                # Fall back to text only
+                # Fall back to text only centered
                 try:
                     self.setFont("DejaVuSerif-Bold", 14)
                 except:
                     self.setFont("Helvetica-Bold", 14)
                 self.setFillColor(colors.HexColor('#1e3a5f'))
-                self.drawString(0.75 * inch, header_y, self.company_name)
+                self.drawCentredString(letter[0] / 2.0, header_y, self.company_name)
         else:
-            # Text only header
+            # Text only header - centered
             try:
                 self.setFont("DejaVuSerif-Bold", 14)
             except:
                 self.setFont("Helvetica-Bold", 14)
             self.setFillColor(colors.HexColor('#1e3a5f'))
-            self.drawString(0.75 * inch, header_y, self.company_name)
+            self.drawCentredString(letter[0] / 2.0, header_y, self.company_name)
         
         # Header line
         self.setStrokeColor(colors.HexColor('#1e3a5f'))
@@ -454,8 +454,6 @@ class SOC2PDFConverter:
         
         # Add title page elements
         story.append(Paragraph(metadata['title'], self.styles['CustomTitle']))
-        if metadata['subtitle']:
-            story.append(Paragraph(metadata['subtitle'], self.styles['CustomSubtitle']))
         
         story.append(Spacer(1, 0.5 * inch))
         
@@ -504,6 +502,10 @@ class SOC2PDFConverter:
         toc_elements, _ = self.parse_toc_from_markdown(markdown_content)
         story.extend(toc_elements)
         
+        # Add page break after TOC
+        if toc_elements:
+            story.append(PageBreak())
+        
         # Process the rest of the markdown content
         story.extend(self._parse_markdown_content(markdown_content))
         
@@ -525,6 +527,24 @@ class SOC2PDFConverter:
         
         while i < len(lines):
             line = lines[i]
+            
+            # Skip title and subtitle at the beginning (already handled separately)
+            if i == 0 and re.match(r'^# .+$', line):
+                i += 1
+                continue
+            if i == 1 and re.match(r'^## .+$', line):
+                i += 1
+                continue
+            
+            # Skip metadata lines at the beginning
+            if i < 20 and re.match(r'^\*\*(?:Document Version|Effective Date|Last Updated|Last Reviewed|Classification|Owner|Approved By)\*\*:', line):
+                i += 1
+                continue
+            
+            # Skip separator lines at the beginning
+            if i < 20 and line.strip() == '---':
+                i += 1
+                continue
             
             # Skip TOC section
             if line.strip() == "Table of Contents" or line.strip() == "## Table of Contents":
